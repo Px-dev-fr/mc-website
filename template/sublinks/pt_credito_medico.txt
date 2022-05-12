@@ -1,0 +1,4 @@
+
+<a href='/pt/credito/medico/cirurgias-plasticas'>Cirurgias plásticas</a>
+<a href='/pt/credito/medico/clinica-dentista'>Clinica dentista</a>
+<a href='/pt/credito/medico/credito-dentario'>Crédito dentario</a>

@@ -1,0 +1,9 @@
+
+<a href='/fr/pme/credit/entreprises/credit-societe'>Crédit pour sociétés: prêts pour PME au meilleur taux</a>
+<a href='/fr/pme/credit/entreprises/emprunt-entreprise'>Emprunt pour entreprise: solutions flexibles et individualisées</a>
+<a href='/fr/pme/credit/entreprises/emprunt-pme'>Emprunt PME</a>
+<a href='/fr/pme/credit/entreprises/financement-entrepreneur'>Financement pour entrepreneurs en Suisse</a>
+<a href='/fr/pme/credit/entreprises/financement-entreprise'>Financements pour entreprises: nos solutions flexibles</a>
+<a href='/fr/pme/credit/entreprises/financement-pme'>Financement pour PME</a>
+<a href='/fr/pme/credit/entreprises/financement-societe'>Financement de sociétés</a>
+<a href='/fr/pme/credit/entreprises/pret-entreprise'>Prêts pour entreprises - solutions individualisées</a>

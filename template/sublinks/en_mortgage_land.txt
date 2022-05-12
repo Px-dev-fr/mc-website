@@ -1,0 +1,5 @@
+
+<a href='/en/mortgage/land/land-credit'>Land credit: our mortgage solutions</a>
+<a href='/en/mortgage/land/land-financing'>Land financing: our suitable solutions</a>
+<a href='/en/mortgage/land/land-owner'>Land owner: our funding solutions</a>
+<a href='/en/mortgage/land/land-purchase'>Land purchase: our mortgage solutions</a>

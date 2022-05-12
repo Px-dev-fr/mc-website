@@ -1,0 +1,4 @@
+
+<a href='/pt/credito/auto/comprar-carro-mota'>Comprar um carro ou uma mota</a>
+<a href='/pt/credito/auto/comprar-um-barco'>Comprar um barco na Suíça</a>
+<a href='/pt/credito/auto/credito-barco'>Crédito barco</a>

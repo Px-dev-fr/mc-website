@@ -1,0 +1,5 @@
+
+<a href='/it/prestito/auto/comprare-auto'>Comprare un'auto</a>
+<a href='/it/prestito/auto/finanziamento-auto'>Finanziamento auto</a>
+<a href='/it/prestito/auto/prestito-barca'>Prestito barca</a>
+<a href='/it/prestito/auto/quattroruote'>Quattruote</a>

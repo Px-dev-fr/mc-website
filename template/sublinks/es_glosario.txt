@@ -1,0 +1,5 @@
+
+<a href='/es/glosario/seguro-opcional'>Los seguros y sus cuberturas</a>
+<a href='/es/glosario/solvencia'>¿Cuáles son los criterios de solvencia?</a>
+<a href='/es/glosario/union-de-credito'>Unión de crédito</a>
+<a href='/es/glosario/zek'>¿Qué es el ZEK?</a>

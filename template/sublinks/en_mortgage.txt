@@ -1,0 +1,8 @@
+
+<a href='/en/mortgage/agency/'>Mortgage agency: our personalised advice</a>
+<a href='/en/mortgage/calculator/'>Mortgage calculator</a>
+<a href='/en/mortgage/home/'>Get a home</a>
+<a href='/en/mortgage/house/'>Swiss house: discover our mortgage solution</a>
+<a href='/en/mortgage/land/'>Buy a land</a>
+<a href='/en/mortgage/property/'>Property in Switzerland</a>
+<a href='/en/mortgage/real-estate/'>Estate agency</a>

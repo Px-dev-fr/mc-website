@@ -1,0 +1,6 @@
+
+<a href='/en/credit/personal/dentist-cost'>Dentist cost</a>
+<a href='/en/credit/personal/medical-credit'>Medical credit</a>
+<a href='/en/credit/personal/my-credit'>Discover My credit!</a>
+<a href='/en/credit/personal/private-credit'>Private credit</a>
+<a href='/en/credit/personal/surgery-cost'>Surgery cost in Switzerland</a>

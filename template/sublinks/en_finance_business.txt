@@ -1,0 +1,7 @@
+
+<a href='/en/finance/business/business-funding'>Business funding: our safe financial solutions</a>
+<a href='/en/finance/business/commercial-financing'>Commercial financing: the ideal solution</a>
+<a href='/en/finance/business/commercial-lending'>Commercial lending</a>
+<a href='/en/finance/business/company-financing'>Company financing: let us help you</a>
+<a href='/en/finance/business/corporate-financing'>Corporate financing: Let's define together the best solution</a>
+<a href='/en/finance/business/firm-financing'>Firm financing: let us help you!</a>

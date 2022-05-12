@@ -1,0 +1,4 @@
+
+<a href='/de/kmu/kredit/selbststandige/kredit-kader'>Kredit für Kader</a>
+<a href='/de/kmu/kredit/selbststandige/kredit-landwirtschaftlich'>Kredit für Landwirtschaft</a>
+<a href='/de/kmu/kredit/selbststandige/kredit-selbststandiger'>Kredit Selbstständiger</a>

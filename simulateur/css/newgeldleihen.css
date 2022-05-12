@@ -1,0 +1,56 @@
+
+div.simulateur div.presentation{
+	display:none;
+	}
+	
+div.simulateur div.dragger, div.simulateur input[type=submit]{
+	background:#0183ce!important;
+	background:-webkit-linear-gradient(top, rgba(0,121,180,1) 0%,rgba(1,165,245,1) 100%)!important;
+	background:-moz-linear-gradient(top, rgba(0,121,180,1) 0%,rgba(1,165,245,1) 100%)!important;
+	background:-o-linear-gradient(top, rgba(0,121,180,1) 0%,rgba(1,165,245,1) 100%)!important;
+	background:-ms-linear-gradient(top, rgba(0,121,180,1) 0%,rgba(1,165,245,1) 100%)!important;
+	background:-linear-gradient(top, rgba(0,121,180,1) 0%,rgba(1,165,245,1) 100%)!important;
+	}
+	
+div.simulateur div.dragger{box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8)!important;}
+
+div.simulateur input[type=submit]{
+	border:0px;
+	padding:5px;
+	font-size:20px;
+	color:white;
+	margin-top:5px!important;
+	font-weight:normal!important;
+	width:50%!important;
+	}
+
+div.block-slider, div.block_info{overflow:hidden;}
+	
+div.block-slider span, div.block_info span{
+	float:left;
+	width:50%;
+	margin:auto;
+	}
+	
+div.block-slider > div.slider,
+div.block_info input[type=text]{
+	float:left;
+	width:50%!important;
+	}
+	
+div.block-slider div.textinfos{
+	float:right;
+	width:50%;
+	}
+	
+div.block_info input[type=text]{
+	margin:auto;
+	font-size:17px;
+	font-weight:normal!important;
+	}
+
+/*********TAILLES********/
+div.simulateur span{
+	font-weight:normal;
+	font-size:17px;
+	}

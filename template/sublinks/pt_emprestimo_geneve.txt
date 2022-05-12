@@ -1,0 +1,4 @@
+
+<a href='/pt/emprestimo/geneve/emprestimo-lancy'>Empréstimo Lancy</a>
+<a href='/pt/emprestimo/geneve/emprestimo-vernier'>Empréstimo Vernier</a>
+<a href='/pt/emprestimo/geneve/emprestimo-versoix'>Empréstimo Versoix</a>

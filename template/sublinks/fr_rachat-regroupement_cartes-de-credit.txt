@@ -1,0 +1,6 @@
+
+<a href='/fr/rachat-regroupement/cartes-de-credit/carte-de-debit'>Rembourser ses cartes de débit</a>
+<a href='/fr/rachat-regroupement/cartes-de-credit/carte-de-paiement'>Cartes de paiement: rembourser des factures trop élevées</a>
+<a href='/fr/rachat-regroupement/cartes-de-credit/facture-visa'>Facture visa: nous rachetons votre solde</a>
+<a href='/fr/rachat-regroupement/cartes-de-credit/mastercard-en-suisse'>Mastercard en Suisse</a>
+<a href='/fr/rachat-regroupement/cartes-de-credit/visa-en-suisse'>Carte Visa en Suisse</a>

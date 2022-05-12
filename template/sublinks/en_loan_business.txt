@@ -1,0 +1,9 @@
+
+<a href='/en/loan/business/commercial-loan'>Commercial loan: the right solution for all your needs!</a>
+<a href='/en/loan/business/company-loan'>Company loan: safe and simple request</a>
+<a href='/en/loan/business/corporate-loan'>Corporate loan: our advantageous solutions</a>
+<a href='/en/loan/business/independent-loan'>Independent loan</a>
+<a href='/en/loan/business/small-business-funding'>Small business funding: our great offers</a>
+<a href='/en/loan/business/small-business-loan'>Small business loan: our flexible financial solutions</a>
+<a href='/en/loan/business/sme-financing'>SME financing: our personalised and flexible solutions</a>
+<a href='/en/loan/business/sme-lending'>SME lending</a>

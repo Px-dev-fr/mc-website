@@ -1,0 +1,7 @@
+
+<a href='/en/credit/consumer/'>Consumer credit</a>
+<a href='/en/credit/online/'>Online credit</a>
+<a href='/en/credit/personal/'>Personal credit for people working in Switzerland</a>
+<a href='/en/credit/sme-credit/'>SME credit</a>
+<a href='/en/credit/switzerland/'>Credit in Switzerland</a>
+<a href='/en/credit/vehicle/'>Vehicle credit</a>

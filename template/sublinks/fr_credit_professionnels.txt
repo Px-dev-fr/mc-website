@@ -1,0 +1,6 @@
+
+<a href='/fr/credit/professionnels/credit-agricole'>Crédit agricole pour agriculteurs</a>
+<a href='/fr/credit/professionnels/credit-cadres'>Crédit aux cadres et dirigeants</a>
+<a href='/fr/credit/professionnels/credit-frontalier'>Crédit aux frontaliers France-Suisse</a>
+<a href='/fr/credit/professionnels/credit-rentier'>Crédit rentier AVS / AI</a>
+<a href='/fr/credit/professionnels/credit-temporaire'>Crédit aux salariés temporaires: conditions avantageuses</a>

@@ -1,0 +1,5 @@
+
+<a href='/tr/medya/radyo-dinle/kral-fm'>Kral Fm</a>
+<a href='/tr/medya/radyo-dinle/kral-pop'>Kral Pop</a>
+<a href='/tr/medya/radyo-dinle/powerturk'>Powertürk</a>
+<a href='/tr/medya/radyo-dinle/super-fm'>Super Fm</a>

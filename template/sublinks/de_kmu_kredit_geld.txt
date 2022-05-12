@@ -1,0 +1,4 @@
+
+<a href='/de/kmu/kredit/geld/geld-firma'>Geld Firma</a>
+<a href='/de/kmu/kredit/geld/liquiditat-firmen'>Liquidität Firmen</a>
+<a href='/de/kmu/kredit/geld/liquiditat-unternehmen'>Liquidität Unternehmen</a>

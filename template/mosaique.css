@@ -1,0 +1,57 @@
+#mos{padding:40px 10%;display:flex;flex-wrap:wrap;padding-bottom:0!important;}
+#mos > *{position:relative;width:calc(100% / 3);height:0;padding-bottom:10%;overflow:hidden;}
+#mos > #m1{width:calc(100% * 2 / 3);text-align:right;}
+#m1 h1{text-align:right;padding:0;line-height:30px;margin-bottom:10px;}
+#mos .mg{width:100%;padding-bottom:30%;background:url('/template/images/mosaique/600.jpg');opacity:0;background-size:cover;-webkit-transform:scale(1.02);transform:scale(1.02);-webkit-transition:all 1s;transition:all 1s;}
+#mos .mg.loaded{opacity:1;}
+#mos .mi #mi2{background-position:0 40%;}
+#mos .mi #mi4{background-position:0 20%;}
+#mos .mi #mi3{background-position:0 80%;}
+#mos .mi #mi5{background-position:0 60%;}
+#mos .mi #mi6{background-position:0 100%;}
+#mos .mw{background:none;}
+#mos .mt{position:absolute;top:0;left:0;width:100%;background:rgba(255,255,255,.7);border:1px solid white;opacity:0;height:100%;padding:10px;text-align:right;box-sizing:border-box;-webkit-transition:all .5s;transition:all .5s;}
+#mos .mi:hover .mt, #mos .mi .mt.active{opacity:1;border:1px solid #aaa;}
+@media screen and (max-width: 1670px) {
+#mos .mg{background:url('/template/images/mosaique/450.jpg');background-size:cover;}
+}
+
+@media screen and (max-width: 1400px) {
+#mos{padding:30px 7%;}
+}
+
+@media screen and (max-width: 1000px) {
+#mos{padding:30px 15px;}
+#mos > *{padding-bottom:12%;}
+#mos .mg{width:120%;padding-bottom:36%;}
+#mos .mt{padding:5px 10px;}
+#mos .mt {line-height: 1.4em;}
+}
+
+@media screen and (max-width: 1670px) {
+#mos .mg{background:url('/template/images/mosaique/450.jpg');background-size:cover;}
+}
+
+@media screen and (max-width: 1400px) {
+#mos .mg{background:url('/template/images/mosaique/380.jpg');background-size:cover;}
+}
+
+@media screen and (max-width: 700px) {
+#mos > *{padding-bottom:15%;}
+#mos .mg{width:150%;padding-bottom:45%;}	
+#mos .mt {line-height: 1.3em;}
+
+/*ORDRE*/
+#mos{justify-content:space-between;}
+#mos #m1{order:1;width:100%;height:auto;padding-bottom:0;}
+#mos > *:not(#m1){
+order:2;margin-top:15px;
+width:calc(50% - 7.5px);padding-bottom:22%;
+}
+#mos .mw:not(#m1){display:none;}
+#mos h1{height:auto;}
+}
+
+@media screen and (max-width: 450px) {
+#mos .mg{background:url('/template/images/mosaique/300.jpg');background-size:cover;}
+}

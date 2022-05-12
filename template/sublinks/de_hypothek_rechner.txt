@@ -1,0 +1,7 @@
+
+<a href='/de/hypothek/rechner/amortisation'>Amortisation vom Haus</a>
+<a href='/de/hypothek/rechner/eigenkapital'>Eigenkapital für Hypothek</a>
+<a href='/de/hypothek/rechner/festhypothek'>Vorteile der Festhypothek</a>
+<a href='/de/hypothek/rechner/hypothekarzinsen'>Hypothekarzinsen</a>
+<a href='/de/hypothek/rechner/libor-hypothek'>Libor-Hypothek in der Schweiz</a>
+<a href='/de/hypothek/rechner/variable-hypothek'>Variable Hypothek</a>

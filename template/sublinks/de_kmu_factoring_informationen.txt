@@ -1,0 +1,5 @@
+
+<a href='/de/kmu/factoring/informationen/kurzfristige-verbindlichkeiten'>Kurzfristige Verbindlichkeiten</a>
+<a href='/de/kmu/factoring/informationen/liquiditaet-unternehmen'>Liquidität Unternehmen</a>
+<a href='/de/kmu/factoring/informationen/umlaufvermoegen'>Umlaufvermögen</a>
+<a href='/de/kmu/factoring/informationen/vorfinanzierung-unternehmen'>Vorfinanzierung Unternehmen</a>

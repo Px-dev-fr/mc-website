@@ -1,0 +1,7 @@
+
+<a href='/de/kredit/privat/kredit-IV-AHV'>Kredit an AHV IV Rentner</a>
+<a href='/de/kredit/privat/kredit-auslander'>Kredit für Ausländer</a>
+<a href='/de/kredit/privat/kredit-diplomaten'>Kredit für Diplomaten</a>
+<a href='/de/kredit/privat/kredit-festangestellte'>Kredit an Angestellte</a>
+<a href='/de/kredit/privat/kredit-temporar'>Kredit an Temporärangestellte</a>
+<a href='/de/kredit/privat/legitimationskarte'>Legitimationskarte</a>

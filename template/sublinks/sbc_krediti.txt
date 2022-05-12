@@ -1,0 +1,7 @@
+
+<a href='/sbc/krediti/auto/'>Auto krediti</a>
+<a href='/sbc/krediti/gotovinski/'>Gotovinski krediti</a>
+<a href='/sbc/krediti/internet/'>Internet kredit</a>
+<a href='/sbc/krediti/nekretnine/'>Kredit za nekretnine</a>
+<a href='/sbc/krediti/onlajn/'>Onlajn krediti</a>
+<a href='/sbc/krediti/svicarskoj/'>Uvjeti za kredit u Švicarskoj</a>

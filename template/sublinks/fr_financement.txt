@@ -1,0 +1,7 @@
+
+<a href='/fr/financement/financement-de-projet'>Financement de projet</a>
+<a href='/fr/financement/financement-individuel'>Financement individuel</a>
+<a href='/fr/financement/financement-particulier'>Financement pour particuliers</a>
+<a href='/fr/financement/financement-personnel'>Financement privé</a>
+<a href='/fr/financement/plan-de-financement'>Plan de financement: demandez une offre</a>
+<a href='/fr/financement/service-de-financement'>Service de financement</a>

@@ -1,0 +1,8 @@
+
+<a href='/fr/credit/vehicules/acheter-un-van'>Acheter un van: nous finançons votre projet</a>
+<a href='/fr/credit/vehicules/credit-bateau'>Crédit bateau: profitez d'une offre sans engagement</a>
+<a href='/fr/credit/vehicules/credit-leasing'>Crédit ou leasing: notre comparaison</a>
+<a href='/fr/credit/vehicules/credit-moto'>Crédit moto: demandez un crédit</a>
+<a href='/fr/credit/vehicules/emprunt-voiture'>Prêt auto: nous finançons votre nouvelle voiture</a>
+<a href='/fr/credit/vehicules/financement-auto'>Financement auto: nos solutions pour l'achat de votre véhicule</a>
+<a href='/fr/credit/vehicules/leasing-auto'>Leasing auto et prêt automobile</a>

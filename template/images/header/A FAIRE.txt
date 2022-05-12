@@ -1,0 +1,183 @@
+OCTOBRE:
+
+
+
+4) Faire un modèle de mail unique de refus
+Brancher les boutons (vert + bleu)
+
+Octobre
+	CV: widmer, derming,y aslan, factoring
+	Mailing hauts revenus
+	Faire un formulaire + mandat factoring (voir avec Aslan)
+	Faire un mail retour factoring
+	Commencer zek iko honoraires poursuites
+	Envoi d'email newsletter via CRM
+
+
+Novembre:
+	
+	Auditex
+
+SUITE:
+
+	- Résidences secondaires
+
+	- Ajouter un système d'impression de mandat:
+		-> Pré-complété
+		-> Signature électronique
+		-> Choix PME / Particulier
+		-> Ajouter à l'étape 7 (ouverture auto)
+
+	- Recherche de mot clé espagnol
+
+	- Russe 2018
+
+	- Faire formulaire général assurances PF
+
+	- Refaire forms crédit et intégrer
+
+	- Développer indépendants
+
+	- Faire rubrique "lexique" avec abréviations et liens vers PDF: OFS, FINMA, ASA, AFA, LSA, ...
+
+	 - Ombudsman
+
+	- Pages IGB2B, Giraffe et Finma (PF)
+
+	- Pages assurances accident + Allegra
+
+	- Pages bateaux:
+		Achat, vente, occasion, leasing (20 pages)
+
+
+	- PrestaFlex: Dentaire (20 pages)
+
+	- Permis G / Frontaliers: 20-25 pages sur CF + 10 pages sur MC + 10 pages sur CF
+		* Résidence secondaires en France
+		* Quasi résident / fiscalité / impôts frontaliers
+		* Assurance (vie, 3ème pilier, protection juridique, ...)
+
+	- Pages désendettement: (chercher mots-clés)
+		* Types de poursuites (poursuites téléphones, factures téléphnones, poursuites avs, tva, ...)
+		* Loyer
+		* Factures
+		* Pension alimentaire
+		* Créance, créanciers, ...
+
+	- 5-10 ou 15 pages sur les financements de biens en europe: France, Italie, Portugal ou espagne (investissement ou résidence secondaire)
+
+	- Limousines
+		* 5 pages en français
+		* 5 pages en anglais
+		* TOTAL 10 pages
+		* Passer au niveau design en anglais également
+
+
+	- Creditos:
+		* Revoir le design
+
+
+	- Multicrédit:
+		* Ajout de 20 pages sur les indépendants
+			Administrateur ou administratrice de société 
+			Président du conseil d'administration 
+			Directeur commercial  
+			Mandataire commercial 
+			Conseil d'administration 
+			Manager Suisse 
+			Président du conseil d'administration 
+			Membre du conseil d'administration 
+			CFO (chief Financial officer) 
+			COO (Chief...) 
+			CFI... 
+			Directeur Marketing 
+			Directeur des finances 
+			Responsable des ventes 
+			Membre de la Direction 
+			Procuration collective 
+			Organe de révision 
+
+
+	Projets:
+	- Pages Cybercrime et sécurité (5 pages)
+		* Multicrédit: X1
+		* CreditFlex: X1
+		* Credit-Bancaire: X1
+		* Credit-Independant: X1
+		* Credit-Frontalier: X1
+		TOTAL: 5 pages
+	- Pages PME:
+		- Crédit-bancaire
+
+	- Pages sur la sécurité: secret bancaire, secret professionnel, confidentialité, on est soumisà la loi, données protégées, serveurs sécurisés, , protection sphère privée, même sécurité qu'une banque
+		* Multicrédit: X3
+		* CreditFlex: : X3
+		* Credit-bancaire: : X3
+		* Credit-Independant: : X3
+		* Autocredit: : X3
+		* Credit-Frontalier: : X3
+		* PrestaFlex: : X3
+	TOTAL: 20 pages
+
+
+
+
+	- PrestaFlex: 5 pages
+		* Pages sur administrateurs / organes de direction / Membre des direction / Conseil d'administration / Management
+		* https://www.zurich.ch/fr/clientele-entreprises/dommage-au-patrimoine/responsabilite-civile-des-dirigeants
+		* Formulaire entreprises général
+
+
+
+	- Etude des communautés et voir si possibilité de faire des pages spécifiques
+
+	- Multicrédit:
+		* Pages sur le désendettement
+		
+
+	- PrestaFlex:
+		* Menu sponsoring, date, mail auto acceptation ou refus, relance, résultats
+		* Clauses apporteurs: changer en 2 version, plus envoyer auto
+
+
+	- Blog: publicité renforcée crédit / assurances
+
+	- Cartes de crédit:
+		* Système à mettre en place
+		* Revoir les pages existantes
+		* Pages sur Multicrédit
+
+	- PrestaFlex site:
+		* Pages sur les assurances:
+			10 pages selon liste aslan
+			5 pages sur les assurances constructions
+			TOTAL: 15 pages
+		* Pages sur les frontaliers (10 pages)
+
+	- Business-limo et Limousine-location:
+		* Ajout de 10 pages / langue
+		TOTAL: 20 pages
+
+	- Tous sites: ajout de pages:
+		* Mobile banking
+		* Online banking
+		* Carte bleue
+		* Définition crédit
+		* Définition leasing
+		* = 5 pages * 8 sites = 40 pages
+
+	- Tous sites: ajout de pages
+
+	- Pages sur les frontaliers:
+		* 10X Crédit-frontalier
+		* 10X Multicrédit
+		* 10X Prestaflex
+		* TOTAL: 30 pages
+
+Hypothèques internationales: mots-clés à ajouter
+Hypothèques français: site web
+Hypothèques anglais: site web
+PrestaFlex FR + CB + MC: 15 pages / site sur les assurances pour frontaliers
+PrestaFlex FR: 10 pages hypothèques (nouveaux mots-clés)
+PrestaFlex FR: 10 pages Impôts et fiscalité (partenaire)
+PrestaFlex FR: 20 pages sur Fonds de commerce achat / Vente

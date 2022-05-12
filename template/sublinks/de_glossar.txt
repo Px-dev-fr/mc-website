@@ -1,0 +1,10 @@
+
+<a href='/de/glossar/faq'>Haben Sie Fragen zu Kredit?</a>
+<a href='/de/glossar/glossar-iko'>IKO - Der Verein zur Führung einer Informationsstelle für Konsumkredit</a>
+<a href='/de/glossar/glossar-konditionen'>Glossar: Konditionen und Bedingungen</a>
+<a href='/de/glossar/glossar-versicherung'>Kredit Versicherung</a>
+<a href='/de/glossar/glossar-zahlungsfahigkeit'>Sind Sie Zahlungsfähig?</a>
+<a href='/de/glossar/glossar-zefix'>Zefix in der Schweiz</a>
+<a href='/de/glossar/glossar-zek'>Glossar: ZEK</a>
+<a href='/de/glossar/glossar-zinssatz'>Glossar: Zinssatz</a>
+<a href='/de/glossar/scoring'>Kredit und Scoring</a>

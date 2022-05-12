@@ -1,0 +1,6 @@
+
+<a href='/pt/credito/professional/credito-ai-avs'>Crédito para reformados AI / AVS</a>
+<a href='/pt/credito/professional/credito-para-patroes'>Crédito para os patrões / independentes</a>
+<a href='/pt/credito/professional/credito-para-temporarios'>Crédito aos empregados temporários</a>
+<a href='/pt/credito/professional/credito-para-trabalhadores'>Crédito para empregados</a>
+<a href='/pt/credito/professional/credito-reforma'>Crédito reforma AVS/AI</a>

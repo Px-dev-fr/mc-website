@@ -1,0 +1,94 @@
+#credit_simulator span,
+#credit_simulator div.titre{
+	font-size:1.1em;
+	text-align:center;
+	margin-bottom:0px;
+	}
+
+#credit_simulator div.presentation{
+	margin-top:10px;
+	color:black;
+	}
+	
+#credit_simulator div.block-slider,
+#credit_simulator div.block_info,
+#credit_simulator div.colonne {
+margin: 7px 10px 5px;
+}
+
+#credit_simulator div.textinfos input[type=text], #credit_simulator div.block_info input[type=text]
+{font-size:1em;}
+
+#credit_simulator div.value span{
+	font-weight: bold;
+	color: black;
+	display: block;
+	text-align: center;
+	padding:1px;
+}
+
+#credit_simulator div.resume{
+	overflow:auto;
+	margin: 7px 3px 5px;
+	}
+	
+#credit_simulator div.resume div.titre{
+	float:left;width:75%;text-align:left;
+	}
+	
+#credit_simulator div.resume div.value{
+	float:left;width:22%;margin-bottom:5px;
+	}
+
+#credit_simulator div.block-slider span,
+#credit_simulator div.block_info span,
+#credit_simulator div.titre
+{
+	font-size:1em;
+	background:transparent;
+	font-weight:bold;
+	color:black;
+	box-shadow:none;
+	}
+	
+#credit_simulator div.block_info{overflow:auto;}
+
+#credit_simulator div.block_info span
+{float:left;width:75%;margin:0px;padding:0px;text-align:left;}
+
+#credit_simulator div.block_info input
+{float:left;width:20% !important;}
+
+
+#credit_simulator div.slider .slider,
+#credit_simulator div.value .slider{
+	width:85%;
+	margin:10px auto 0px !important;
+	}
+	
+#credit_simulator input[type=submit]{
+	padding:4% 0%;
+	color:white;
+	border:0px solid black;
+	border-radius:5px;
+	font-size:1.1em;
+	}
+
+#credit_simulator div.track{
+	background:#CCC;
+	background:-webkit-linear-gradient(#CCC 0%, #EEE 50%, #CCC 100%);
+	background:-moz-linear-gradient(#CCC 0%, #EEE 50%, #CCC 100%);
+	background:-o-linear-gradient(#CCC 0%, #EEE 50%, #CCC 100%);
+	background:-linear-gradient(#CCC 0%, #EEE 50%, #CCC 100%);
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.6);
+	border-radius:10px;
+	}
+	
+#credit_simulator div.dragger,#credit_simulator input[type=submit]{
+	background: #73A73A;
+	background-image: -webkit-linear-gradient(top, #A9D872, #48810E);
+	background-image: -moz-linear-gradient(top, #A9D872, #48810E);
+	background-image: -o-linear-gradient(top, #A9D872, #48810E);
+	background-image: -linear-gradient(top, #A9D872, #48810E);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.8);
+	}

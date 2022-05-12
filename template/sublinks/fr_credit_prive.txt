@@ -1,0 +1,6 @@
+
+<a href='/fr/credit/prive/credit-vert'>Crédit vert</a>
+<a href='/fr/credit/prive/limite-de-credit'>Limite de crédit: quel montant puis-je emprunter?</a>
+<a href='/fr/credit/prive/micro-credit'>Micro-crédit: nos offres à taux avantageux</a>
+<a href='/fr/credit/prive/net-credit'>Net crédit</a>
+<a href='/fr/credit/prive/petit-credit'>Petit crédit: emprunt facile à taux avantageux</a>

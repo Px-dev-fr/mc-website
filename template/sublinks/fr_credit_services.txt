@@ -1,0 +1,5 @@
+
+<a href='/fr/credit/services/chirurgie-plastique'>Chirurgie plastique: notre solution de financement</a>
+<a href='/fr/credit/services/credit-dentaire'>Crédit dentaire: besoin de payer une facture de dentiste?</a>
+<a href='/fr/credit/services/credit-medical'>Crédit médical</a>
+<a href='/fr/credit/services/credit-sante'>Crédit santé</a>

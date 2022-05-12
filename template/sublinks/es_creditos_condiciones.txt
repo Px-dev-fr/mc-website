@@ -1,0 +1,6 @@
+
+<a href='/es/creditos/condiciones/permiso-b'>Permiso B de establecimiento en Suiza</a>
+<a href='/es/creditos/condiciones/permiso-c'>Permiso C de establecimiento en Suiza</a>
+<a href='/es/creditos/condiciones/permiso-g'>Permiso G de establecimiento en Suiza</a>
+<a href='/es/creditos/condiciones/permiso-l'>Permiso L de establecimiento en Suiza</a>
+<a href='/es/creditos/condiciones/situacion-financiera'>Situación financiera</a>

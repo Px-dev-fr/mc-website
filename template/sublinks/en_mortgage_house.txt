@@ -1,0 +1,7 @@
+
+<a href='/en/mortgage/house/build-a-house'>Building a house: our mortgage solution</a>
+<a href='/en/mortgage/house/buy-a-house'>Buy a house</a>
+<a href='/en/mortgage/house/house-budget'>House budget: consult an expert</a>
+<a href='/en/mortgage/house/house-funding'>House funding: our personalised solutions</a>
+<a href='/en/mortgage/house/house-price'>House price: discover our solutions</a>
+<a href='/en/mortgage/house/house-solution'>House solution: our mortgage deals</a>

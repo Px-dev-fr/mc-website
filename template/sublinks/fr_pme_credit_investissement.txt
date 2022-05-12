@@ -1,0 +1,8 @@
+
+<a href='/fr/pme/credit/investissement/emprunt-investissement'>Emprunts pour investissements d'entreprise</a>
+<a href='/fr/pme/credit/investissement/investissement-business'>Investissement business</a>
+<a href='/fr/pme/credit/investissement/investissement-commerce'>Investissement pour votre commerce: nos solutions de crédits</a>
+<a href='/fr/pme/credit/investissement/investissement-entreprise'>Financement d'investissements pour entreprises</a>
+<a href='/fr/pme/credit/investissement/investissement-restaurant'>Un crédit pour l'investissement de votre restaurant</a>
+<a href='/fr/pme/credit/investissement/investissement-societe'>Crédits et investissements pour votre société</a>
+<a href='/fr/pme/credit/investissement/pret-investissement'>Prêt investissements: nos solutions pour PME</a>

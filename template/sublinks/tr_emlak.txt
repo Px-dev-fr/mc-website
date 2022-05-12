@@ -1,0 +1,8 @@
+
+<a href='/tr/emlak/havaalani-arabakiralama'>Havaalani araba kiralama</a>
+<a href='/tr/emlak/ikinciel-araba'>İkinci el araba</a>
+<a href='/tr/emlak/koltuk-takimi'>Koltuk Takımı</a>
+<a href='/tr/emlak/organizasyon'>Organizasyon</a>
+<a href='/tr/emlak/satilik-araba'>Satilik Araba</a>
+<a href='/tr/emlak/satilik-daire'>Satilik daire</a>
+<a href='/tr/emlak/yatakodasi-takimi'>Yatak Odasi Takimi</a>

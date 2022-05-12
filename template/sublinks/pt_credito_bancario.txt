@@ -1,0 +1,5 @@
+
+<a href='/pt/credito/bancario/banco-de-credito'>Banco de crédito</a>
+<a href='/pt/credito/bancario/credito-dinheiro'>Crédito dinheiro</a>
+<a href='/pt/credito/bancario/credito-imediato'>Crédito imediato</a>
+<a href='/pt/credito/bancario/credito-internet'>Crédito internet</a>

@@ -1,0 +1,4 @@
+
+<a href='/tr/medya/gazeteler/'>Gazeteler</a>
+<a href='/tr/medya/radyo-dinle/'>Radyo Dinle</a>
+<a href='/tr/medya/televizyon/'>Televizyon</a>

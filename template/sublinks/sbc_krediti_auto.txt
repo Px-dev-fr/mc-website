@@ -1,0 +1,5 @@
+
+<a href='/sbc/krediti/auto/brodice'>Kredit za brodice</a>
+<a href='/sbc/krediti/auto/leasing-za-auto'>Leasing za auto</a>
+<a href='/sbc/krediti/auto/novi-automobil'>Novi automobil</a>
+<a href='/sbc/krediti/auto/novo-auto'>Novo auto</a>

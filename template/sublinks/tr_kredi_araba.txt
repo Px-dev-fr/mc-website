@@ -1,0 +1,3 @@
+
+<a href='/tr/kredi/araba/konut-kredisi'>Konut Kredisi</a>
+<a href='/tr/kredi/araba/okul'>BLABLAS</a>

@@ -1,0 +1,10 @@
+
+<a href='/de/kredit/dienstleister/'>Finanzberatung durch unser Team</a>
+<a href='/de/kredit/einkaufen/'>Kredit Einkaufen</a>
+<a href='/de/kredit/einrichtung/'>Kredit für Möbel</a>
+<a href='/de/kredit/fahrzeuge/'>Fahrzeugkredit</a>
+<a href='/de/kredit/investition/'>Investition Unternehmen</a>
+<a href='/de/kredit/medizin/'>Kredit für Medizin</a>
+<a href='/de/kredit/privat/'>Kredit für Privatpersonen</a>
+<a href='/de/kredit/renovation/'>Kredit für Renovation</a>
+<a href='/de/kredit/schweiz/'>Kredit für Schweizer</a>

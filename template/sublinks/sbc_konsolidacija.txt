@@ -1,0 +1,4 @@
+
+<a href='/sbc/konsolidacija/kreditne-kartice'>Kreditne kartice</a>
+<a href='/sbc/konsolidacija/mastercard-u-svicarskoj'>Mastercard u Švicarskoj</a>
+<a href='/sbc/konsolidacija/visa-kartice-u-svicarskoj'>Visa kartice u Švicarskoj</a>

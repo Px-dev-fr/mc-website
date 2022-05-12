@@ -1,0 +1,5 @@
+
+<a href='/tr/kredi/araba/'>Araba Kredisi</a>
+<a href='/tr/kredi/ihtiyac/'>Ihtiyaç Kredisi</a>
+<a href='/tr/kredi/lizing/'>Lizing</a>
+<a href='/tr/kredi/online/'>Online Kredi</a>

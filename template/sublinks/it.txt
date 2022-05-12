@@ -1,0 +1,11 @@
+
+<a href='/it/aiuti-finanziari/'>Procedimenti esecutivi e fallimenti: chiedete l'aiuto di uno specialista</a>
+<a href='/it/banche/'>Banche in Svizzera</a>
+<a href='/it/chi-siamo/'>Gli specialisti del credito</a>
+<a href='/it/credito/'>I nostri crediti</a>
+<a href='/it/debiti/'>Pagare i debiti</a>
+<a href='/it/glossario/'>Glossario</a>
+<a href='/it/immobiliare/'>Immobiliare in Svizzera</a>
+<a href='/it/leasing/'>Raggruppamento del credito</a>
+<a href='/it/prestito/'>Prestito personale</a>
+<a href='/it/raggruppamento/'>Raggruppamento di credito</a>

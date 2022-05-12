@@ -1,0 +1,4 @@
+
+<a href='/fr/credit/online/credit-internet'>Crédit internet: demandez un prêt flexible et avantageux</a>
+<a href='/fr/credit/online/credit-rapide'>Crédit rapide: demandez une offre</a>
+<a href='/fr/credit/online/simulation-de-credit'>Estimez le coût de votre prêt: simulation de crédit</a>

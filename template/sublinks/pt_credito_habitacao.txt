@@ -1,0 +1,6 @@
+
+<a href='/pt/credito/habitacao/construir-uma-piscina'>Crédito para construir piscina</a>
+<a href='/pt/credito/habitacao/credito-esplanada'>Crédito esplanada</a>
+<a href='/pt/credito/habitacao/credito-garagem'>Crédito para garagem</a>
+<a href='/pt/credito/habitacao/credito-para-obras'>Crédito para obras</a>
+<a href='/pt/credito/habitacao/credito-terraca'>Finançar uma terrassa</a>

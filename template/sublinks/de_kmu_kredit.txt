@@ -1,0 +1,6 @@
+
+<a href='/de/kmu/kredit/finanzierung/'>Finanzierung Unternehmen</a>
+<a href='/de/kmu/kredit/firma/'>Unsere Kredit Firma</a>
+<a href='/de/kmu/kredit/geld/'>Geld für Unternehmen</a>
+<a href='/de/kmu/kredit/gmbh/'>Kredit für GmbH</a>
+<a href='/de/kmu/kredit/selbststandige/'>Kredit für Selbstständige</a>

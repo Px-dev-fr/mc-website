@@ -1,0 +1,5 @@
+
+<a href='/en/mortgage/calculator/fixed-rate'>Fixed rate</a>
+<a href='/en/mortgage/calculator/house-calculator'>House calculator: budget your new home</a>
+<a href='/en/mortgage/calculator/libor-rate'>Libor rate</a>
+<a href='/en/mortgage/calculator/variable-rate'>Variable rate</a>

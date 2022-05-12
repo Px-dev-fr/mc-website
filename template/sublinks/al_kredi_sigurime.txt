@@ -1,0 +1,12 @@
+
+<a href='/al/kredi/sigurime/aksionet'>Aksionet dhe Shoqërit aksionare</a>
+<a href='/al/kredi/sigurime/banesa-me-qira'>Ndërtoni dhe lëshoni banesa me qira në Zvicër</a>
+<a href='/al/kredi/sigurime/banesa-ne-kosov'>Banesa ne Kosov me kushte bashkëkohore</a>
+<a href='/al/kredi/sigurime/banesa-per-shitje'>Banesa për shitje dhe me qmime reale</a>
+<a href='/al/kredi/sigurime/depozita'>Depozita - Siguri për parat tuaja</a>
+<a href='/al/kredi/sigurime/dividenda'>Si të realizojmë të ardhura nga Dividenda</a>
+<a href='/al/kredi/sigurime/fitimi'>Vetëm me punë arrihet deri te Fitimi</a>
+<a href='/al/kredi/sigurime/jeta-ne-kosov'>Jeta ne Kosov dikur dhe sot</a>
+<a href='/al/kredi/sigurime/kamata'>Tek ne kredi me Kamata më të ulëta</a>
+<a href='/al/kredi/sigurime/koncesionet'>Koncesionet dhe Kompanitë Shqiptare</a>
+<a href='/al/kredi/sigurime/konsumi'>Konsumi dhe standardi jetsor i qytetarve</a>

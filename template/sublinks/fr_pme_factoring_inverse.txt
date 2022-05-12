@@ -1,0 +1,5 @@
+
+<a href='/fr/pme/factoring/inverse/affacturage-fournisseur'>Affacturage fournisseurs</a>
+<a href='/fr/pme/factoring/inverse/factures-entreprises'>Financement de vos factures fournisseurs</a>
+<a href='/fr/pme/factoring/inverse/reverse'>Reverse factoring</a>
+<a href='/fr/pme/factoring/inverse/supply-chain-finance'>Supply chain finance: nos solutions</a>

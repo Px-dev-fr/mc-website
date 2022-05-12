@@ -1,0 +1,5 @@
+
+<a href='/fr/credit/famille/credit-formation'>Crédit formation: un prêt pour vous-même ou vos enfants</a>
+<a href='/fr/credit/famille/credit-jeunes'>Crédit jeunes: nos solutions pour les jeunes actifs</a>
+<a href='/fr/credit/famille/credit-loisirs'>Un crédit loisirs pour toute la famille</a>
+<a href='/fr/credit/famille/credit-naissance'>Crédit naissance: financement de 3'000 à 250'000 Chf</a>

@@ -1,0 +1,6 @@
+
+<a href='/en/loan/online/best-loan'>Best loan</a>
+<a href='/en/loan/online/loan-calculator'>Loan Calculator</a>
+<a href='/en/loan/online/loan-in-switzerland'>Loan in Switzerland</a>
+<a href='/en/loan/online/secured-loan'>Secured loan in Switzerland</a>
+<a href='/en/loan/online/small-loan'>Get a small loan</a>

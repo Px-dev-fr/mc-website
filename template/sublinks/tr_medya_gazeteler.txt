@@ -1,0 +1,4 @@
+
+<a href='/tr/medya/gazeteler/radikal-gazetesi'>Radikal Gazetesi</a>
+<a href='/tr/medya/gazeteler/sabah-gazetesi'>Sabah Gazetesi</a>
+<a href='/tr/medya/gazeteler/sozcu-gazetesi'>Sözcü Gazetesi</a>

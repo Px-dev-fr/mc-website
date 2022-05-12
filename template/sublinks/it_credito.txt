@@ -1,0 +1,8 @@
+
+<a href='/it/credito/auto/'>Credito Auto</a>
+<a href='/it/credito/commerciale/'>Credito commerciale</a>
+<a href='/it/credito/condizioni/'>Condizioni per un prestito in Svizzera</a>
+<a href='/it/credito/consumo/'>Credito consumo</a>
+<a href='/it/credito/online/'>Credito online</a>
+<a href='/it/credito/privato/'>Credito privato</a>
+<a href='/it/credito/svizzera/'>Mutuo in Svizzera</a>

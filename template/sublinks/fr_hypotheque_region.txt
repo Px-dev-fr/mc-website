@@ -1,0 +1,5 @@
+
+<a href='/fr/hypotheque/region/appartement-fribourg'>Appartement à Fribourg</a>
+<a href='/fr/hypotheque/region/immobilier-fribourg'>Immobilier à Fribourg</a>
+<a href='/fr/hypotheque/region/immobilier-lausanne'>Immobilier à Lausanne</a>
+<a href='/fr/hypotheque/region/immobilier-valais'>Immobilier en Valais</a>

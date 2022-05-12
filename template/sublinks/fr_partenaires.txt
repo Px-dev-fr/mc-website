@@ -1,0 +1,12 @@
+
+<a href='/fr/partenaires/cembra-money-bank'>Cembra Money Bank: votre crédit plus avantageux</a>
+<a href='/fr/partenaires/liens-utiles'>Liens utiles</a>
+<a href='/fr/partenaires/partenaire-business-factoring'>Business-factoring - Spécialiste en affacturage</a>
+<a href='/fr/partenaires/partenaire-credit-bancaire'>Crédit Bancaire: votre crédit bancaire en Suisse</a>
+<a href='/fr/partenaires/partenaire-credit-frontalier'>Notre partenaire: Credit-frontalier</a>
+<a href='/fr/partenaires/partenaire-creditflex'>CreditFlex - crédit personnel en Suisse</a>
+<a href='/fr/partenaires/partenaire-prestaflex'>PrestaFlex-Service: services aux particuliers et entreprises</a>
+<a href='/fr/partenaires/partenaire-pro-leasing'>PrestaFlex-Service: services aux particuliers et entreprises</a>
+<a href='/fr/partenaires/partenaire-webexpert'>Notre partenaire webexpert</a>
+<a href='/fr/partenaires/partenaires-autre'>Partenaires ailleurs dans le monde</a>
+<a href='/fr/partenaires/partenaires-france'>Partenaires en France</a>

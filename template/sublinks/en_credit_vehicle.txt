@@ -1,0 +1,6 @@
+
+<a href='/en/credit/vehicle/auto-credit'>Auto credit and other vehicle loans</a>
+<a href='/en/credit/vehicle/boat-loan'>Boat Loan: buy a boat in Switzerland</a>
+<a href='/en/credit/vehicle/buy-a-motorbike'>Buy a motorbike</a>
+<a href='/en/credit/vehicle/car-financing'>Car financing</a>
+<a href='/en/credit/vehicle/credit-leasing'>Credit Leasing</a>

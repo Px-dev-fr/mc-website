@@ -1,0 +1,4 @@
+
+<a href='/tr/futbol-kulubu/besiktas'>Beşiktaş</a>
+<a href='/tr/futbol-kulubu/fenerbahce'>Fenerbahçe</a>
+<a href='/tr/futbol-kulubu/galatasaray'>Galatasaray</a>

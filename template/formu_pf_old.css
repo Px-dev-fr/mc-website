@@ -1,0 +1,28 @@
+#prestaform{padding:0!important;}
+#iframe_formulaire{
+	box-shadow: none;
+	background: none;
+	margin-bottom:40px;
+}
+
+#iframe_formulaire .colonnes{overflow:visible;padding:10px 0;clear:both;}
+#iframe_formulaire .colonnes span{float:left;width:50%;line-height:30px;}
+#iframe_formulaire input[type=text], #iframe_formulaire select, #iframe_formulaire textarea{
+	box-shadow: 0px 0px 1px #999;
+    background: #eee;
+	width:100%;margin-bottom:5px;
+	border:none;
+}
+#iframe_formulaire #disclaimer{font-size:inherit;font-family:inherit;height:80px;}
+#iframe_formulaire input[type=submit]{margin-top:10px;}
+
+@media screen and (max-width: 1400px) {
+	#iframe_formulaire{margin-bottom:30px;}
+}
+
+@media screen and (max-width: 1000px) {
+	#iframe_formulaire{margin-bottom:20px;}
+	#iframe_formulaire .colonnes{padding:0;}
+	#iframe_formulaire .colonnes span{float:none;width:100%;}
+	#iframe_formulaire .colonnes.facultatif{display:none;}
+}

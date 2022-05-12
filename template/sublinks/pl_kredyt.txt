@@ -1,0 +1,5 @@
+
+<a href='/pl/kredyt/kalkulator/'>KALKULATOR KREDYTOWY</a>
+<a href='/pl/kredyt/karta/'>UREGULUJ STAN TWOJEJ KARTY KREDYTOWEJ</a>
+<a href='/pl/kredyt/leasing/'>LEASING CZY KREDYT?</a>
+<a href='/pl/kredyt/remont/'>KREDYT NA REMONT</a>

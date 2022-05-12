@@ -1,0 +1,6 @@
+
+<a href='/en/mortgage/property/buy-a-property'>Buy a property</a>
+<a href='/en/mortgage/property/property-budget'>Property budget: consult a specialist</a>
+<a href='/en/mortgage/property/property-calculator'>Property calculator: start budgeting your house now!</a>
+<a href='/en/mortgage/property/property-financing'>Property financing: let us help you</a>
+<a href='/en/mortgage/property/property-solutions'>Property solutions: let us help you</a>

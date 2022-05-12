@@ -1,0 +1,4 @@
+
+<a href='/pl/kredyt/kalkulator/kredyt-na-basen'>KREDYT NA BASEN</a>
+<a href='/pl/kredyt/kalkulator/kredyt-na-zakup-samochodu'>KREDYT NA KUPNO SAMOCHODU</a>
+<a href='/pl/kredyt/kalkulator/twoje-finanse-w-multicredit'>TWOJE FINANSE</a>

@@ -1,0 +1,7 @@
+
+<a href='/it/prestito/auto/'>Acquisto auto</a>
+<a href='/it/prestito/bancario/'>Prestito bancario</a>
+<a href='/it/prestito/finanziamento/'>Finanziamento privato</a>
+<a href='/it/prestito/medico/'>Prestito medico</a>
+<a href='/it/prestito/privato/'>Prestito privato</a>
+<a href='/it/prestito/ristrutturazione/'>Prestito di ristrutturazione</a>

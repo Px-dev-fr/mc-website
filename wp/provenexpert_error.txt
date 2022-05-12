@@ -1,0 +1,49 @@
+curl error (2021-10-13T13:40:12+00:00)
+
+last call: 1970-01-01T01:00:00+00:00
+
+Operation timed out after 3001 milliseconds with 0 out of 0 bytes received
+
+Array
+(
+    [version_number] => 472065
+    [age] => 3
+    [features] => 4179869
+    [ssl_version_number] => 0
+    [version] => 7.52.1
+    [host] => x86_64-pc-linux-gnu
+    [ssl_version] => OpenSSL/1.0.2l
+    [libz_version] => 1.2.8
+    [protocols] => Array
+        (
+            [0] => dict
+            [1] => file
+            [2] => ftp
+            [3] => ftps
+            [4] => gopher
+            [5] => http
+            [6] => https
+            [7] => imap
+            [8] => imaps
+            [9] => ldap
+            [10] => ldaps
+            [11] => pop3
+            [12] => pop3s
+            [13] => rtmp
+            [14] => rtsp
+            [15] => scp
+            [16] => sftp
+            [17] => smb
+            [18] => smbs
+            [19] => smtp
+            [20] => smtps
+            [21] => telnet
+            [22] => tftp
+        )
+
+    [ares] => 
+    [ares_num] => 0
+    [libidn] => 0.10
+    [iconv_ver_num] => 0
+    [libssh_version] => libssh2/1.4.3
+)

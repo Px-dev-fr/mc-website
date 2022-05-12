@@ -1,0 +1,4 @@
+
+<a href='/fr/pme/factoring/clients/encaissement-clients'>Encaissement clients: la solution à vos problèmes</a>
+<a href='/fr/pme/factoring/clients/factures-clients'>Factures clients: votre clientèle ne payent pas?</a>
+<a href='/fr/pme/factoring/clients/paiement-clients'>Paiement clients: comment améliorer vos liquidités?</a>

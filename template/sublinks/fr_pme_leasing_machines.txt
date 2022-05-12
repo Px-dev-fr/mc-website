@@ -1,0 +1,5 @@
+
+<a href='/fr/pme/leasing/machines/achat-materiel'>Achat de matériel: un financement adapté</a>
+<a href='/fr/pme/leasing/machines/machines-chantier'>Machines de chantier: nous finançons vos acquisitions</a>
+<a href='/fr/pme/leasing/machines/materiel-medical'>Matériel médical: nos solutions de financement</a>
+<a href='/fr/pme/leasing/machines/outillage-industriel'>Outillage industriel: financez simplement votre matériel</a>

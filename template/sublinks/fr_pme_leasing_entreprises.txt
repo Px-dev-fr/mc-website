@@ -1,0 +1,5 @@
+
+<a href='/fr/pme/leasing/entreprises/business'>Leasing business: découvrez nos solutions</a>
+<a href='/fr/pme/leasing/entreprises/leasing-commercial'>Leasing commercial: nous finançons votre équipement</a>
+<a href='/fr/pme/leasing/entreprises/leasing-industriel'>Leasing industriel: investissements et biens de production</a>
+<a href='/fr/pme/leasing/entreprises/leasing-societe'>Leasing société: financez avantageusement tout bien de production</a>

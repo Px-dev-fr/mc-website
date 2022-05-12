@@ -1,0 +1,23 @@
+/*BLOCK*/
+.block{overflow:visible;}
+.block a{width:calc((100% - 80px) / 3);float:left;display:block;text-align:center;margin-bottom:40px;margin-left:40px;background:#3aac4a;color:white;box-shadow:1px 1px 3px #333;}
+#mct .block a:hover{background:#1D992B;}
+.block a:nth-child(-3n+4){margin-left:0;}
+.block img{width:100%;height:auto;display:block;}
+.block div{line-height:40px;}
+.block:after{content:" ";display:block;clear:both;}
+
+@media screen and (max-width: 1000px) {
+	.block a{width:calc((100% - 60px) / 3);margin-bottom:30px;margin-left:30px;}
+	
+}
+
+@media screen and (max-width: 700px) {
+	.block a{width:calc(50% - 15px);margin-left:0;}
+	.block a:nth-child(-3n+4){margin-left:0;}
+	.block a:nth-child(even){margin-left:30px;}
+}
+
+@media screen and (max-width: 480px) {
+	.block a, .block a:nth-child(even){width:100%;margin-left:0;}
+}

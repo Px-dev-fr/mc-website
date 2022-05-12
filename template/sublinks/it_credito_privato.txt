@@ -1,0 +1,5 @@
+
+<a href='/it/credito/privato/credito-lavoratori-dipendenti'>Prestito Dipendenti</a>
+<a href='/it/credito/privato/credito-lavoratori-temporanei'>Credito ai lavoratori temporanei</a>
+<a href='/it/credito/privato/credito-personale'>Credito personale</a>
+<a href='/it/credito/privato/intermediari-del-credito'>Intermediari del credito</a>

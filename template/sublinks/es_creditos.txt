@@ -1,0 +1,5 @@
+
+<a href='/es/creditos/condiciones/'>Condiciones para obtener un crédito en Suiza</a>
+<a href='/es/creditos/consumo/'>crédito al consumo</a>
+<a href='/es/creditos/medico/'>Crédito para el médico</a>
+<a href='/es/creditos/privado/'>En Suiza, un crédito privado a su medida</a>

@@ -1,0 +1,3 @@
+
+<a href='/it/prestito/bancario/prestito-pc'>Prestito pc</a>
+<a href='/it/prestito/bancario/prestito-svizzera'>Prestiti in Svizzera</a>

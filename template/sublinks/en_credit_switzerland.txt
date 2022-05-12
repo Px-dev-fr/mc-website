@@ -1,0 +1,9 @@
+
+<a href='/en/credit/switzerland/basel/'>Credit Basel</a>
+<a href='/en/credit/switzerland/bern/'>Credit in Bern</a>
+<a href='/en/credit/switzerland/fribourg/'>Credit in Fribourg</a>
+<a href='/en/credit/switzerland/geneva/'>Credit Geneva</a>
+<a href='/en/credit/switzerland/jura/'>Credit in the Jura</a>
+<a href='/en/credit/switzerland/neuchatel/'>Credit in Neuchâtel</a>
+<a href='/en/credit/switzerland/valais/'>Credit in Valais</a>
+<a href='/en/credit/switzerland/zurich/'>Credit Zurich</a>

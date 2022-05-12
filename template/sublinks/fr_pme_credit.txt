@@ -1,0 +1,7 @@
+
+<a href='/fr/pme/credit/aide-entreprises/'>Aide aux entrepreneurs: nos solutions de financement</a>
+<a href='/fr/pme/credit/commerce/'>Besoin d'un crédit pour votre commerce?</a>
+<a href='/fr/pme/credit/entreprises/'>Crédit pour entreprises</a>
+<a href='/fr/pme/credit/independants/'>Crédit aux indépendants et entrepreneurs en Suisse</a>
+<a href='/fr/pme/credit/investissement/'>Crédit investissements: nous finançons votre PME</a>
+<a href='/fr/pme/credit/sa-sarl/'>Solutions de crédit pour PME - SA - SARL</a>

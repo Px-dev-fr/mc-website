@@ -1,0 +1,5 @@
+
+<a href='/pt/emprestimo/fribourg/'>Empréstimo Fribourg</a>
+<a href='/pt/emprestimo/geneve/'>Empréstimo Genève</a>
+<a href='/pt/emprestimo/neuchatel/'>Empréstimo Neuchâtel</a>
+<a href='/pt/emprestimo/zurich/'>Empréstimo Zürich</a>

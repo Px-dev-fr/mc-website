@@ -1,0 +1,5 @@
+
+<a href='/it/credito/condizioni/permesso-b'>Credito con permesso B</a>
+<a href='/it/credito/condizioni/permesso-c'>Credito con permesso C</a>
+<a href='/it/credito/condizioni/permesso-g'>Credito con permesso G per frontalieri</a>
+<a href='/it/credito/condizioni/permesso-l'>CREDITO CON PERMESSO L</a>

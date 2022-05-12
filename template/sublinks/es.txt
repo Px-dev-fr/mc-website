@@ -1,0 +1,5 @@
+
+<a href='/es/creditos/'>Nuestros créditos</a>
+<a href='/es/empresa/'>Nuestra Empresa</a>
+<a href='/es/glosario/'>Glosario</a>
+<a href='/es/recompra-de-credito/'>Recompra de crédito en Suiza</a>

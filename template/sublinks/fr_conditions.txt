@@ -1,0 +1,9 @@
+
+<a href='/fr/conditions/age'>Age</a>
+<a href='/fr/conditions/carte-de-legitimation-suisse'>Carte de légitimation en Suisse et demande de crédit</a>
+<a href='/fr/conditions/permis-b'>Permis B</a>
+<a href='/fr/conditions/permis-c'>Permis C</a>
+<a href='/fr/conditions/permis-ci'>Obtenir un crédit avec un permis Ci en Suisse</a>
+<a href='/fr/conditions/permis-g'>Permis G</a>
+<a href='/fr/conditions/permis-l'>Permis L</a>
+<a href='/fr/conditions/situation-financiere'>Situation financière et crédits: comment obtenir un prêt?</a>

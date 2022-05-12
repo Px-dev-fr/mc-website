@@ -1,0 +1,6 @@
+
+<a href='/tr/kredi/ihtiyac/bireysel-emeklilik'>Bireysel Emeklilik</a>
+<a href='/tr/kredi/ihtiyac/estetik-guzellik'>Estetik Güzellik</a>
+<a href='/tr/kredi/ihtiyac/esya-kredisi'>Esya Kredisi</a>
+<a href='/tr/kredi/ihtiyac/limited-sirket'>Limited Şirket</a>
+<a href='/tr/kredi/ihtiyac/sirket-kurmak'>Şirket Kurmak</a>

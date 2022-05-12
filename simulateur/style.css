@@ -1,0 +1,12 @@
+#credit_simulator{width:90%;margin:auto;}
+#credit_simulator div.presentation{text-align:justify;}
+#credit_simulator div.textinfos{text-align:center;}
+#credit_simulator div.textinfos input[type=text], #credit_simulator div.block_info input[type=text]{background:none;text-align:center;border:0px solid;font-weight:bold;width:50%;}
+#credit_simulator input[type=submit]{border-radius:10px;font-weight:bold;width:100%;margin:5% auto;display:block;cursor:pointer;}
+#credit_simulator div.block_info input[type=text]{width:100%;}
+#credit_simulator div.block-slider{margin:auto;}
+#credit_simulator div.slider{height:14px;margin:0 px 10px !important;margin-top:5px;}
+#credit_simulator div.track{height:6px;background:#E8E8E8;background:-webkit-linear-gradient(#E8E8E8 0%, #FFFFFF 50%, #E8E8E8 100%);background:-moz-linear-gradient(#E8E8E8 0%, #FFFFFF 50%, #E8E8E8 100%);background:-o-linear-gradient(#E8E8E8 0%, #FFFFFF 50%, #E8E8E8 100%);background:-linear-gradient(#E8E8E8 0%, #FFFFFF 50%, #E8E8E8 100%);box-shadow:0px 0px 2px 0px rgba(0,0,0,0.2);border-radius:10px;margin-left:-5px;top:25% !important;margin-top:0px !important;}
+#credit_simulator div.dragger{width:34px;height:14px;margin-top:-8px !important;margin-left:-17px !important;background:#999;border-radius:6px;box-shadow:0px 0px 1px 0px rgba(0,0,0,0.3);background:-webkit-linear-gradient(#888 0%, #AAA 50%, #888 100%);}
+#credit_simulator div.dragger:hover{box-shadow:0px 0px 3px black;}
+#credit_simulator span i{display:none;}

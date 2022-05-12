@@ -1,0 +1,3 @@
+
+<a href='/pt/consolidacao/cartao-de-credito'>Cartão de crédito</a>
+<a href='/pt/consolidacao/compra-de-credito'>Compra de Crédito</a>

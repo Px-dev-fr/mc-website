@@ -1,0 +1,7 @@
+
+<a href='/de/kredit/einrichtung/kredit-badezimmer'>Kredit für Badezimmmer</a>
+<a href='/de/kredit/einrichtung/kredit-hammam'>Kredit für Hamam</a>
+<a href='/de/kredit/einrichtung/kredit-jacuzzi'>Kredit für Jacuzzi</a>
+<a href='/de/kredit/einrichtung/kredit-kuche'>Kredit für Küche</a>
+<a href='/de/kredit/einrichtung/kredit-sauna'>Kredit für Sauna</a>
+<a href='/de/kredit/einrichtung/kredit-terrasse'>Kredit für Terrasse</a>

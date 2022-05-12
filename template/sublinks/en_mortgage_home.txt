@@ -1,0 +1,7 @@
+
+<a href='/en/mortgage/home/buy-a-home'>Buy a home: discover our mortgage offers</a>
+<a href='/en/mortgage/home/home-credit'>Home credit: our flexible solutions</a>
+<a href='/en/mortgage/home/home-funding'>Home funding: discover our mortgage offers</a>
+<a href='/en/mortgage/home/home-owner'>Home owner</a>
+<a href='/en/mortgage/home/home-solutions'>Home solutions: our flexible mortgage offers</a>
+<a href='/en/mortgage/home/homeowner'>Homeowner</a>

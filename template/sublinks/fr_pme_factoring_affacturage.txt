@@ -1,0 +1,10 @@
+
+<a href='/fr/pme/factoring/affacturage/avance-de-tresorerie'>Avance de trésorerie: offres pour PME et indépendants</a>
+<a href='/fr/pme/factoring/affacturage/avance-factures'>Avance sur factures: vos liquidités sans attendre</a>
+<a href='/fr/pme/factoring/affacturage/b2b'>Affacturage B2B: une solution sur mesure</a>
+<a href='/fr/pme/factoring/affacturage/classique'>Affacturage classique: financement de vos factures clients</a>
+<a href='/fr/pme/factoring/affacturage/deconsolidant'>Affacturage déconsolidant: nos solutions</a>
+<a href='/fr/pme/factoring/affacturage/entreprise'>Affacturage entreprise: protégez vos entrées en liquidités!</a>
+<a href='/fr/pme/factoring/affacturage/financement-facture'>Financement de factures: nos produits pour PME</a>
+<a href='/fr/pme/factoring/affacturage/maturity'>Maturity factoring: nos spécialistes à votre service</a>
+<a href='/fr/pme/factoring/affacturage/prefinancement'>Préfinancement de factures: nos solutions</a>

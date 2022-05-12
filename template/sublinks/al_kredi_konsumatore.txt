@@ -1,0 +1,8 @@
+
+<a href='/al/kredi/konsumatore/albakredit'>Albakredit - Kredi për Shqiptarët në Zvicër</a>
+<a href='/al/kredi/konsumatore/kredi-per-biznes'>Kredi për biznes në qdo kohë</a>
+<a href='/al/kredi/konsumatore/kredi-per-emigrantet'>Kredi për emigrantët vetëm tek ne</a>
+<a href='/al/kredi/konsumatore/kredi-per-kerr'>Ne realizojmë ëndrren tuaj-Kredi për kerr tek ne</a>
+<a href='/al/kredi/konsumatore/kredi-per-martes'>Kredi për martes</a>
+<a href='/al/kredi/konsumatore/kredi-per-pushim'>Me Kredi për pushime vizito gjith Botën</a>
+<a href='/al/kredi/konsumatore/kredi-per-shtepi'>Merr Kredi për shtëpi dhe rregulloje hapësirën ku jeton</a>

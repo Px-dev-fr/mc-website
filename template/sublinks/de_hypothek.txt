@@ -1,0 +1,4 @@
+
+<a href='/de/hypothek/eigenheim/'>Eigenheim</a>
+<a href='/de/hypothek/immobilien/'>Immobilienfinanzierung in der Schweiz</a>
+<a href='/de/hypothek/rechner/'>Hypothekenrechner</a>

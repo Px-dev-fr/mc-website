@@ -1,0 +1,9 @@
+
+<a href='/pt/credito/auto/'>Crédito automovel</a>
+<a href='/pt/credito/bancario/'>Crédito bancário</a>
+<a href='/pt/credito/consumo/'>Crédito ao consumo</a>
+<a href='/pt/credito/habitacao/'>Comprar uma casa</a>
+<a href='/pt/credito/medico/'>Crédito para médico</a>
+<a href='/pt/credito/privado/'>Crédito privado</a>
+<a href='/pt/credito/professional/'>Crédito professional</a>
+<a href='/pt/credito/renovacao/'>Crédito Renovação</a>

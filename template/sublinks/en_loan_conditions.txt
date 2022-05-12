@@ -1,0 +1,5 @@
+
+<a href='/en/loan/conditions/b-permit'>B Permit in Swizerland</a>
+<a href='/en/loan/conditions/c-permit'>C Permit in Switzerland</a>
+<a href='/en/loan/conditions/g-permit'>G Permit</a>
+<a href='/en/loan/conditions/l-permit'>L permit</a>

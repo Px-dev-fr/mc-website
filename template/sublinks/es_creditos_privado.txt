@@ -1,0 +1,6 @@
+
+<a href='/es/creditos/privado/credito-independientes'>Créditos independientes</a>
+<a href='/es/creditos/privado/credito-jubilados-avs-ai'>Crédito jubilado o pensionista AVS/AI</a>
+<a href='/es/creditos/privado/credito-para-temporales'>Crédito temporales</a>
+<a href='/es/creditos/privado/credito-reforma'>Crédito reforma</a>
+<a href='/es/creditos/privado/credito-salariado'>Créditos a salariados</a>

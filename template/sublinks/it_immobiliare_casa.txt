@@ -1,0 +1,5 @@
+
+<a href='/it/immobiliare/casa/acquistare-casa'>Acquistare casa</a>
+<a href='/it/immobiliare/casa/mutuo-casa'>Mutuo casa</a>
+<a href='/it/immobiliare/casa/nuova-casa'>Nuova casa</a>
+<a href='/it/immobiliare/casa/ristrutturare-casa'>Ristrutturare casa</a>
