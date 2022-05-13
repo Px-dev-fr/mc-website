@@ -1,7 +1,7 @@
 <?php
 // phpinfo();
-// $result = exec("git push");
-// echo $result;
+// $output = exec("git push");
+// echo $output;
 
 $commands = array(
   'git add .',
