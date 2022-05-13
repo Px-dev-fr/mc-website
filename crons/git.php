@@ -7,7 +7,6 @@ $commands = array(
   'git add .',
   'git commit -m "Push auto from Server ' . (new DateTime())->format('d.m.Y H:i:s') . '"',
   'git push',
-  'prestaflex'
 );
 // Run the commands for output
 $output = '';
