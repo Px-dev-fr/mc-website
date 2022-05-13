@@ -1,0 +1,8 @@
+Your loan request has been refused - discover our other solutions
+
+<p>Thank you for your loan application. Unfortunately, after reviewing the provided data, your current status does not allow us to make an offer. In case there is a change in your situation, please do not hesitate to contact us again or submit an online request. It is always free and without obligation.</p>
+<p>We also advise you to avoid making too many requests elsewhere, as each application is recorded at the banking credit record system (ZEK/IKO). An accumulation of too many refusals will result in a negative rating for future requests, even with an improvement in your status. </p>
+<p>We recommend that you wait a minimum of three months (and a possible change in your financial situation) to make a new credit application.</p>
+<p><b>Debts, prosecution, seizure: let us help you !</b><br/>
+You have seizures, prosecutions, debts or you have problems with a current credit? We may have a solution. Through our partners, we could offer professional help to re-arrange your financial situation. <a href="https://www.multicredit.ch/push?id=%produit%&cid=%cidclient%">Click here for a free contact</a></p>
+<p>Our team remains at your disposal, if you need additional information.</p>

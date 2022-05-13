@@ -1,0 +1,142 @@
+#GeneralWrapper{
+  overflow: hidden;
+
+  *{
+    box-sizing: border-box;
+  }
+
+  /* Useful classes */
+  .hide-on-desktop{
+    display: none;
+
+    @media only screen and (max-width: $breakpoint-medium){
+      display: block;
+    }
+  }
+
+  .hide-on-mobile {
+    display: block;
+
+    @media only screen and (max-width: $breakpoint-medium){
+      display: none;
+    }
+  }
+
+  .hide-flex-mobile {
+    display: flex;
+
+    @media only screen and (max-width: $breakpoint-medium){
+      display: none;
+    }
+  }
+
+  .hide-on-min{
+    display: block;
+
+    @media only screen and (max-width: $breakpoint-min){
+      display: none !important;
+    }
+  }
+
+  .nopadding{
+    padding: 0;
+  }
+
+  .noleftpadding{
+    padding-left: 0;
+  }
+
+  .norightpadding{
+    padding-right: 0;
+  }
+
+  .nopadding, .noleftpadding, .norightpadding{
+    @media only screen and (max-width: $breakpoint-medium){
+      padding: 1em;
+    }
+  }
+
+  .primary {
+		color:$primary;
+	}
+
+  .smallpadding {
+		@include smallpadding;
+	}
+
+	.regularpadding {
+		@include regularpadding;
+	}
+
+	.bigpadding {
+		@include bigpadding;
+	}
+
+	.biggerpadding {
+		@include biggerpadding;
+	}
+
+	.neg-margin-top {
+	   margin-top: -80px;
+	}
+	.neg-margin-bottom {
+	   margin-bottom: -80px;
+	}
+
+	.comp-neg-margin-top {
+	   padding-top: 176px;
+	}
+	.comp-neg-margin-bottom {
+	   padding-bottom: 176px;
+	}
+
+  .linkblocsimg  .wpb_single_image img {
+    max-width: 260px;
+  }
+
+  .container{
+	@media only screen and (min-width: $breakpoint-max ){
+		  max-width: 1450px;
+	  }
+
+    @media only screen and (max-width: $breakpoint-medium){
+      padding: 2em 1em 1em 1em;
+    }
+  }
+
+  a{
+    color: $primary;
+  }
+
+  .grey {
+    color:$text-color;
+  }
+  .lightgrey {
+    color:$light-text-color;
+  }
+  a:hover.lightgrey {color: $secondary;}
+
+
+  /* VC Classes */
+	.full-width {
+	  width: 100vw;
+	  position: relative;
+	  left: 50%;
+	  right: 50%;
+	  margin-left: -50vw;
+	  margin-right: -50vw;
+		overflow: hidden;
+	}
+
+  .vc_column_container > .vc_column-inner{
+    @media only screen and (max-width: $breakpoint-medium){
+      //padding: 0 2em;
+    }
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+}

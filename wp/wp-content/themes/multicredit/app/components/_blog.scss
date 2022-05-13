@@ -1,0 +1,109 @@
+.single-post {
+
+  #GeneralWrapper{
+
+    .menublog a {
+      color: #df003c;
+          &::after {
+          display: block;
+          margin-top: 5px;
+          content: '';
+          width: 100%;
+          height: 3px;
+          background-color: #df003c;
+          transition: 0.3s ease;
+          }
+        }
+
+      h4 a {color: $white;
+        &:hover {color: $secondary;}
+      }
+
+      .post-navigation {
+        margin: 96px 0;
+        padding-top: 24px;
+        border-top: 1px solid #ccc;
+        h2 {display: none !important;}
+        .nav-links {
+          .nav-previous {width: 40%; float: left;
+            a {color:$secondary;}
+          }
+          .nav-next {width: 40%; float: right; text-align: right;
+            a {color:$secondary;}
+          }
+        }
+    }
+    }
+
+}
+
+.archive, .page-blog {
+
+  #GeneralWrapper{
+
+    h4 {
+        color: #df003c;
+        font-size: 1.3em;
+        font-weight: 600;
+        text-transform: inherit;
+        letter-spacing: 1px;
+        margin: 1em 0;
+    }
+    .vc_grid-item-mini {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.15);
+      transition: .3s ease;
+      &:hover {
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.15);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.15);
+        box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.15);
+        }
+
+    }
+    .vc_gitem-zone-mini {
+      background: #fff;
+          .vc_gitem_row {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      .archive-img {
+        a {height: 300px;
+            display: block;
+            overflow: hidden;
+        }
+        img {width: auto; height:100%;}
+      }
+
+      .vc_btn3 { padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  border-radius: $border-radius}
+  .vc_btn3-container.vc_btn3-left {
+    display: block;
+    clear: both;
+    float: right;
+    margin-bottom: 30px;
+  }
+
+    }
+
+}
+
+
+.archive {
+
+  #GeneralWrapper{
+    h4 {height:80px; overflow: hidden;
+      @media only screen and (max-width: $breakpoint-small){
+        height:inherit;overflow: auto;
+      }
+    }
+    .vc_grid-item {margin-bottom: 24px;}
+  }
+
+}

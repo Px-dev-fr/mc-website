@@ -1,0 +1,1260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multicredit\n"
+"POT-Creation-Date: 2020-08-06 09:32+0200\n"
+"PO-Revision-Date: 2020-08-06 09:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: Multicredit team\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:28
+msgid "Page not found"
+msgstr "Sayfa bulunamadı"
+
+#: 404.php:29
+msgid "Sorry, we can’t find the page you were looking for."
+msgstr "Üzgünüz, aradığınız sayfayı bulamıyoruz."
+
+#: 404.php:30
+msgid "Go back to our homepage."
+msgstr "Ana sayfamıza dönün."
+
+#: 404.php:34
+msgid "Or search on our website: "
+msgstr "Veya web sitemizde bir arama yapın: "
+
+#: footer.php:70
+msgid "Cashflex MultiCredit Sàrl"
+msgstr "Cashflex MultiKredit GmbH"
+
+#: footer.php:73
+msgid "Website powered by"
+msgstr "Web sitesi oluşturma"
+
+#: functions.php:127
+msgid "Animation Type"
+msgstr ""
+
+#: functions.php:130
+msgid "AOS Animation type"
+msgstr ""
+
+#: functions.php:141
+msgid "Animation Delay"
+msgstr ""
+
+#: functions.php:144
+msgid "AOS Animation delay"
+msgstr ""
+
+#: functions.php:155
+msgid "Animation Duration"
+msgstr ""
+
+#: functions.php:158
+msgid "AOS Animation durations"
+msgstr ""
+
+#: functions.php:174
+msgid "Main navigation"
+msgstr ""
+
+#: functions.php:175
+msgid "Secondary navigation"
+msgstr ""
+
+#: functions.php:176
+msgid "Mobile navigation"
+msgstr ""
+
+#: functions.php:199
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:207
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:215
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: functions.php:223
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: functions.php:231
+msgid "Credit Footer"
+msgstr ""
+
+#: functions.php:400
+msgid "Wecome on Dashboard"
+msgstr "Wecome on Dashboard"
+
+#: header-404.php:47 header-archive.php:48 header-search.php:48
+#: header-single.php:48 header.php:49
+#: template-parts/credit-calculator-component-min.php:10
+#: template-parts/credit-calculator-component.php:10
+msgid "credit-application"
+msgstr "kredi-talebi"
+
+#: header-404.php:47 header-archive.php:48 header-search.php:48
+#: header-single.php:48 header.php:49
+#: template-parts/credit-calculator-component-min.php:68
+#: template-parts/credit-calculator-component.php:98
+#: template-parts/rachat-credit-calculator-component.php:117
+msgid "Credit application"
+msgstr "Kredi talebi"
+
+#: header-404.php:103
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: header-404.php:104
+msgid "Oops! Something went wrong"
+msgstr "Ufak bir sorun ! Bir şey işlemedi"
+
+#: header-search.php:105 header-search.php:124
+msgid "Search results"
+msgstr "Arama sonuçları"
+
+#: header-search.php:106 header-search.php:125
+msgid "Did you find what you were looking for?"
+msgstr "Aradığınızı buldunuz mu?"
+
+#: header.php:109
+msgid "Finance your projects"
+msgstr "Projelerinizi finanse edin"
+
+#: search.php:26
+msgid "Search results found for"
+msgstr "Bulunan sonuçlar"
+
+#: search.php:39 template-parts/content-archives.php:2
+#: template-parts/content-archives.php:31
+msgid "Read more"
+msgstr "Devamını oku"
+
+#: template-parts/budget-calculator-block.php:8
+msgid "Revenues (monthly in CHF)"
+msgstr "Gelir (aylık CHF cinsinden)"
+
+#: template-parts/budget-calculator-block.php:14
+msgid "Net salary/income"
+msgstr "Net gelir"
+
+#: template-parts/budget-calculator-block.php:15
+msgid "Your spouse's net salary/income (monthly) if applicable"
+msgstr "Varsa eşinizin net aylık maaşı (CHF)"
+
+#: template-parts/budget-calculator-block.php:16
+msgid "Other monthly net incomes"
+msgstr "Diğer net aylık geliriniz"
+
+#: template-parts/budget-calculator-block.php:23
+msgid "Expenses (monthly in CHF)"
+msgstr "Diğer aylık giderler (CHF)"
+
+#: template-parts/budget-calculator-block.php:29
+msgid "Your monthly rent or contribution to the rent"
+msgstr "Aylık kiranız veya kiranıza katkınız"
+
+#: template-parts/budget-calculator-block.php:30
+msgid "Household expenses (Food, internet and other)"
+msgstr "Maliyetleri (Yiyecek, internet ve diğerleri)"
+
+#: template-parts/budget-calculator-block.php:31
+msgid "Go to work costs"
+msgstr "İş masraflarınız, işe gitme ücretleri"
+
+#: template-parts/budget-calculator-block.php:32
+msgid "Monthly health insurance premiums (if married, for family)"
+msgstr "Aylık sağlık sigortası primleri (tüm aile için evli ise)"
+
+#: template-parts/budget-calculator-block.php:33
+msgid ""
+"Other monthly expenses or obligations (monthly credit payment, leasing, "
+"credit card...)"
+msgstr "Diğer aylık giderler (aylık kredi, leasing, nafaka, vb.)"
+
+#: template-parts/budget-calculator-block.php:35
+#: template-parts/credit-form-block.php:403
+msgid "Dependent children"
+msgstr "Bağımlı çocuklar"
+
+#: template-parts/budget-calculator-block.php:36
+msgid "None"
+msgstr "Yok"
+
+#: template-parts/budget-calculator-block.php:42
+#: template-parts/credit-calculator-link-block.php:10
+msgid "Calculate my budget"
+msgstr "Bütçemi hesapla"
+
+#: template-parts/budget-calculator-block.php:49
+msgid "Budgetary surplus: "
+msgstr "Bütçe fazlası: "
+
+#: template-parts/budget-calculator-block.php:56
+msgid "Borrowing capacity: "
+msgstr "Borçlanma kapasitesi: "
+
+#: template-parts/budget-calculator-block.php:66
+msgid "The Budgetary surplus"
+msgstr "Bütçe fazlası"
+
+#: template-parts/budget-calculator-block.php:67
+msgid ""
+"This value represents an approximation of the amount you would have at the "
+"end of each month, once the charges have been paid and after deduction of "
+"the cost of living."
+msgstr ""
+"Bu değer, masraflar ödendikten sonra ve yaşam maliyetinin düşürmesinden "
+"sonra her ayın sonunda bıraktığınız miktarın yaklaşık bir değerini temsil "
+"eder."
+
+#: template-parts/budget-calculator-block.php:68
+msgid "Borrowing capacity"
+msgstr "Borçlanma kapasitesi"
+
+#: template-parts/budget-calculator-block.php:69
+msgid ""
+"Borrowing capacity allows you to roughly estimate the amount you can get "
+"with a loan. It depends directly on the calculation of the budget and the "
+"estimated budget surplus."
+msgstr ""
+"Borçlanma kapasitesi, bir krediyle elde edebileceğiniz tutarı kabaca tahmin "
+"etmenizi sağlar. Doğrudan bütçenin hesaplanmasına ve tahmini bütçe fazlasına "
+"bağlıdır."
+
+#: template-parts/budget-calculator-block.php:70
+msgid "Our solutions"
+msgstr "Çözümlerimiz"
+
+#: template-parts/budget-calculator-block.php:71
+msgid ""
+"Do you want a more precise budget calculation or do you want to know how "
+"much you could get with a loan? Do not hesitate to ask us, we will gladly "
+"analyze your application and propose you a non-binding offer."
+msgstr ""
+"Daha kesin ve net bir bütçe hesaplaması mı istiyorsunuz yoksa bir krediyle "
+"ne kadar alabileceğinizi bilmek ister misiniz? Bize ulaşmaktan çekinmeyin: "
+"bağlayıcı olmayan bir teklif sunmak için dosyanızı memnuniyetle analiz "
+"edeceğiz."
+
+#: template-parts/credit-blog-block.php:2
+msgid "Blog"
+msgstr "Blog"
+
+#: template-parts/credit-blog-block.php:3
+msgid "we're talking about it on MultiCredit"
+msgstr "bunun hakkında MultiCredit’te konuşuyoruz"
+
+#: template-parts/credit-blog-block.php:4
+msgid "Read the article"
+msgstr "Makaleyi okuyun"
+
+#: template-parts/credit-calculator-component-min.php:35
+#: template-parts/credit-calculator-component.php:36
+#: template-parts/rachat-credit-calculator-component.php:94
+#: template-rachat-pret-formulaire.php:72
+msgid "Amount"
+msgstr "Miktar"
+
+#: template-parts/credit-calculator-component-min.php:43
+#: template-parts/credit-calculator-component.php:43
+#: template-parts/rachat-credit-calculator-component.php:86
+#: template-rachat-pret-formulaire.php:75
+msgid "Duration"
+msgstr "Süre"
+
+#: template-parts/credit-calculator-component-min.php:51
+#: template-parts/rachat-credit-calculator-component.php:99
+msgid "Monthly payment from"
+msgstr "Aylık ödeme"
+
+#: template-parts/credit-calculator-component-min.php:52
+#: template-parts/rachat-credit-calculator-component.php:100
+msgid ""
+"Monthly payment including amortization, interests and death insurance from"
+msgstr "Amortisman, faiz ve ölüm sigortası dahil aylık ödeme"
+
+#: template-parts/credit-calculator-component-min.php:54
+#: template-parts/credit-calculator-component.php:54
+#: template-parts/credit-calculator-component.php:60
+#: template-parts/rachat-credit-calculator-component.php:102
+msgid "monthly"
+msgstr "aylık"
+
+#: template-parts/credit-calculator-component-min.php:60
+#: template-parts/credit-calculator-component.php:90
+#: template-parts/rachat-credit-calculator-component.php:109
+msgid "Monthly payments/refunds including:"
+msgstr "Aylık ödeme, kredi taksiti dahil:"
+
+#: template-parts/credit-calculator-component-min.php:62
+#: template-parts/credit-calculator-component.php:92
+#: template-parts/rachat-credit-calculator-component.php:111
+msgid "Amortization"
+msgstr "Amortisman"
+
+#: template-parts/credit-calculator-component-min.php:63
+#: template-parts/credit-calculator-component.php:64
+#: template-parts/credit-calculator-component.php:70
+#: template-parts/credit-calculator-component.php:93
+#: template-parts/rachat-credit-calculator-component.php:112
+msgid "Interests"
+msgstr "Faiz"
+
+#: template-parts/credit-calculator-component-min.php:64
+#: template-parts/credit-calculator-component.php:94
+#: template-parts/rachat-credit-calculator-component.php:113
+msgid "Death insurance"
+msgstr "Vefat sigortası"
+
+#: template-parts/credit-calculator-component.php:52
+#: template-parts/credit-calculator-component.php:58
+msgid "Monthly payment at"
+msgstr "Aylık ödemeleriniz"
+
+#: template-parts/credit-calculator-component.php:66
+#: template-parts/credit-calculator-component.php:72
+msgid "in addition to the desired amount"
+msgstr "istenen miktara ek olarak"
+
+#: template-parts/credit-calculator-component.php:76
+#: template-parts/credit-calculator-component.php:82
+msgid "Paid in total"
+msgstr "Toplam ödenen"
+
+#: template-parts/credit-calculator-component.php:78
+#: template-parts/credit-calculator-component.php:84
+msgid "at the rate of"
+msgstr "faiz orani ile"
+
+#: template-parts/credit-calculator-link-block.php:5
+msgid "Budget calculator"
+msgstr "Bütçe hesaplayıcısı"
+
+#: template-parts/credit-calculator-link-block.php:6
+msgid "What are your credit options?"
+msgstr "Kredi imkanlarınız nelerdir?"
+
+#: template-parts/credit-calculator-link-block.php:7
+msgid ""
+"Estimate your budget with our calculator and take a look at our case studies"
+msgstr "Bütçe hesap makinemizle projeksiyon yapın ve pratik vakalarımıza bakın"
+
+#: template-parts/credit-calculator-link-block.php:9
+msgid "budget-calculator"
+msgstr "budget-calculator"
+
+#: template-parts/credit-contact-block.php:37
+msgid "At your service !"
+msgstr "Hizmetinizde!"
+
+#: template-parts/credit-contact-block.php:39
+msgid "T"
+msgstr "T"
+
+#: template-parts/credit-contact-block.php:40
+msgid "M"
+msgstr "M"
+
+#: template-parts/credit-contact-block.php:42
+msgid "For more information, consult our specialist or ask us for an offer!"
+msgstr "Daha fazla ayrıntı için uzmanımıza danışın veya teklif isteyin!"
+
+#: template-parts/credit-form-block.php:3
+#: template-parts/credit-form-block.php:48
+#: template-parts/creditcard-form-block.php:3
+msgid "Personal data"
+msgstr "Kişisel bilgiler"
+
+#: template-parts/credit-form-block.php:4
+#: template-parts/credit-form-block.php:49
+#: template-parts/creditcard-form-block.php:4
+msgid "Your situation"
+msgstr "Durumunuz"
+
+#: template-parts/credit-form-block.php:47
+msgid "Desired credit amount"
+msgstr "Istenen miktar"
+
+#: template-parts/credit-form-block.php:107
+#: template-parts/creditcard-form-block.php:73
+msgid "Your request in 2 minutes!"
+msgstr "Başvurunuz 2 dakika içinde!"
+
+#: template-parts/credit-form-block.php:108
+#: template-parts/creditcard-form-block.php:74
+msgid "Non-binding form"
+msgstr "Bağlayıcı olmayan başvuru"
+
+#: template-parts/credit-form-block.php:109
+msgid ""
+"Your data are transmitted to us in a secure mode and are hosted in "
+"Switzerland."
+msgstr ""
+"Verileriniz bize güvenli bir şekilde iletilir ve İsviçre’de barındırılır."
+
+#: template-parts/credit-form-block.php:110
+msgid ""
+"Fill out the credit application form and get a definitive answer within 24 "
+"hours. Receive a preliminary decision in only 5 minutes, during the first "
+"telephone contact. Basic requirement: work or have an income in Switzerland."
+msgstr ""
+"Kredi başvurusunu doldurun ve 24 saat içinde  kesin bir yanıt alın. İlk "
+"telefon görüşmesi sırasında sadece 5 dakika içinde bir ön karar alın. Ilk "
+"şartlar : İsviçre’de çalışmak veya gelir elde etmek."
+
+#: template-parts/credit-form-block.php:116
+msgid "Wished amount"
+msgstr "Istenen miktar"
+
+#: template-parts/credit-form-block.php:117
+msgid "Loan duration"
+msgstr "Kredi süresi"
+
+#: template-parts/credit-form-block.php:117
+#: template-rachat-pret-formulaire.php:76
+msgid "months"
+msgstr "ay"
+
+#: template-parts/credit-form-block.php:128
+msgid "Gender"
+msgstr "Tür"
+
+#: template-parts/credit-form-block.php:131
+#: template-parts/credit-form-block.php:145
+msgid "Madam"
+msgstr "Bayan"
+
+#: template-parts/credit-form-block.php:149
+#: template-parts/credit-form-block.php:165
+msgid "Sir"
+msgstr "Bay"
+
+#: template-parts/credit-form-block.php:168
+#: template-parts/credit-form-block.php:176
+#: template-parts/credit-form-block.php:184
+#: template-parts/credit-form-block.php:202
+#: template-parts/creditcard-form-block.php:90
+#: template-parts/creditcard-form-block.php:98
+#: template-parts/creditcard-form-block.php:106
+msgid "This field is required."
+msgstr "Bu alanın doldurulması zorunludur."
+
+#: template-parts/credit-form-block.php:172
+#: template-parts/credit-form-block.php:173
+#: template-parts/creditcard-form-block.php:86
+#: template-parts/creditcard-form-block.php:87
+msgid "First name"
+msgstr "Adınız"
+
+#: template-parts/credit-form-block.php:180
+#: template-parts/credit-form-block.php:181
+#: template-parts/creditcard-form-block.php:94
+#: template-parts/creditcard-form-block.php:95
+msgid "Last name"
+msgstr "Soyadınız"
+
+#: template-parts/credit-form-block.php:188
+#: template-parts/creditcard-form-block.php:147
+msgid "Date of birth"
+msgstr "Doğum tarihi"
+
+#: template-parts/credit-form-block.php:189
+#: template-parts/creditcard-form-block.php:148
+msgid "Day"
+msgstr "Gün"
+
+#: template-parts/credit-form-block.php:190
+#: template-parts/creditcard-form-block.php:149
+msgid "Month"
+msgstr "Ay"
+
+#: template-parts/credit-form-block.php:191
+#: template-parts/creditcard-form-block.php:150
+msgid "Year"
+msgstr "Yıl"
+
+#: template-parts/credit-form-block.php:192
+#: template-parts/creditcard-form-block.php:151
+msgid "Ex: 15.04.1980"
+msgstr "Örnek: 15.04.1980"
+
+#: template-parts/credit-form-block.php:194
+#: template-parts/creditcard-form-block.php:153
+msgid "All fields are required."
+msgstr "Tüm alanların doldurulması zorunludur."
+
+#: template-parts/credit-form-block.php:198
+#: template-parts/creditcard-form-block.php:102
+msgid "Zip code / City"
+msgstr "Posta kodu / şehir"
+
+#: template-parts/credit-form-block.php:199
+#: template-parts/creditcard-form-block.php:103
+msgid "Zip code"
+msgstr "PK"
+
+#: template-parts/credit-form-block.php:200
+#: template-parts/creditcard-form-block.php:104
+msgid "City"
+msgstr "Şehir"
+
+#: template-parts/credit-form-block.php:206
+#: template-parts/creditcard-form-block.php:110
+msgid "Mobile phone"
+msgstr "Cep telefon"
+
+#: template-parts/credit-form-block.php:207
+msgid "Phone number (without spaces)"
+msgstr "Telefon numarası (boşluksuz)"
+
+#: template-parts/credit-form-block.php:209
+#: template-parts/credit-form-block.php:216
+#: template-parts/credit-form-block.php:252
+#: template-parts/credit-form-block.php:276
+#: template-parts/credit-form-block.php:316
+#: template-parts/credit-form-block.php:324
+#: template-parts/credit-form-block.php:362
+#: template-parts/credit-form-block.php:387
+#: template-parts/credit-form-block.php:399
+#: template-parts/credit-form-block.php:412
+#: template-parts/credit-form-block.php:421
+#: template-parts/credit-form-block.php:440
+#: template-parts/credit-form-block.php:462
+#: template-parts/credit-form-block.php:477
+#: template-parts/credit-form-block.php:484
+#: template-parts/creditcard-form-block.php:113
+#: template-parts/creditcard-form-block.php:120
+#: template-parts/creditcard-form-block.php:136
+#: template-parts/creditcard-form-block.php:172
+#: template-parts/creditcard-form-block.php:186
+#: template-parts/creditcard-form-block.php:195
+#: template-parts/creditcard-form-block.php:204
+#: template-parts/creditcard-form-block.php:212
+msgid "Invalid field."
+msgstr "Bu alan geçerli değil."
+
+#: template-parts/credit-form-block.php:213
+#: template-parts/credit-form-block.php:214
+#: template-parts/creditcard-form-block.php:117
+#: template-parts/creditcard-form-block.php:118
+msgid "Private E-Mail"
+msgstr "Özel e-posta"
+
+#: template-parts/credit-form-block.php:221
+#: template-parts/creditcard-form-block.php:217
+msgid "I accept the"
+msgstr "Kabul ediyorum"
+
+#: template-parts/credit-form-block.php:221
+#: template-parts/creditcard-form-block.php:217
+msgid "terms of use"
+msgstr "şartlar ve koşullar"
+
+#: template-parts/credit-form-block.php:222
+#: template-parts/creditcard-form-block.php:218
+msgid "You must accept our terms of use."
+msgstr "Şartlar ve koşullarımızı kabul etmelisiniz."
+
+#: template-parts/credit-form-block.php:236
+#: template-parts/credit-form-block.php:239
+#: template-parts/credit-form-block.php:448
+msgid "Type of employment"
+msgstr "İşin türü"
+
+#: template-parts/credit-form-block.php:240
+#: template-parts/credit-form-block.php:449
+msgid "Full time employee"
+msgstr "Çalışan - düzenli/sürekli (fixe/fest)"
+
+#: template-parts/credit-form-block.php:241
+#: template-parts/credit-form-block.php:450
+msgid "Part time employee"
+msgstr "Saat ücretli çalışan"
+
+#: template-parts/credit-form-block.php:242
+#: template-parts/credit-form-block.php:451
+msgid "Temporary"
+msgstr "Geçici işçi (temporer)"
+
+#: template-parts/credit-form-block.php:243
+#: template-parts/credit-form-block.php:452
+msgid "Retired person/Disabled annuitant"
+msgstr "Emekli (AV/VI AVS/AI)"
+
+#: template-parts/credit-form-block.php:244
+#: template-parts/credit-form-block.php:453
+msgid "Self-employed/Sole proprietorship"
+msgstr "Bağımsız / serbest meslek"
+
+#: template-parts/credit-form-block.php:245
+#: template-parts/credit-form-block.php:454
+msgid "Employee in your own company"
+msgstr "Kendi şirketinde çalışan/maaşlı (GmbH/AG Sàrl/S.A.)"
+
+#: template-parts/credit-form-block.php:246
+#: template-parts/credit-form-block.php:455
+msgid "NGO official (UN, WHO,...)"
+msgstr "Birleşmiş Milletler çalışanı (UNO, WHO, WTO…)"
+
+#: template-parts/credit-form-block.php:247
+#: template-parts/credit-form-block.php:456
+msgid "International civil servant (mission, embassy, ...)"
+msgstr "Uluslararası devlet memuru (misyonlar, konsolosluklar,…)"
+
+#: template-parts/credit-form-block.php:248
+#: template-parts/credit-form-block.php:457
+msgid "Unemployed"
+msgstr "Işsiz / şu anda çalışmıyor"
+
+#: template-parts/credit-form-block.php:265
+msgid "Monthly net income/salary (CHF)"
+msgstr "Aylık net geliriniz (CHF)"
+
+#: template-parts/credit-form-block.php:266
+#: template-parts/credit-form-block.php:322
+#: template-parts/credit-form-block.php:467
+#: template-parts/creditcard-form-block.php:210
+msgid "Amount in CHF"
+msgstr "Miktar CHF"
+
+#: template-parts/credit-form-block.php:269
+#: template-parts/credit-form-block.php:470
+msgid "Number of annual salary (frequency)"
+msgstr "Yıllık maaş sayısı (sıklık)"
+
+#: template-parts/credit-form-block.php:303
+msgid "Housing"
+msgstr "Konut"
+
+#: template-parts/credit-form-block.php:306
+msgid "Tenant / Owner"
+msgstr "Kiracı / mal sahibi"
+
+#: template-parts/credit-form-block.php:307
+msgid "Tenant"
+msgstr "Kiracı"
+
+#: template-parts/credit-form-block.php:308
+msgid "Owner"
+msgstr "Mal sahibi"
+
+#: template-parts/credit-form-block.php:309
+msgid "At parent's home"
+msgstr "Ebeveynlerle yaşıyor"
+
+#: template-parts/credit-form-block.php:310
+msgid "Roommate"
+msgstr "Oda arkadaşı/kira paylaşımı"
+
+#: template-parts/credit-form-block.php:311
+msgid "Paid by employer"
+msgstr "Işveren tarafından ödeniyor"
+
+#: template-parts/credit-form-block.php:312
+msgid "Flatsharing"
+msgstr "Kiraya katılım/katkı"
+
+#: template-parts/credit-form-block.php:321
+#: template-parts/creditcard-form-block.php:209
+msgid "Monthly housing payment (CHF)"
+msgstr "Aylık kira veya aylık ipotek ücretleri (CHF)"
+
+#: template-parts/credit-form-block.php:346
+#: template-parts/creditcard-form-block.php:124
+#: template-parts/creditcard-form-block.php:129
+msgid "Prosecutions/bad debt (poursuites/Betreibungen)"
+msgstr "Haciz (poursuites / Betreibungen)"
+
+#: template-parts/credit-form-block.php:349
+msgid "Do you have any bad debt collections?"
+msgstr "Mevcut hacizleriniz var mi ?"
+
+#: template-parts/credit-form-block.php:353
+msgid ""
+"I do not have pending prosecution or bad debt at the moment (Betreibungen/"
+"Poursuites)"
+msgstr "Su an hiç bir icra/hacizim yok (poursuites/Betreibungen)"
+
+#: template-parts/credit-form-block.php:354
+msgid ""
+"I do have pending prosecution or bad debts, with total or partial "
+"oppositions that I legally contest (Betreibungen/Poursuites)"
+msgstr ""
+"Hukuki olarak itiraz ettiğim hacizlerim/hicralarım var (opposition "
+"poursuites/Betreibungen mit Rechtsvorschlag, poursuites avec opposition "
+"totale)"
+
+#: template-parts/credit-form-block.php:355
+msgid ""
+"I have prosecution or bad debts less than 5’000 CHF (Betreibungen/Poursuites)"
+msgstr ""
+"Kesinleşmiş, haciz aşamasına gelmiş borçlarım var (5’000 CHF dan düşük)"
+
+#: template-parts/credit-form-block.php:356
+msgid ""
+"I have prosecution or bad debts more than 5’000 CHF (Betreibungen/Poursuites)"
+msgstr ""
+"Kesinleşmiş, haciz aşamasına gelmiş borçlarım var 5’000 CHF den daha fazla "
+"(Cok hacizlik/icralık borçlarım var)"
+
+#: template-parts/credit-form-block.php:357
+msgid ""
+"I have a lot of prosecutions or bankruptcy or garnishment of my wages with "
+"the prosecution office (Verlustscheine oder Konkurs/ADB ou faillite)"
+msgstr ""
+"Hacizlerim/icralarım var ve/veya maaşimda kesiliyor her ay (Lohnpfändungen/"
+"Saisies sur salaire)"
+
+#: template-parts/credit-form-block.php:358
+msgid ""
+"I have or had in the past, payment problems with a credit, leasing or credit "
+"card. I have a negative code at the ZEK / IKO credit center"
+msgstr ""
+"Eski bir kredi, leasing veya kredi kartı ile hacizlik/icralık oldum, negatif "
+"bir kodum var ZEK/IKO da"
+
+#: template-parts/credit-form-block.php:372
+#: template-parts/creditcard-form-block.php:157
+msgid "Nationality / Permit"
+msgstr "Vatandaşlık / Oturma izni"
+
+#: template-parts/credit-form-block.php:375
+#: template-parts/creditcard-form-block.php:160
+msgid "Type"
+msgstr "Tip"
+
+#: template-parts/credit-form-block.php:376
+#: template-parts/creditcard-form-block.php:161
+msgid "Swiss"
+msgstr "İsviçreli"
+
+#: template-parts/credit-form-block.php:377
+#: template-parts/creditcard-form-block.php:162
+msgid "C Permit"
+msgstr "Oturma izni C"
+
+#: template-parts/credit-form-block.php:378
+#: template-parts/creditcard-form-block.php:163
+msgid "B Permit"
+msgstr "Oturma izni B"
+
+#: template-parts/credit-form-block.php:379
+#: template-parts/creditcard-form-block.php:164
+msgid "L Permit (more than 2 years)"
+msgstr "Oturma izni L (2 yıl veya daha fazla)"
+
+#: template-parts/credit-form-block.php:380
+#: template-parts/creditcard-form-block.php:165
+msgid "L Permit (less than 2 years)"
+msgstr "Oturma izni L (2 yıldan az)"
+
+#: template-parts/credit-form-block.php:381
+#: template-parts/creditcard-form-block.php:166
+msgid "G Permit (more than 3 years)"
+msgstr "Oturma izni G (3 yıl veya daha fazla)"
+
+#: template-parts/credit-form-block.php:382
+#: template-parts/creditcard-form-block.php:167
+msgid "G Permit (less than 3 years)"
+msgstr "Oturma izni G (3 yıldan az)"
+
+#: template-parts/credit-form-block.php:383
+msgid "Legitimation card"
+msgstr "Legitimation kartı"
+
+#: template-parts/credit-form-block.php:392
+msgid "Ongoing credit or leasing"
+msgstr "Kredi veya leasing"
+
+#: template-parts/credit-form-block.php:395
+#: template-parts/credit-form-block.php:408
+#: template-parts/creditcard-form-block.php:128
+#: template-parts/creditcard-form-block.php:182
+msgid "No"
+msgstr "Hayır"
+
+#: template-parts/credit-form-block.php:406
+#: template-parts/creditcard-form-block.php:180
+msgid "Yes/No"
+msgstr "Evet/Hayır"
+
+#: template-parts/credit-form-block.php:407
+#: template-parts/creditcard-form-block.php:181
+msgid "Yes"
+msgstr "Evet"
+
+#: template-parts/credit-form-block.php:416
+#: template-parts/creditcard-form-block.php:190
+msgid "Year of birth"
+msgstr "Çocukların doğum yılı"
+
+#: template-parts/credit-form-block.php:417
+#: template-parts/creditcard-form-block.php:191
+msgid "Child 1"
+msgstr "Çocuk 1"
+
+#: template-parts/credit-form-block.php:418
+#: template-parts/creditcard-form-block.php:192
+msgid "Child 2"
+msgstr "Çocuk 2"
+
+#: template-parts/credit-form-block.php:419
+#: template-parts/creditcard-form-block.php:193
+msgid "Child 3"
+msgstr "Çocuk 3"
+
+#: template-parts/credit-form-block.php:426
+msgid "Marital status"
+msgstr "Medeni hal"
+
+#: template-parts/credit-form-block.php:429
+msgid "Official marital status"
+msgstr "Resmi medeni hal"
+
+#: template-parts/credit-form-block.php:430
+msgid "Single"
+msgstr "Bekar"
+
+#: template-parts/credit-form-block.php:431
+msgid "Married"
+msgstr "Evli"
+
+#: template-parts/credit-form-block.php:432
+msgid "Registered partnership "
+msgstr "Resmi veya kayıtlı beraberlik "
+
+#: template-parts/credit-form-block.php:433
+msgid "Divorced"
+msgstr "Boşanmış"
+
+#: template-parts/credit-form-block.php:434
+msgid "Separate"
+msgstr "Ayrılmış"
+
+#: template-parts/credit-form-block.php:435
+msgid "Not registered partnership"
+msgstr "Beraber yaşam"
+
+#: template-parts/credit-form-block.php:436
+msgid "Widow / Widower"
+msgstr "Dul"
+
+#: template-parts/credit-form-block.php:445
+msgid "Type of job of your spouse"
+msgstr "Eşinizin iş/çalışma türü"
+
+#: template-parts/credit-form-block.php:458
+msgid "Housewife / Man"
+msgstr "Ev hanımı / geliri yok"
+
+#: template-parts/credit-form-block.php:466
+msgid "Your spouse's net salary/income (monthly CHF) if applicable"
+msgstr "Varsa eşinizin net aylık maaşı (CHF)"
+
+#: template-parts/credit-form-block.php:481
+msgid "Note / Tell us about your project"
+msgstr "Yorumlar / Projenizi açıklayın (zorunlu değil)"
+
+#: template-parts/credit-form-block.php:482
+msgid ""
+"Your project is important to us, describe it here in a few words if you wish."
+msgstr ""
+"Projeniz bizim için önemlidir, isterseniz bize birkaç satırda açıklayın."
+
+#: template-parts/credit-form-block.php:625
+msgid ""
+"You have not completed all fields, please complete all the mandatory fields "
+"above."
+msgstr ""
+"Tüm alanları doldurmadınız, lütfen yukarıdaki zorunlu alanların tümünü "
+"doldurun."
+
+#: template-parts/credit-form-block.php:628
+msgid "Previous"
+msgstr "Önceki"
+
+#: template-parts/credit-form-block.php:629
+msgid "Next"
+msgstr "Ileri / sonraki"
+
+#: template-parts/credit-form-block.php:636
+msgid "Request sent successfully"
+msgstr "Başvuru başarıyla gönderildi"
+
+#: template-parts/credit-form-block.php:640
+msgid "Technical problem"
+msgstr "Teknik arza"
+
+#: template-parts/credit-stats-block.php:4
+msgid "Customers trust us"
+msgstr "Müşteri bize güveniyor"
+
+#: template-parts/credit-stats-block.php:7
+msgid "Credit applications each year"
+msgstr "Her yıl kredi başvurusu"
+
+#: template-parts/credit-stats-block.php:11
+msgid "Years of activity in Switzerland"
+msgstr "İsviçre’de faaliyet yılları"
+
+#: template-parts/credit-stats-block.php:18
+msgid "of Swiss francs in loans since 1999"
+msgstr "1999’dan bu yana İsviçre Frangı kredileri"
+
+#: template-parts/creditcard-form-block.php:75
+msgid ""
+"Need a higher limit? Whatever the situation, our solution will prevent you "
+"from running out of cash! Apply for your credit card online and receive a no-"
+"obligation proposal as soon as possible!"
+msgstr ""
+"Daha yüksek bir limite mı ihtiyacınız var? Durum ne olursa olsun, çözümümüz "
+"sizi nakit sorununuzdan koruyacaktır! Online kredi kartı başvurusu yapın ve "
+"en kısa zamanda bağlayıcı olmayan bir teklif alın!"
+
+#: template-parts/creditcard-form-block.php:111
+msgid "XXX XXX XX XX"
+msgstr "XXX XXX XX XX"
+
+#: template-parts/creditcard-form-block.php:127
+msgid "Do you have any prosecutions or bad debt financial history?"
+msgstr "Mevcut hacizleriniz var mi ?"
+
+#: template-parts/creditcard-form-block.php:130
+msgid ""
+"Negative code with a credit, leasing or credit card at ZEK/IKO (bad "
+"repayment)"
+msgstr "Önceki bir kredide veya leasing de negatif bir kodunuz var (ZEK)"
+
+#: template-parts/creditcard-form-block.php:131
+msgid "Wage withholding"
+msgstr "Savcılık tarafından maaşinizda haciz kesintisi var"
+
+#: template-parts/creditcard-form-block.php:132
+msgid "You are under guardianship/curtel"
+msgstr "Vasilik / mutemetlik altındasınız"
+
+#: template-parts/creditcard-form-block.php:168
+msgid "Legitimation Card"
+msgstr "Legitimation kartı"
+
+#: template-parts/creditcard-form-block.php:177
+msgid "Dependent children?"
+msgstr "Size bağımlı çocuklar?"
+
+#: template-parts/creditcard-form-block.php:201
+msgid "Monthly  net salary (CHF)"
+msgstr "Aylık net gelir (CHF)"
+
+#: template-parts/creditcard-form-block.php:202
+msgid "Monthly salary"
+msgstr "Aylık gelir"
+
+#: template-parts/creditcard-form-block.php:226
+msgid "Submit credit card request"
+msgstr "Kredi kartı talebinizi gönderin"
+
+#: template-parts/rachat-credit-calculator-component.php:10
+msgid "loan-buyout-form"
+msgstr "kredilerin-yeniden-degerlendirilmesi-form"
+
+#: template-parts/rachat-credit-calculator-component.php:34
+msgid "Your ongoing commitments"
+msgstr "Devam eden taahhütleriniz"
+
+#: template-parts/rachat-credit-calculator-component.php:40
+#: template-parts/rachat-credit-calculator-component.php:50
+#: template-parts/rachat-credit-calculator-component.php:60
+#: template-parts/rachat-credit-calculator-component.php:70
+msgid "Credit amount"
+msgstr "Kredi miktarı"
+
+#: template-parts/rachat-credit-calculator-component.php:42
+#: template-parts/rachat-credit-calculator-component.php:52
+#: template-parts/rachat-credit-calculator-component.php:62
+#: template-parts/rachat-credit-calculator-component.php:72
+msgid "Credit Type"
+msgstr "Kredi Türü"
+
+#: template-parts/rachat-credit-calculator-component.php:43
+#: template-parts/rachat-credit-calculator-component.php:53
+#: template-parts/rachat-credit-calculator-component.php:63
+#: template-parts/rachat-credit-calculator-component.php:73
+#: template-rachat-pret-formulaire.php:25
+#: template-rachat-pret-formulaire.php:29
+#: template-rachat-pret-formulaire.php:33
+#: template-rachat-pret-formulaire.php:37
+msgid "Credit refinancing"
+msgstr "Kredi geri alımı devam ediyor"
+
+#: template-parts/rachat-credit-calculator-component.php:44
+#: template-parts/rachat-credit-calculator-component.php:54
+#: template-parts/rachat-credit-calculator-component.php:64
+#: template-parts/rachat-credit-calculator-component.php:74
+#: template-rachat-pret-formulaire.php:26
+#: template-rachat-pret-formulaire.php:30
+#: template-rachat-pret-formulaire.php:34
+#: template-rachat-pret-formulaire.php:38
+msgid "Lease refinancing"
+msgstr "Mevcut lizinginizi satin almak"
+
+#: template-parts/rachat-credit-calculator-component.php:45
+#: template-parts/rachat-credit-calculator-component.php:55
+#: template-parts/rachat-credit-calculator-component.php:65
+#: template-parts/rachat-credit-calculator-component.php:75
+#: template-rachat-pret-formulaire.php:27
+#: template-rachat-pret-formulaire.php:31
+#: template-rachat-pret-formulaire.php:35
+#: template-rachat-pret-formulaire.php:39
+msgid "Credit card balance refinancing"
+msgstr "Kredi karti borclarinizi satin alma"
+
+#: template-parts/rachat-credit-calculator-component.php:46
+#: template-parts/rachat-credit-calculator-component.php:56
+#: template-parts/rachat-credit-calculator-component.php:66
+#: template-parts/rachat-credit-calculator-component.php:76
+#: template-rachat-pret-formulaire.php:28
+#: template-rachat-pret-formulaire.php:32
+#: template-rachat-pret-formulaire.php:36
+#: template-rachat-pret-formulaire.php:40
+msgid "Others"
+msgstr "Diğerleri"
+
+#: template-rachat-pret-formulaire.php:71
+msgid "Summary"
+msgstr "özet"
+
+#: template-rachat-pret-formulaire.php:79
+#: template-rachat-pret-formulaire.php:84
+#: template-rachat-pret-formulaire.php:89
+#: template-rachat-pret-formulaire.php:94
+msgid "Credit"
+msgstr "Kredi"
+
+#: template-rachat-pret-formulaire.php:100
+msgid "Form"
+msgstr "Form"
+
+#: vc_extends.php:26
+msgid "Title tag"
+msgstr ""
+
+#: vc_extends.php:34
+msgid "Title importance"
+msgstr ""
+
+#: vc_extends.php:40 vc_extends.php:136
+msgid "Title"
+msgstr ""
+
+#: vc_extends.php:42
+msgid "Add block title"
+msgstr ""
+
+#: vc_extends.php:48
+msgid "Subtitle"
+msgstr ""
+
+#: vc_extends.php:50
+msgid "Add block subtitle"
+msgstr ""
+
+#: vc_extends.php:55
+msgid "Align"
+msgstr ""
+
+#: vc_extends.php:64
+msgid "Title align"
+msgstr ""
+
+#: vc_extends.php:69
+msgid "Light/Dark Background"
+msgstr ""
+
+#: vc_extends.php:77
+msgid "Title color"
+msgstr ""
+
+#: vc_extends.php:128
+msgid "Image"
+msgstr ""
+
+#: vc_extends.php:130
+msgid "Add block image"
+msgstr ""
+
+#: vc_extends.php:138
+msgid "Add block Title"
+msgstr ""
+
+#: vc_extends.php:144
+msgid "Description"
+msgstr ""
+
+#: vc_extends.php:146
+msgid "Add block description"
+msgstr ""
+
+#: vc_extends.php:151
+msgid "Link"
+msgstr ""
+
+#: vc_extends.php:153
+msgid "Add block link"
+msgstr ""
+
+#~ msgid "Your current credits"
+#~ msgstr "Mevcut kredileriniz"
+
+#~ msgid "Receiving above income since"
+#~ msgstr "Şu anki işveren ile (süre)"
+
+#~ msgid "Address since (living there)"
+#~ msgstr "Ne zamandan beri bu adreste yaşıyor"
+
+#~ msgid "Your budget"
+#~ msgstr "Bütçeniz"
+
+#~ msgid "Review and submit"
+#~ msgstr "Kontrol ve gönder"
+
+#~ msgid "Revenue and expense"
+#~ msgstr "Gelir ve giderler"
+
+#~ msgid "Current job position"
+#~ msgstr "Mevcut mesleğiniz"
+
+#~ msgid "January"
+#~ msgstr "Ocak"
+
+#~ msgid "February"
+#~ msgstr "Şubat"
+
+#~ msgid "March"
+#~ msgstr "Mart"
+
+#~ msgid "April"
+#~ msgstr "Nisan"
+
+#~ msgid "May"
+#~ msgstr "Mayıs"
+
+#~ msgid "June"
+#~ msgstr "Haziran"
+
+#~ msgid "July"
+#~ msgstr "Temmuz"
+
+#~ msgid "August"
+#~ msgstr "Ağustos"
+
+#~ msgid "September"
+#~ msgstr "Eylül"
+
+#~ msgid "October"
+#~ msgstr "Ekim"
+
+#~ msgid "November"
+#~ msgstr "Kasım"
+
+#~ msgid "December"
+#~ msgstr "Aralık"
+
+#~ msgid "More than 10 years"
+#~ msgstr "10 yıldan fazla"
+
+#~ msgid "Rent and charges"
+#~ msgstr "Kira ve masraflar"
+
+#~ msgid "Do you have any credit or leasing ongoing?"
+#~ msgstr "Mevcut bir krediniz veya leasinginiz var mı?"
+
+#~ msgid "Yes, I would like to know my credit limit"
+#~ msgstr "Evet, kredi limitimi bilmek istiyorum"
+
+#~ msgid "Year of birth of children"
+#~ msgstr "Çocukların doğum yılı"
+
+#~ msgid "Additional information / tell us about your project"
+#~ msgstr "Ek bilgi / projenizi bize anlatın"
+
+#~ msgid "Cantons where we are active"
+#~ msgstr "Bulunduğumuz Kantonlar"
+
+#~ msgid "Hourly employee"
+#~ msgstr "Salarié - horaire"
+
+#~ msgid "AVS/AI Rentner"
+#~ msgstr "AVS/AI"
+
+#~ msgid "Independent"
+#~ msgstr "Indépendant"
+
+#~ msgid "Profession"
+#~ msgstr "Votre profession actuelle"
+
+#~ msgid "Income since"
+#~ msgstr "Revenu depuis"
+
+#~ msgid "Renting monthly bill (CHF)"
+#~ msgstr "Loyer mensuel net (CHF)"
+
+#~ msgid "Concubinage"
+#~ msgstr "Concubinage"
+
+#~ msgid "Mai"
+#~ msgstr "Mai"
+
+#~ msgid "Your request in 5 minutes!"
+#~ msgstr "Votre demande en 5 minutes!"
+
+#~ msgid "Phone number"
+#~ msgstr "Numéro de téléphone"
+
+#~ msgid "Tel"
+#~ msgstr "Tel"
+
+#~ msgid "Mob"
+#~ msgstr "Mob"
+
+#~ msgid "eMail"
+#~ msgstr "eMail"
+
+#~ msgid ""
+#~ "Tel : 026 322 23 10<br />Mob : 079 936 31 43<br />Mail : info@multicredit."
+#~ "ch"
+#~ msgstr ""
+#~ "Tel : 026 322 23 10<br />Mob : 079 936 31 43<br />Mail : info@multicredit."
+#~ "ch"
+
+#~ msgid "50000"
+#~ msgstr "50000"
+
+#~ msgid "1500"
+#~ msgstr "1500"
+
+#~ msgid "21"
+#~ msgstr "21"
+
+#~ msgid "26"
+#~ msgstr "26"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Additional info"
+#~ msgstr "Informations additionnelles"

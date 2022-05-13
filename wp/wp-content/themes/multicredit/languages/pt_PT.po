@@ -1,0 +1,1259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multicredit\n"
+"POT-Creation-Date: 2020-08-06 09:33+0200\n"
+"PO-Revision-Date: 2020-08-06 09:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Multicredit team\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:28
+msgid "Page not found"
+msgstr "Pàgina não encontrada"
+
+#: 404.php:29
+msgid "Sorry, we can’t find the page you were looking for."
+msgstr "Desculpe, não conseguimos encontrar a pàgina que procurava."
+
+#: 404.php:30
+msgid "Go back to our homepage."
+msgstr "Voltar para a nossa Homepage."
+
+#: 404.php:34
+msgid "Or search on our website: "
+msgstr "Ou então procure no nosso site : "
+
+#: footer.php:70
+msgid "Cashflex MultiCredit Sàrl"
+msgstr "Cashflex Multicredit Sarl"
+
+#: footer.php:73
+msgid "Website powered by"
+msgstr "Website criado por"
+
+#: functions.php:127
+msgid "Animation Type"
+msgstr ""
+
+#: functions.php:130
+msgid "AOS Animation type"
+msgstr ""
+
+#: functions.php:141
+msgid "Animation Delay"
+msgstr ""
+
+#: functions.php:144
+msgid "AOS Animation delay"
+msgstr ""
+
+#: functions.php:155
+msgid "Animation Duration"
+msgstr ""
+
+#: functions.php:158
+msgid "AOS Animation durations"
+msgstr ""
+
+#: functions.php:174
+msgid "Main navigation"
+msgstr ""
+
+#: functions.php:175
+msgid "Secondary navigation"
+msgstr ""
+
+#: functions.php:176
+msgid "Mobile navigation"
+msgstr ""
+
+#: functions.php:199
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:207
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:215
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: functions.php:223
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: functions.php:231
+msgid "Credit Footer"
+msgstr ""
+
+#: functions.php:400
+msgid "Wecome on Dashboard"
+msgstr "Wecome on Dashboard"
+
+#: header-404.php:47 header-archive.php:48 header-search.php:48
+#: header-single.php:48 header.php:49
+#: template-parts/credit-calculator-component-min.php:10
+#: template-parts/credit-calculator-component.php:10
+msgid "credit-application"
+msgstr "pedido-de-credito"
+
+#: header-404.php:47 header-archive.php:48 header-search.php:48
+#: header-single.php:48 header.php:49
+#: template-parts/credit-calculator-component-min.php:68
+#: template-parts/credit-calculator-component.php:98
+#: template-parts/rachat-credit-calculator-component.php:117
+msgid "Credit application"
+msgstr "Pedido de crédito"
+
+#: header-404.php:103
+msgid "Error 404"
+msgstr "Erro 404"
+
+#: header-404.php:104
+msgid "Oops! Something went wrong"
+msgstr "Oops ! Algo esta errado"
+
+#: header-search.php:105 header-search.php:124
+msgid "Search results"
+msgstr "Resultados da sua busca"
+
+#: header-search.php:106 header-search.php:125
+msgid "Did you find what you were looking for?"
+msgstr "Encontrou o que precisava ?"
+
+#: header.php:109
+msgid "Finance your projects"
+msgstr "Financie os seus projetos"
+
+#: search.php:26
+msgid "Search results found for"
+msgstr "Resultados da sua busca encontrados"
+
+#: search.php:39 template-parts/content-archives.php:2
+#: template-parts/content-archives.php:31
+msgid "Read more"
+msgstr "Leia mais"
+
+#: template-parts/budget-calculator-block.php:8
+msgid "Revenues (monthly in CHF)"
+msgstr "Rendimentos (mensais em CHF)"
+
+#: template-parts/budget-calculator-block.php:14
+msgid "Net salary/income"
+msgstr "Salàrio liquido"
+
+#: template-parts/budget-calculator-block.php:15
+msgid "Your spouse's net salary/income (monthly) if applicable"
+msgstr "Salario do(a) cônjuge se for o caso"
+
+#: template-parts/budget-calculator-block.php:16
+msgid "Other monthly net incomes"
+msgstr "Outros rendimentos"
+
+#: template-parts/budget-calculator-block.php:23
+msgid "Expenses (monthly in CHF)"
+msgstr "Despesas ( mensais em CHF)"
+
+#: template-parts/budget-calculator-block.php:29
+msgid "Your monthly rent or contribution to the rent"
+msgstr "A renda de casa ou contribuição"
+
+#: template-parts/budget-calculator-block.php:30
+msgid "Household expenses (Food, internet and other)"
+msgstr "Despesas domésticas ( alimentação, internet e outros)"
+
+#: template-parts/budget-calculator-block.php:31
+msgid "Go to work costs"
+msgstr "Despesas de deslocação"
+
+#: template-parts/budget-calculator-block.php:32
+msgid "Monthly health insurance premiums (if married, for family)"
+msgstr "Prémio de seguro de saude mensal"
+
+#: template-parts/budget-calculator-block.php:33
+msgid ""
+"Other monthly expenses or obligations (monthly credit payment, leasing, "
+"credit card...)"
+msgstr "Outras despesas"
+
+#: template-parts/budget-calculator-block.php:35
+#: template-parts/credit-form-block.php:403
+msgid "Dependent children"
+msgstr "Crianças a cargo"
+
+#: template-parts/budget-calculator-block.php:36
+msgid "None"
+msgstr "Nenhum"
+
+#: template-parts/budget-calculator-block.php:42
+#: template-parts/credit-calculator-link-block.php:10
+msgid "Calculate my budget"
+msgstr "Calcular o meu Budget"
+
+#: template-parts/budget-calculator-block.php:49
+msgid "Budgetary surplus: "
+msgstr "Excedente de orçamento: "
+
+#: template-parts/budget-calculator-block.php:56
+msgid "Borrowing capacity: "
+msgstr "Capacidade de empréstimo : "
+
+#: template-parts/budget-calculator-block.php:66
+msgid "The Budgetary surplus"
+msgstr "O excedente de orçamento/orçamental"
+
+#: template-parts/budget-calculator-block.php:67
+msgid ""
+"This value represents an approximation of the amount you would have at the "
+"end of each month, once the charges have been paid and after deduction of "
+"the cost of living."
+msgstr ""
+"Este valor representa, aproximadamente, o montante que sobra no fim do mês "
+"depois das despesas pagas e deduções do custo de vida feitas."
+
+#: template-parts/budget-calculator-block.php:68
+msgid "Borrowing capacity"
+msgstr "Capacidade de empréstimo"
+
+#: template-parts/budget-calculator-block.php:69
+msgid ""
+"Borrowing capacity allows you to roughly estimate the amount you can get "
+"with a loan. It depends directly on the calculation of the budget and the "
+"estimated budget surplus."
+msgstr ""
+"A capacidade de empréstimo permite-lhe de fazer uma estimativa, aproximada, "
+"do montante que pode obter com um crédito. Ela depende diretamente do "
+"càlculo e excedente orçamental estimado."
+
+#: template-parts/budget-calculator-block.php:70
+msgid "Our solutions"
+msgstr "As nossas soluções"
+
+#: template-parts/budget-calculator-block.php:71
+msgid ""
+"Do you want a more precise budget calculation or do you want to know how "
+"much you could get with a loan? Do not hesitate to ask us, we will gladly "
+"analyze your application and propose you a non-binding offer."
+msgstr ""
+"Deseja obter um calculo do seu orçamento preciso ou conhecer o montante que "
+"poderia obter para um crédito ? Não hesite em solicitar os nossos serviços : "
+"analisamos o seu dossier para lhe fazer uma proposta sem compromisso."
+
+#: template-parts/credit-blog-block.php:2
+msgid "Blog"
+msgstr "Blog"
+
+#: template-parts/credit-blog-block.php:3
+msgid "we're talking about it on MultiCredit"
+msgstr "temas abordados pela MultiCredit"
+
+#: template-parts/credit-blog-block.php:4
+msgid "Read the article"
+msgstr "Ler artigo"
+
+#: template-parts/credit-calculator-component-min.php:35
+#: template-parts/credit-calculator-component.php:36
+#: template-parts/rachat-credit-calculator-component.php:94
+#: template-rachat-pret-formulaire.php:72
+msgid "Amount"
+msgstr "Montante"
+
+#: template-parts/credit-calculator-component-min.php:43
+#: template-parts/credit-calculator-component.php:43
+#: template-parts/rachat-credit-calculator-component.php:86
+#: template-rachat-pret-formulaire.php:75
+msgid "Duration"
+msgstr "Duração"
+
+#: template-parts/credit-calculator-component-min.php:51
+#: template-parts/rachat-credit-calculator-component.php:99
+msgid "Monthly payment from"
+msgstr "Pagamento mensal de"
+
+#: template-parts/credit-calculator-component-min.php:52
+#: template-parts/rachat-credit-calculator-component.php:100
+msgid ""
+"Monthly payment including amortization, interests and death insurance from"
+msgstr "Pagamento mensal incluindo amortização, juros e seguro de morte de"
+
+#: template-parts/credit-calculator-component-min.php:54
+#: template-parts/credit-calculator-component.php:54
+#: template-parts/credit-calculator-component.php:60
+#: template-parts/rachat-credit-calculator-component.php:102
+msgid "monthly"
+msgstr "por mês"
+
+#: template-parts/credit-calculator-component-min.php:60
+#: template-parts/credit-calculator-component.php:90
+#: template-parts/rachat-credit-calculator-component.php:109
+msgid "Monthly payments/refunds including:"
+msgstr "A mensalidade inclui:"
+
+#: template-parts/credit-calculator-component-min.php:62
+#: template-parts/credit-calculator-component.php:92
+#: template-parts/rachat-credit-calculator-component.php:111
+msgid "Amortization"
+msgstr "Amortização"
+
+#: template-parts/credit-calculator-component-min.php:63
+#: template-parts/credit-calculator-component.php:64
+#: template-parts/credit-calculator-component.php:70
+#: template-parts/credit-calculator-component.php:93
+#: template-parts/rachat-credit-calculator-component.php:112
+msgid "Interests"
+msgstr "Juros"
+
+#: template-parts/credit-calculator-component-min.php:64
+#: template-parts/credit-calculator-component.php:94
+#: template-parts/rachat-credit-calculator-component.php:113
+msgid "Death insurance"
+msgstr "Seguro de morte"
+
+#: template-parts/credit-calculator-component.php:52
+#: template-parts/credit-calculator-component.php:58
+msgid "Monthly payment at"
+msgstr "Mensalidades a"
+
+#: template-parts/credit-calculator-component.php:66
+#: template-parts/credit-calculator-component.php:72
+msgid "in addition to the desired amount"
+msgstr "a mais do montante desejado"
+
+#: template-parts/credit-calculator-component.php:76
+#: template-parts/credit-calculator-component.php:82
+msgid "Paid in total"
+msgstr "Total pago"
+
+#: template-parts/credit-calculator-component.php:78
+#: template-parts/credit-calculator-component.php:84
+msgid "at the rate of"
+msgstr "com uma taxa de juros a"
+
+#: template-parts/credit-calculator-link-block.php:5
+msgid "Budget calculator"
+msgstr "Calculadora orçamental"
+
+#: template-parts/credit-calculator-link-block.php:6
+msgid "What are your credit options?"
+msgstr "Quais são as suas possibilidades de crédito ?"
+
+#: template-parts/credit-calculator-link-block.php:7
+msgid ""
+"Estimate your budget with our calculator and take a look at our case studies"
+msgstr "Projete-se graças a nossa calculadora e análise prática"
+
+#: template-parts/credit-calculator-link-block.php:9
+msgid "budget-calculator"
+msgstr "calculador-orcamental"
+
+#: template-parts/credit-contact-block.php:37
+msgid "At your service !"
+msgstr "Ao seu serviço!"
+
+#: template-parts/credit-contact-block.php:39
+msgid "T"
+msgstr "T"
+
+#: template-parts/credit-contact-block.php:40
+msgid "M"
+msgstr "M"
+
+#: template-parts/credit-contact-block.php:42
+msgid "For more information, consult our specialist or ask us for an offer!"
+msgstr ""
+"Para mais precisões, consulte o nosso especialista e peça-nos uma oferta !"
+
+#: template-parts/credit-form-block.php:3
+#: template-parts/credit-form-block.php:48
+#: template-parts/creditcard-form-block.php:3
+msgid "Personal data"
+msgstr "Dados pessoais"
+
+#: template-parts/credit-form-block.php:4
+#: template-parts/credit-form-block.php:49
+#: template-parts/creditcard-form-block.php:4
+msgid "Your situation"
+msgstr "A sua situação"
+
+#: template-parts/credit-form-block.php:47
+msgid "Desired credit amount"
+msgstr "Montante desejado"
+
+#: template-parts/credit-form-block.php:107
+#: template-parts/creditcard-form-block.php:73
+msgid "Your request in 2 minutes!"
+msgstr "O seu pedido em 2 minutos !"
+
+#: template-parts/credit-form-block.php:108
+#: template-parts/creditcard-form-block.php:74
+msgid "Non-binding form"
+msgstr "Formulàrio sem compromisso"
+
+#: template-parts/credit-form-block.php:109
+msgid ""
+"Your data are transmitted to us in a secure mode and are hosted in "
+"Switzerland."
+msgstr ""
+"Seus dados são transmitidos para nós de maneira segura e hospedados em Suíça."
+
+#: template-parts/credit-form-block.php:110
+msgid ""
+"Fill out the credit application form and get a definitive answer within 24 "
+"hours. Receive a preliminary decision in only 5 minutes, during the first "
+"telephone contact. Basic requirement: work or have an income in Switzerland."
+msgstr ""
+"Preencha o pedido de crédito e obtenha uma resposta definitiva em 24 horas. "
+"Receba uma decisão preliminar em apenas 2 minutos, aquando do primeiro "
+"contacto telefonico. Condição de base : trabalhar ou ter um rendimento na "
+"Suiça."
+
+#: template-parts/credit-form-block.php:116
+msgid "Wished amount"
+msgstr "Montante desejado"
+
+#: template-parts/credit-form-block.php:117
+msgid "Loan duration"
+msgstr "Duração do crédito"
+
+#: template-parts/credit-form-block.php:117
+#: template-rachat-pret-formulaire.php:76
+msgid "months"
+msgstr "mês"
+
+#: template-parts/credit-form-block.php:128
+msgid "Gender"
+msgstr "Género"
+
+#: template-parts/credit-form-block.php:131
+#: template-parts/credit-form-block.php:145
+msgid "Madam"
+msgstr "Senhora"
+
+#: template-parts/credit-form-block.php:149
+#: template-parts/credit-form-block.php:165
+msgid "Sir"
+msgstr "Senhor"
+
+#: template-parts/credit-form-block.php:168
+#: template-parts/credit-form-block.php:176
+#: template-parts/credit-form-block.php:184
+#: template-parts/credit-form-block.php:202
+#: template-parts/creditcard-form-block.php:90
+#: template-parts/creditcard-form-block.php:98
+#: template-parts/creditcard-form-block.php:106
+msgid "This field is required."
+msgstr "Este campo é obrigatorio."
+
+#: template-parts/credit-form-block.php:172
+#: template-parts/credit-form-block.php:173
+#: template-parts/creditcard-form-block.php:86
+#: template-parts/creditcard-form-block.php:87
+msgid "First name"
+msgstr "Nome"
+
+#: template-parts/credit-form-block.php:180
+#: template-parts/credit-form-block.php:181
+#: template-parts/creditcard-form-block.php:94
+#: template-parts/creditcard-form-block.php:95
+msgid "Last name"
+msgstr "Apelido"
+
+#: template-parts/credit-form-block.php:188
+#: template-parts/creditcard-form-block.php:147
+msgid "Date of birth"
+msgstr "Data de nascimento"
+
+#: template-parts/credit-form-block.php:189
+#: template-parts/creditcard-form-block.php:148
+msgid "Day"
+msgstr "Dia"
+
+#: template-parts/credit-form-block.php:190
+#: template-parts/creditcard-form-block.php:149
+msgid "Month"
+msgstr "Mês"
+
+#: template-parts/credit-form-block.php:191
+#: template-parts/creditcard-form-block.php:150
+msgid "Year"
+msgstr "Ano"
+
+#: template-parts/credit-form-block.php:192
+#: template-parts/creditcard-form-block.php:151
+msgid "Ex: 15.04.1980"
+msgstr "Ex: 15.04.1980"
+
+#: template-parts/credit-form-block.php:194
+#: template-parts/creditcard-form-block.php:153
+msgid "All fields are required."
+msgstr "Todos estes campos são obrigatorios."
+
+#: template-parts/credit-form-block.php:198
+#: template-parts/creditcard-form-block.php:102
+msgid "Zip code / City"
+msgstr "Codigo Postal/ Vila"
+
+#: template-parts/credit-form-block.php:199
+#: template-parts/creditcard-form-block.php:103
+msgid "Zip code"
+msgstr "Codigo postal"
+
+#: template-parts/credit-form-block.php:200
+#: template-parts/creditcard-form-block.php:104
+msgid "City"
+msgstr "Vila"
+
+#: template-parts/credit-form-block.php:206
+#: template-parts/creditcard-form-block.php:110
+msgid "Mobile phone"
+msgstr "Telemovel"
+
+#: template-parts/credit-form-block.php:207
+msgid "Phone number (without spaces)"
+msgstr "Numero de telefone (sem espaços)"
+
+#: template-parts/credit-form-block.php:209
+#: template-parts/credit-form-block.php:216
+#: template-parts/credit-form-block.php:252
+#: template-parts/credit-form-block.php:276
+#: template-parts/credit-form-block.php:316
+#: template-parts/credit-form-block.php:324
+#: template-parts/credit-form-block.php:362
+#: template-parts/credit-form-block.php:387
+#: template-parts/credit-form-block.php:399
+#: template-parts/credit-form-block.php:412
+#: template-parts/credit-form-block.php:421
+#: template-parts/credit-form-block.php:440
+#: template-parts/credit-form-block.php:462
+#: template-parts/credit-form-block.php:477
+#: template-parts/credit-form-block.php:484
+#: template-parts/creditcard-form-block.php:113
+#: template-parts/creditcard-form-block.php:120
+#: template-parts/creditcard-form-block.php:136
+#: template-parts/creditcard-form-block.php:172
+#: template-parts/creditcard-form-block.php:186
+#: template-parts/creditcard-form-block.php:195
+#: template-parts/creditcard-form-block.php:204
+#: template-parts/creditcard-form-block.php:212
+msgid "Invalid field."
+msgstr "Este campo é invalido."
+
+#: template-parts/credit-form-block.php:213
+#: template-parts/credit-form-block.php:214
+#: template-parts/creditcard-form-block.php:117
+#: template-parts/creditcard-form-block.php:118
+msgid "Private E-Mail"
+msgstr "E-mail pessoal"
+
+#: template-parts/credit-form-block.php:221
+#: template-parts/creditcard-form-block.php:217
+msgid "I accept the"
+msgstr "Aceito as"
+
+#: template-parts/credit-form-block.php:221
+#: template-parts/creditcard-form-block.php:217
+msgid "terms of use"
+msgstr "condições gerais"
+
+#: template-parts/credit-form-block.php:222
+#: template-parts/creditcard-form-block.php:218
+msgid "You must accept our terms of use."
+msgstr "Deve aceitar as nossas condições gerais."
+
+#: template-parts/credit-form-block.php:236
+#: template-parts/credit-form-block.php:239
+#: template-parts/credit-form-block.php:448
+msgid "Type of employment"
+msgstr "Tipo de emprego"
+
+#: template-parts/credit-form-block.php:240
+#: template-parts/credit-form-block.php:449
+msgid "Full time employee"
+msgstr "Salario-fixo"
+
+#: template-parts/credit-form-block.php:241
+#: template-parts/credit-form-block.php:450
+msgid "Part time employee"
+msgstr "Salario-horario"
+
+#: template-parts/credit-form-block.php:242
+#: template-parts/credit-form-block.php:451
+msgid "Temporary"
+msgstr "Temporario"
+
+#: template-parts/credit-form-block.php:243
+#: template-parts/credit-form-block.php:452
+msgid "Retired person/Disabled annuitant"
+msgstr "AVS/AI /Reforma ou invalidez"
+
+#: template-parts/credit-form-block.php:244
+#: template-parts/credit-form-block.php:453
+msgid "Self-employed/Sole proprietorship"
+msgstr "Independente"
+
+#: template-parts/credit-form-block.php:245
+#: template-parts/credit-form-block.php:454
+msgid "Employee in your own company"
+msgstr "Empregado na sua propria empresa (Sàrl, S.A. / GmbH, AG)"
+
+#: template-parts/credit-form-block.php:246
+#: template-parts/credit-form-block.php:455
+msgid "NGO official (UN, WHO,...)"
+msgstr "Funcionàrio ONG ( ONU, OMS,…)"
+
+#: template-parts/credit-form-block.php:247
+#: template-parts/credit-form-block.php:456
+msgid "International civil servant (mission, embassy, ...)"
+msgstr "Funcionàrio internacional ( missões, consulados,…)"
+
+#: template-parts/credit-form-block.php:248
+#: template-parts/credit-form-block.php:457
+msgid "Unemployed"
+msgstr "Desemprego"
+
+#: template-parts/credit-form-block.php:265
+msgid "Monthly net income/salary (CHF)"
+msgstr "Rendimento mensal liquido (CHF)"
+
+#: template-parts/credit-form-block.php:266
+#: template-parts/credit-form-block.php:322
+#: template-parts/credit-form-block.php:467
+#: template-parts/creditcard-form-block.php:210
+msgid "Amount in CHF"
+msgstr "Montante en CHF"
+
+#: template-parts/credit-form-block.php:269
+#: template-parts/credit-form-block.php:470
+msgid "Number of annual salary (frequency)"
+msgstr "Frequência/ numero de salarios por ano"
+
+#: template-parts/credit-form-block.php:303
+msgid "Housing"
+msgstr "Alojamento"
+
+#: template-parts/credit-form-block.php:306
+msgid "Tenant / Owner"
+msgstr "Locatario/ Proprietario"
+
+#: template-parts/credit-form-block.php:307
+msgid "Tenant"
+msgstr "Locatàrio"
+
+#: template-parts/credit-form-block.php:308
+msgid "Owner"
+msgstr "Proprietàrio"
+
+#: template-parts/credit-form-block.php:309
+msgid "At parent's home"
+msgstr "Vive com os pais"
+
+#: template-parts/credit-form-block.php:310
+msgid "Roommate"
+msgstr "Colocatário"
+
+#: template-parts/credit-form-block.php:311
+msgid "Paid by employer"
+msgstr "Pago pelo patrao"
+
+#: template-parts/credit-form-block.php:312
+msgid "Flatsharing"
+msgstr "Participação à renda"
+
+#: template-parts/credit-form-block.php:321
+#: template-parts/creditcard-form-block.php:209
+msgid "Monthly housing payment (CHF)"
+msgstr "Renda de casa incluindo encargos"
+
+#: template-parts/credit-form-block.php:346
+#: template-parts/creditcard-form-block.php:124
+#: template-parts/creditcard-form-block.php:129
+msgid "Prosecutions/bad debt (poursuites/Betreibungen)"
+msgstr "Processos judiciais ( Poursuites)"
+
+#: template-parts/credit-form-block.php:349
+msgid "Do you have any bad debt collections?"
+msgstr "Tem algum proceso judicial ( Poursuites) em curso ?"
+
+#: template-parts/credit-form-block.php:353
+msgid ""
+"I do not have pending prosecution or bad debt at the moment (Betreibungen/"
+"Poursuites)"
+msgstr ""
+"Nao tenho dividas (Poursuites/ Betreibungen) nem ordem de pagamento "
+"atualmente"
+
+#: template-parts/credit-form-block.php:354
+msgid ""
+"I do have pending prosecution or bad debts, with total or partial "
+"oppositions that I legally contest (Betreibungen/Poursuites)"
+msgstr ""
+"Tenho dividas (Poursuites./Betreibungen) Com oposição total ou parcial que "
+"contestei juridicamente"
+
+#: template-parts/credit-form-block.php:355
+msgid ""
+"I have prosecution or bad debts less than 5’000 CHF (Betreibungen/Poursuites)"
+msgstr "Tenho dividas (Poursuites/Betreibungen) Inferiores a 5’000 CHF"
+
+#: template-parts/credit-form-block.php:356
+msgid ""
+"I have prosecution or bad debts more than 5’000 CHF (Betreibungen/Poursuites)"
+msgstr ""
+"Tenho dividas (Poursuites/Betreibungen) e/ ou apreensão de salário "
+"superiores a 5’000 CHF"
+
+#: template-parts/credit-form-block.php:357
+msgid ""
+"I have a lot of prosecutions or bankruptcy or garnishment of my wages with "
+"the prosecution office (Verlustscheine oder Konkurs/ADB ou faillite)"
+msgstr ""
+"Tenho actos de inadimplência (Actes de défaut de bien/Verlustschein), "
+"falência ou apreensão de salário diretamente com o Serviço Tributário"
+
+#: template-parts/credit-form-block.php:358
+msgid ""
+"I have or had in the past, payment problems with a credit, leasing or credit "
+"card. I have a negative code at the ZEK / IKO credit center"
+msgstr ""
+"Tive ou tenho atualmente dividas ( P. / B.) relacionadas  com um crédito, um "
+"leasing ou cartão de crédito e/ou códigos negativos na ZEK/IKO"
+
+#: template-parts/credit-form-block.php:372
+#: template-parts/creditcard-form-block.php:157
+msgid "Nationality / Permit"
+msgstr "Nacionalidade / Autorização de estadia (permis)"
+
+#: template-parts/credit-form-block.php:375
+#: template-parts/creditcard-form-block.php:160
+msgid "Type"
+msgstr "Tipo"
+
+#: template-parts/credit-form-block.php:376
+#: template-parts/creditcard-form-block.php:161
+msgid "Swiss"
+msgstr "Suiça(o)"
+
+#: template-parts/credit-form-block.php:377
+#: template-parts/creditcard-form-block.php:162
+msgid "C Permit"
+msgstr "Permis C"
+
+#: template-parts/credit-form-block.php:378
+#: template-parts/creditcard-form-block.php:163
+msgid "B Permit"
+msgstr "Permis B"
+
+#: template-parts/credit-form-block.php:379
+#: template-parts/creditcard-form-block.php:164
+msgid "L Permit (more than 2 years)"
+msgstr "Permis L ( hà 2 anos ou mais)"
+
+#: template-parts/credit-form-block.php:380
+#: template-parts/creditcard-form-block.php:165
+msgid "L Permit (less than 2 years)"
+msgstr "Permis L ( hà menos de 2 anos)"
+
+#: template-parts/credit-form-block.php:381
+#: template-parts/creditcard-form-block.php:166
+msgid "G Permit (more than 3 years)"
+msgstr "Permis G ( hà 3 anos ou mais)"
+
+#: template-parts/credit-form-block.php:382
+#: template-parts/creditcard-form-block.php:167
+msgid "G Permit (less than 3 years)"
+msgstr "Permis G ( hà menos de 3 anos)"
+
+#: template-parts/credit-form-block.php:383
+msgid "Legitimation card"
+msgstr "Carta de legitimação"
+
+#: template-parts/credit-form-block.php:392
+msgid "Ongoing credit or leasing"
+msgstr "Crédito ou leasing"
+
+#: template-parts/credit-form-block.php:395
+#: template-parts/credit-form-block.php:408
+#: template-parts/creditcard-form-block.php:128
+#: template-parts/creditcard-form-block.php:182
+msgid "No"
+msgstr "Não"
+
+#: template-parts/credit-form-block.php:406
+#: template-parts/creditcard-form-block.php:180
+msgid "Yes/No"
+msgstr "Sim/Não"
+
+#: template-parts/credit-form-block.php:407
+#: template-parts/creditcard-form-block.php:181
+msgid "Yes"
+msgstr "Sim"
+
+#: template-parts/credit-form-block.php:416
+#: template-parts/creditcard-form-block.php:190
+msgid "Year of birth"
+msgstr "Ano de nascimento"
+
+#: template-parts/credit-form-block.php:417
+#: template-parts/creditcard-form-block.php:191
+msgid "Child 1"
+msgstr "Criança 1"
+
+#: template-parts/credit-form-block.php:418
+#: template-parts/creditcard-form-block.php:192
+msgid "Child 2"
+msgstr "Criança 2"
+
+#: template-parts/credit-form-block.php:419
+#: template-parts/creditcard-form-block.php:193
+msgid "Child 3"
+msgstr "Criança 3"
+
+#: template-parts/credit-form-block.php:426
+msgid "Marital status"
+msgstr "Estado civil"
+
+#: template-parts/credit-form-block.php:429
+msgid "Official marital status"
+msgstr "Estado civil oficial"
+
+#: template-parts/credit-form-block.php:430
+msgid "Single"
+msgstr "Solteiro"
+
+#: template-parts/credit-form-block.php:431
+msgid "Married"
+msgstr "Casado(a)"
+
+#: template-parts/credit-form-block.php:432
+msgid "Registered partnership "
+msgstr "União registada "
+
+#: template-parts/credit-form-block.php:433
+msgid "Divorced"
+msgstr "Divorciado(a)"
+
+#: template-parts/credit-form-block.php:434
+msgid "Separate"
+msgstr "Separado (a)"
+
+#: template-parts/credit-form-block.php:435
+msgid "Not registered partnership"
+msgstr "Coabitação/ união de facto"
+
+#: template-parts/credit-form-block.php:436
+msgid "Widow / Widower"
+msgstr "Viuvo(a)"
+
+#: template-parts/credit-form-block.php:445
+msgid "Type of job of your spouse"
+msgstr "Tipo de emprego do/a cônjuge"
+
+#: template-parts/credit-form-block.php:458
+msgid "Housewife / Man"
+msgstr "Dona de casa/Homem"
+
+#: template-parts/credit-form-block.php:466
+msgid "Your spouse's net salary/income (monthly CHF) if applicable"
+msgstr "Rendimentos liquidos (CHF) do/a cônjuge"
+
+#: template-parts/credit-form-block.php:481
+msgid "Note / Tell us about your project"
+msgstr "Observações / Descrição do seu projeto ( opcional)"
+
+#: template-parts/credit-form-block.php:482
+msgid ""
+"Your project is important to us, describe it here in a few words if you wish."
+msgstr ""
+"O seu projeto é importante para nós,descreva-o aqui em resumo se desejar."
+
+#: template-parts/credit-form-block.php:625
+msgid ""
+"You have not completed all fields, please complete all the mandatory fields "
+"above."
+msgstr ""
+"Não completou todos os campos, por favor preencha acima todos os campos "
+"obrigatórios."
+
+#: template-parts/credit-form-block.php:628
+msgid "Previous"
+msgstr "Precedente"
+
+#: template-parts/credit-form-block.php:629
+msgid "Next"
+msgstr "Seguinte"
+
+#: template-parts/credit-form-block.php:636
+msgid "Request sent successfully"
+msgstr "Pedido enviado com sucesso"
+
+#: template-parts/credit-form-block.php:640
+msgid "Technical problem"
+msgstr "Problema técnico"
+
+#: template-parts/credit-stats-block.php:4
+msgid "Customers trust us"
+msgstr "Clientes que nos fazem confiança"
+
+#: template-parts/credit-stats-block.php:7
+msgid "Credit applications each year"
+msgstr "Pedidos de crédito cada ano"
+
+#: template-parts/credit-stats-block.php:11
+msgid "Years of activity in Switzerland"
+msgstr "Anos de atividade na Suiça"
+
+#: template-parts/credit-stats-block.php:18
+msgid "of Swiss francs in loans since 1999"
+msgstr "de francos suíços em empréstimos desde 1999"
+
+#: template-parts/creditcard-form-block.php:75
+msgid ""
+"Need a higher limit? Whatever the situation, our solution will prevent you "
+"from running out of cash! Apply for your credit card online and receive a no-"
+"obligation proposal as soon as possible!"
+msgstr ""
+"Necessita um limite máximo mais elevado ? Independentemente da sua situaçao, "
+"a nossa solução permitir-lhe-á de não ficar sem dinheiro !"
+
+#: template-parts/creditcard-form-block.php:111
+msgid "XXX XXX XX XX"
+msgstr "XXX XXX XX XX"
+
+#: template-parts/creditcard-form-block.php:127
+msgid "Do you have any prosecutions or bad debt financial history?"
+msgstr "Tem processos judiciais ( Poursuites), antecedentes financeiros ?"
+
+#: template-parts/creditcard-form-block.php:130
+msgid ""
+"Negative code with a credit, leasing or credit card at ZEK/IKO (bad "
+"repayment)"
+msgstr "Códigos na Zek"
+
+#: template-parts/creditcard-form-block.php:131
+msgid "Wage withholding"
+msgstr "Penhoras de salário"
+
+#: template-parts/creditcard-form-block.php:132
+msgid "You are under guardianship/curtel"
+msgstr "Está sob tutela ou curadoria"
+
+#: template-parts/creditcard-form-block.php:168
+msgid "Legitimation Card"
+msgstr "Carta de legitimação"
+
+#: template-parts/creditcard-form-block.php:177
+msgid "Dependent children?"
+msgstr "Filhos a cargo ?"
+
+#: template-parts/creditcard-form-block.php:201
+msgid "Monthly  net salary (CHF)"
+msgstr "Rendimento mensal liquido"
+
+#: template-parts/creditcard-form-block.php:202
+msgid "Monthly salary"
+msgstr "Rendimento mensal"
+
+#: template-parts/creditcard-form-block.php:226
+msgid "Submit credit card request"
+msgstr "Submeter o seu pedido de cartão de crédito"
+
+#: template-parts/rachat-credit-calculator-component.php:10
+msgid "loan-buyout-form"
+msgstr "formulario-de-reaquisicao-de-emprestimo"
+
+#: template-parts/rachat-credit-calculator-component.php:34
+msgid "Your ongoing commitments"
+msgstr "Os seus compromissos em curso"
+
+#: template-parts/rachat-credit-calculator-component.php:40
+#: template-parts/rachat-credit-calculator-component.php:50
+#: template-parts/rachat-credit-calculator-component.php:60
+#: template-parts/rachat-credit-calculator-component.php:70
+msgid "Credit amount"
+msgstr "Montante do crédito"
+
+#: template-parts/rachat-credit-calculator-component.php:42
+#: template-parts/rachat-credit-calculator-component.php:52
+#: template-parts/rachat-credit-calculator-component.php:62
+#: template-parts/rachat-credit-calculator-component.php:72
+msgid "Credit Type"
+msgstr "Tipo de crédito"
+
+#: template-parts/rachat-credit-calculator-component.php:43
+#: template-parts/rachat-credit-calculator-component.php:53
+#: template-parts/rachat-credit-calculator-component.php:63
+#: template-parts/rachat-credit-calculator-component.php:73
+#: template-rachat-pret-formulaire.php:25
+#: template-rachat-pret-formulaire.php:29
+#: template-rachat-pret-formulaire.php:33
+#: template-rachat-pret-formulaire.php:37
+msgid "Credit refinancing"
+msgstr "Consolidação de créditos"
+
+#: template-parts/rachat-credit-calculator-component.php:44
+#: template-parts/rachat-credit-calculator-component.php:54
+#: template-parts/rachat-credit-calculator-component.php:64
+#: template-parts/rachat-credit-calculator-component.php:74
+#: template-rachat-pret-formulaire.php:26
+#: template-rachat-pret-formulaire.php:30
+#: template-rachat-pret-formulaire.php:34
+#: template-rachat-pret-formulaire.php:38
+msgid "Lease refinancing"
+msgstr "Recompra de leasing"
+
+#: template-parts/rachat-credit-calculator-component.php:45
+#: template-parts/rachat-credit-calculator-component.php:55
+#: template-parts/rachat-credit-calculator-component.php:65
+#: template-parts/rachat-credit-calculator-component.php:75
+#: template-rachat-pret-formulaire.php:27
+#: template-rachat-pret-formulaire.php:31
+#: template-rachat-pret-formulaire.php:35
+#: template-rachat-pret-formulaire.php:39
+msgid "Credit card balance refinancing"
+msgstr "Saldo do cartão de crédito"
+
+#: template-parts/rachat-credit-calculator-component.php:46
+#: template-parts/rachat-credit-calculator-component.php:56
+#: template-parts/rachat-credit-calculator-component.php:66
+#: template-parts/rachat-credit-calculator-component.php:76
+#: template-rachat-pret-formulaire.php:28
+#: template-rachat-pret-formulaire.php:32
+#: template-rachat-pret-formulaire.php:36
+#: template-rachat-pret-formulaire.php:40
+msgid "Others"
+msgstr "Outros"
+
+#: template-rachat-pret-formulaire.php:71
+msgid "Summary"
+msgstr "Resumo"
+
+#: template-rachat-pret-formulaire.php:79
+#: template-rachat-pret-formulaire.php:84
+#: template-rachat-pret-formulaire.php:89
+#: template-rachat-pret-formulaire.php:94
+msgid "Credit"
+msgstr "Crédito"
+
+#: template-rachat-pret-formulaire.php:100
+msgid "Form"
+msgstr "Formulário"
+
+#: vc_extends.php:26
+msgid "Title tag"
+msgstr ""
+
+#: vc_extends.php:34
+msgid "Title importance"
+msgstr ""
+
+#: vc_extends.php:40 vc_extends.php:136
+msgid "Title"
+msgstr ""
+
+#: vc_extends.php:42
+msgid "Add block title"
+msgstr ""
+
+#: vc_extends.php:48
+msgid "Subtitle"
+msgstr ""
+
+#: vc_extends.php:50
+msgid "Add block subtitle"
+msgstr ""
+
+#: vc_extends.php:55
+msgid "Align"
+msgstr ""
+
+#: vc_extends.php:64
+msgid "Title align"
+msgstr ""
+
+#: vc_extends.php:69
+msgid "Light/Dark Background"
+msgstr ""
+
+#: vc_extends.php:77
+msgid "Title color"
+msgstr ""
+
+#: vc_extends.php:128
+msgid "Image"
+msgstr ""
+
+#: vc_extends.php:130
+msgid "Add block image"
+msgstr ""
+
+#: vc_extends.php:138
+msgid "Add block Title"
+msgstr ""
+
+#: vc_extends.php:144
+msgid "Description"
+msgstr ""
+
+#: vc_extends.php:146
+msgid "Add block description"
+msgstr ""
+
+#: vc_extends.php:151
+msgid "Link"
+msgstr ""
+
+#: vc_extends.php:153
+msgid "Add block link"
+msgstr ""
+
+#~ msgid "Your current credits"
+#~ msgstr "Os seus créditos actuais"
+
+#~ msgid "Receiving above income since"
+#~ msgstr "No atual emprego desde"
+
+#~ msgid "Address since (living there)"
+#~ msgstr "Morada atual desde"
+
+#~ msgid "Your budget"
+#~ msgstr "O seu orçamento"
+
+#~ msgid "Review and submit"
+#~ msgstr "Controlo e envio"
+
+#~ msgid "Revenue and expense"
+#~ msgstr "Rendimentos e despesas"
+
+#~ msgid "Current job position"
+#~ msgstr "A sua profissão atual"
+
+#~ msgid "January"
+#~ msgstr "Janeiro"
+
+#~ msgid "February"
+#~ msgstr "Fevereiro"
+
+#~ msgid "March"
+#~ msgstr "Março"
+
+#~ msgid "April"
+#~ msgstr "Abril"
+
+#~ msgid "May"
+#~ msgstr "Maio"
+
+#~ msgid "June"
+#~ msgstr "Junho"
+
+#~ msgid "July"
+#~ msgstr "Julho"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Setembro"
+
+#~ msgid "October"
+#~ msgstr "Outubro"
+
+#~ msgid "November"
+#~ msgstr "Novembro"
+
+#~ msgid "December"
+#~ msgstr "Dezembro"
+
+#~ msgid "More than 10 years"
+#~ msgstr "Mais de 10 anos"
+
+#~ msgid "Rent and charges"
+#~ msgstr "Renda e despesas"
+
+#~ msgid "Do you have any credit or leasing ongoing?"
+#~ msgstr "Tem un crédito ou leasing em curso ?"
+
+#~ msgid "Yes, I would like to know my credit limit"
+#~ msgstr "Sim, desejo conhecer o meu limite de crédito"
+
+#~ msgid "Year of birth of children"
+#~ msgstr "Data de nascimento dos filhos"
+
+#~ msgid "Additional information / tell us about your project"
+#~ msgstr "Informações adicionais/ descreva-nos o seu projeto"
+
+#~ msgid "Cantons where we are active"
+#~ msgstr "Cantões onde estamos presentes"
+
+#~ msgid "Hourly employee"
+#~ msgstr "Salarié - horaire"
+
+#~ msgid "AVS/AI Rentner"
+#~ msgstr "AVS/AI"
+
+#~ msgid "Independent"
+#~ msgstr "Indépendant"
+
+#~ msgid "Profession"
+#~ msgstr "Votre profession actuelle"
+
+#~ msgid "Income since"
+#~ msgstr "Revenu depuis"
+
+#~ msgid "Renting monthly bill (CHF)"
+#~ msgstr "Loyer mensuel net (CHF)"
+
+#~ msgid "Concubinage"
+#~ msgstr "Concubinage"
+
+#~ msgid "Mai"
+#~ msgstr "Mai"
+
+#~ msgid "Your request in 5 minutes!"
+#~ msgstr "Votre demande en 5 minutes!"
+
+#~ msgid "Phone number"
+#~ msgstr "Numéro de téléphone"
+
+#~ msgid "Tel"
+#~ msgstr "Tel"
+
+#~ msgid "Mob"
+#~ msgstr "Mob"
+
+#~ msgid "eMail"
+#~ msgstr "eMail"
+
+#~ msgid ""
+#~ "Tel : 026 322 23 10<br />Mob : 079 936 31 43<br />Mail : info@multicredit."
+#~ "ch"
+#~ msgstr ""
+#~ "Tel : 026 322 23 10<br />Mob : 079 936 31 43<br />Mail : info@multicredit."
+#~ "ch"
+
+#~ msgid "50000"
+#~ msgstr "50000"
+
+#~ msgid "1500"
+#~ msgstr "1500"
+
+#~ msgid "21"
+#~ msgstr "21"
+
+#~ msgid "26"
+#~ msgstr "26"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Additional info"
+#~ msgstr "Informations additionnelles"

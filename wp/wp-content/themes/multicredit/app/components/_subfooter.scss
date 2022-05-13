@@ -1,0 +1,35 @@
+#GeneralWrapper{
+  .subfooter{
+    background-color: $bglight;
+
+    @media only screen and (max-width: $breakpoint-small){
+      text-align: center;
+    }
+
+	  ul {
+      list-style-type : none;
+
+		  li {
+        margin-bottom: 0.25em;
+        padding-left: initial;
+        text-indent: inherit;
+
+			  &::before  {
+          content : none;
+        }
+
+			  &.current-menu-item a {
+          color: $secondary;
+        }
+
+			  a {
+          color:$text-color;
+
+				  &:hover {
+            color: $secondary;
+          }
+			  }
+		  }
+	  }
+  }
+}

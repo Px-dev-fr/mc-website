@@ -1,0 +1,44 @@
+#GeneralWrapper{
+	/* Pie Chart */
+	.steps{
+		.vc_col-sm-3{
+			padding: 1em;
+
+			.vc_column-inner {
+				background: $white;
+				padding: 3em 2em 1em 2em;
+				@include box-shadow;
+				border-radius: $border-radius;
+			}
+
+			@media only screen and (max-width: $breakpoint-large){
+				width: 50%;
+			}
+
+			@media only screen and (max-width: $breakpoint-small){
+				width: 100%;
+			}
+		}
+	}
+
+	.vc_pie_chart .vc_pie_chart_value {
+		font-size: 6em;
+		color: $primary;
+		font-weight: 200;
+	}
+
+	.vc_pie_chart .vc_pie_chart_back {
+		border-color: $darker-grey !important;
+	}
+
+	.counter .vc_col-sm-3 {
+			@media only screen and (max-width: $breakpoint-large){
+				width: 50%;
+			}
+
+			@media only screen and (max-width: $breakpoint-small){
+				width: 100%;
+			}
+	}
+
+}

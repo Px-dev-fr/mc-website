@@ -1,0 +1,26 @@
+<wpml-config>
+    <shortcodes>
+        <shortcode>
+            <tag>mc_title</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>subtitle</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>mc_linkblock</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute>description</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>vc_btn</tag>
+            <attributes>
+                <attribute>title</attribute>
+                <attribute encoding="vc_link" type="link">link</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

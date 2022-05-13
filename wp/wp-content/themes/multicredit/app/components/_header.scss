@@ -1,0 +1,379 @@
+#GeneralWrapper{
+  header{
+    background: $white;
+    padding: 25px 50px;
+
+    [class*="col-"]{
+      position: relative;
+    }
+
+    @media only screen and (max-width: $breakpoint-medium){
+      padding: 1em;
+    }
+
+    .logo, nav{
+      display: inline-block;
+
+      @media only screen and (max-width: $breakpoint-medium){
+        display: block;
+      }
+    }
+
+    .logo{
+      img{
+        width: 300px;
+        height: auto;
+
+        @media only screen and (max-width: $breakpoint-medium){
+          width: 300px;
+        }
+
+        @media only screen and (max-width: $breakpoint-small){
+          width: 90%;
+          margin-top: 20px;
+        }
+
+      }
+    }
+
+    .btn{
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+
+	  .search {
+		  display: inline-block;
+      width: 22px;
+      height: 22px;
+	  }
+
+    .menu-nav-container{
+      width: 78%;
+
+      @media only screen and (max-width: $breakpoint-medium){
+        width: 100%;
+      }
+    }
+
+    .alt-navigation-bar{
+
+      .alt-nav-element{
+        display: inline-flex;
+        margin-left: 1em;
+
+        .btn{
+          z-index: 800;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          margin-left: 2em;
+        }
+
+        @media only screen and (max-width: $breakpoint-min){
+          margin-left: 10px;
+        }
+      }
+
+      .col-lg-3.logo{
+        @media only screen and (max-width: $breakpoint-medium){
+          max-width: 25%;
+          flex: 0 0 25%;
+        }
+      }
+
+      .col-lg-9.text-right{
+        @media only screen and (max-width: $breakpoint-medium){
+          max-width: 75%;
+          flex: 0 0 75%;
+        }
+      }
+
+      .col-lg-3.logo{
+        @media only screen and (max-width: $breakpoint-min){
+          flex: none;
+          max-width: 100%;
+          width: 80%;
+          text-align: center;
+          margin-top: 0px;
+        }
+      }
+
+      .col-lg-9.text-right{
+        @media only screen and (max-width: $breakpoint-min){
+          flex: none;
+            max-width: 100%;
+          width: 20%;
+          text-align: center;
+          margin-top: 0px;
+        }
+      }
+
+      /* Language choice */
+      .sub-menu{
+        li{
+          margin: auto;
+          text-align: center;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium) {
+          position: absolute;
+        }
+      }
+    }
+
+    #hamburger-trigger{
+      @media only screen and (max-width: $breakpoint-medium){
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+
+  .hero{
+    padding: 0;
+    @include gradientbackground;
+
+    @media only screen and (max-width: $breakpoint-medium){
+      padding: 1em 0;
+    }
+
+    .container{
+      height: 84%;
+      z-index: 2;
+      position: relative;
+
+      .col-lg-6 {
+        @media only screen and (max-width: $breakpoint-medium){
+          width: 60%;
+        }
+        @media only screen and (max-width: $breakpoint-small){
+          width: 70%;
+        }
+      }
+
+      .row{
+        height: 100%;
+        align-content: center;
+        .col-lg-6 {align-self: center;}
+      }
+
+      h1, h4{
+        color: $white;
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      h4{
+        font-size: 3.5em;
+        font-weight: $font-regular;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-transform: none;
+        letter-spacing: normal;
+
+        @media only screen and (max-width: $breakpoint-large){
+          font-size: 2.6em;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          font-size: 2.5em !important;
+        }
+
+        @media only screen and (max-width: $breakpoint-small){
+            font-size: 2em !important;
+        }
+
+        &::after{
+          display: block;
+          content: '';
+          width: 1.5em;
+          height: 4px;
+          margin-top: 25px;
+          margin-bottom: 25px;
+          background-color: $secondary;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          font-size: 3em;
+        }
+      }
+
+      h1{
+        font-size: 1.2em;
+        font-weight: $font-semibold;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 1em 0 0 0;
+
+        &:after{
+          display: none;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          font-size: 1em;
+          letter-spacing: 3px;
+        }
+      }
+
+      p{
+        color: $white;
+      }
+    }
+
+    &.background-hero{
+      height: 660px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+
+      @media only screen and (max-width: $breakpoint-full){
+        height: 550px;
+      }
+
+      @media only screen and (max-width: $breakpoint-max){
+        height: 550px;
+      }
+
+      @media only screen and (max-width: $breakpoint-large){
+        height: 450px;
+      }
+
+      @media only screen and (max-width: $breakpoint-medium){
+        height: 450px;
+      }
+
+      @media only screen and (max-width: $breakpoint-small){
+      }
+
+      @media only screen and (max-width: $breakpoint-min){
+      }
+
+      .container{
+        z-index: 100;
+      }
+
+      .hero-check-image,
+      .hero-banner-image{
+        width: auto;
+        height: 840px;
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        opacity: 0;
+        transform: translateY(-20px);
+
+
+        @media only screen and (max-width: $breakpoint-full){
+          height: 710px;
+        }
+
+        @media only screen and (max-width: $breakpoint-max){
+          left: 40%;
+        }
+
+        @media only screen and (max-width: $breakpoint-large){
+          height:590px;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+            height:570px;
+            left: 35%;
+        }
+
+        @media only screen and (max-width: $breakpoint-small){
+          height:500px;
+          left: 40%;
+        }
+
+        @media only screen and (max-width: $breakpoint-min){
+          left: 25%;
+        }
+
+        @media only screen and (max-width: 500px){
+          left: 5%;
+        }
+
+      }
+    }
+  }
+
+  .single-hero{
+    height: auto !important;
+    padding: 6em 0;
+    margin-bottom: 4em;
+
+    .container{
+      h1{
+        font-size: 3.5em;
+        font-weight: $font-regular;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-transform: none;
+        letter-spacing: normal;
+
+        @media only screen and (max-width: $breakpoint-large){
+          font-size: 2.6em;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          font-size: 2.4em !important;
+        }
+
+        @media only screen and (max-width: $breakpoint-small){
+            font-size: 2em !important;
+        }
+
+        &::after{
+          display: block;
+          content: '';
+          width: 1.5em;
+          height: 4px;
+          margin-top: 25px;
+          margin-bottom: 25px;
+          background-color: $secondary;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          font-size: 3em;
+        }
+      }
+
+      h4{
+        font-size: 1.2em;
+        font-weight: $font-semibold;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 1em 0 0 0;
+
+        &:after{
+          display: none;
+        }
+
+        @media only screen and (max-width: $breakpoint-medium){
+          font-size: 1em;
+          letter-spacing: 3px;
+        }
+
+
+      }
+    }
+
+    .single-background-image{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.1;
+    }
+
+    .single-header-overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,73,150,0);
+    }
+  }
+}

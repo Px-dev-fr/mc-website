@@ -1,0 +1,160 @@
+#GeneralWrapper{
+  /* General button */
+  .btn, .vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-grey{
+    font-size: $btn-font-size;
+    background-color: $secondary;
+    background-image: none;
+    color: $white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: $border-radius;
+    transition: all .3s ease;
+
+    @media only screen and (max-width: $breakpoint-large){
+      font-size: $btn-font-size-mobile;
+    }
+
+    &:hover{
+        &:after{
+          margin-left: 1.5em;
+        }
+    }
+
+    &:after{
+      content:"\2192 ";
+      float:right;
+      margin-left: 1em;
+      transition: all .3s ease;
+    }
+
+    /* Previous button */
+    &#prevBtn{
+
+      &:after{
+        display: none;
+      }
+
+
+      &:before{
+        content:"\2190 ";
+        float: left;
+        margin-right: 1em;
+        transition: all .3s ease;
+      }
+
+      &:hover{
+          &:before{
+            margin-right: 1.5em;
+          }
+      }
+    }
+  }
+
+  /* Circle button */
+  .btn-circle {
+    color:  $secondary;
+    transition: all .5s ease;
+
+    .round{
+      margin-left: auto;
+    	margin-right: auto;
+    	display: inline-block;
+    	height: 50px;
+    	width: 50px;
+    	border: 2px solid $secondary;
+    	border-radius: $border-radius-full;
+    	text-align: center;
+    	line-height: 42px;
+      font-size: 24px;
+      transform: rotate(0);
+      transition: all .5s ease;
+    }
+
+  	&:hover {
+      color: $white;
+
+      .round{
+        border-color:$white;
+        transform: rotate(360deg) scale(1.05);
+      }
+
+      .circle-btn-text{
+        margin-right: 1em;
+        opacity: 1;
+      }
+    }
+
+    .circle-btn-text{
+      font-size: $font-size;
+      margin-right: -10em;
+      transition: all .5s ease;
+      opacity: 0;
+    }
+  }
+
+  .btn-circle-2 {
+    color:  $secondary;
+    transition: all .5s ease;
+
+    .round{
+      margin-left: auto;
+    	margin-right: auto;
+    	display: inline-block;
+    	height: 50px;
+    	width: 50px;
+    	border: 2px solid $secondary;
+    	border-radius: $border-radius-full;
+    	text-align: center;
+    	line-height: 42px;
+      font-size: 24px;
+      transform: rotate(0);
+      transition: all .5s ease;
+    }
+
+  	&:hover {
+      .round{
+        transform: rotate(360deg) scale(1.05);
+      }
+    }
+  }
+
+  /* VC Buttons */
+	.vc_btn3-style-flat {
+		cursor: pointer;
+		background:$secondary;
+		color:$white;
+		&:hover {background:$primary;}
+	}
+
+  .cookie-btn.cn-button.bootstrap {
+  color: $primary;
+  background: $white;
+  }
+
+  @keyframes pulse
+{
+     0% {
+          transform: scale(1);
+     }
+     50% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0px rgba(233, 0, 60, 0.3);
+     }
+     65% {
+          transform: scale(1.1);
+          box-shadow: 0 0 0 36px rgba(233, 0, 60, 0);
+     }
+     75% {
+          transform: scale(1);
+     }
+     100% {
+          transform: scale(1);
+     }
+}
+
+
+  .demande-credit-component input[type="submit"].btn {
+    animation: pulse 3s infinite;
+  }
+
+}

@@ -1,0 +1,155 @@
+#GeneralWrapper{
+  .demande-credit-component{
+    position: relative;
+    background: white;
+    border-radius: $border-radius;
+    padding: 2em;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: -6em;
+    margin-bottom: 1.5em;
+    @include box-shadow;
+
+    .container {
+      @media only screen and (max-width: $breakpoint-medium){
+        width: 100%;
+        max-width: inherit;
+      }
+    }
+
+    .no-resizing-cols{
+      text-align: right;
+
+      @media only screen and (max-width: $breakpoint-medium){
+        max-width: 33%;
+        flex: 0 0 33%;
+      }
+    }
+
+    &.fullsize{
+      max-width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      input[type="submit"]{
+        //display: none;
+      }
+    }
+
+    @media only screen and (max-width: $breakpoint-max){
+      width: 100%;
+      margin-top: 0;
+      padding: 1em;
+    }
+
+    input{
+      background: $light-grey;
+      width: 100%;
+    }
+
+    h4{
+      color: $primary;
+      font-size: 1.8em;
+      font-weight: $font-bold;
+      letter-spacing: 0;
+      margin: 0;
+
+      @media only screen and (max-width: $breakpoint-medium){
+      }
+
+      @media only screen and (max-width: $breakpoint-min){
+      }
+    }
+
+    p{
+      font-size: 1.2em;
+      color: $text-color;
+
+      &.small{
+        font-size: 1.2em;
+
+      }
+      &.f-height {
+          @media only screen and (max-width: $breakpoint-medium){
+          }
+          @media only screen and (max-width: $breakpoint-min){
+          }
+        }
+    }
+
+    .legend-bloc {
+      @media only screen and (max-width: $breakpoint-medium){
+        margin-top: 24px;
+      }
+    }
+
+    li{
+      &.small{
+        font-size: 0.9em;
+      }
+    }
+
+    .separator{
+      width: 100%;
+      height: 1px;
+      margin: 1.5em 0;
+      background: $light-grey;
+    }
+
+    .text-right{
+      @media only screen and (max-width: $breakpoint-medium){
+        text-align: center !important;
+      }
+    }
+
+    ul.inline-checklist{
+      li{
+        font-size: 0.9em;
+        margin-left: 2em;
+
+        @media only screen and (max-width: $breakpoint-small){
+          font-size: 0.6em;
+        }
+
+        @media only screen and (max-width: $breakpoint-small){
+          margin-left: 10px;
+        }
+
+        &:first-child{
+          margin-left: 0;
+        }
+
+        &:hover{
+          &:before{
+            margin-left: 0;
+          }
+        }
+
+        &:before{
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+
+    @media only screen and (max-width: $breakpoint-small){
+      .norightpadding {padding-right: 0;}
+      .nopadding {padding-right: 0; padding-left: 0;}
+      .noleftpadding {padding-left: 0;}
+    }
+
+    &.fullsize {
+    display: none;
+      &.visible {display: block;}
+    }
+
+    &.buyout-calculator{
+     select{
+       background-color: #f0f0f0;
+       font-size: 20px;
+       padding: 10px 0.8em;
+     }
+   }
+   
+  }
+}

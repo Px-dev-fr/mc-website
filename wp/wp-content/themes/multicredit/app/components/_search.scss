@@ -1,0 +1,19 @@
+
+  #GeneralWrapper{
+    .searchform-bar {
+    #searchform {
+        label {display: none;}
+        #s {
+          background-color: $light-text-color;
+          color:$white;
+          border-radius: $border-radius;
+          padding: 1em 2em;
+        }
+        input{ display: inline-block; width: 49%;}
+
+      }
+      h3 a {color:$text-color;
+        &:hover {color:$secondary;}
+      }
+    }
+  }
