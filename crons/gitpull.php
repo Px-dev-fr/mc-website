@@ -1,3 +1,3 @@
 <?php
-$output = exec("git push");
+$output = exec("git pull");
 echo $output;
