@@ -8990,6 +8990,128 @@ a.text-dark:hover, a.text-dark:focus {
 #GeneralWrapper .pewl p{
   margin-bottom: 0px;
 }
+#GeneralWrapper .demande-credit-component .mensualiteUnique{
+  /*border-style: dashed;
+  border-color: black;
+  border-width: 2px;*/
+
+  /*background-color: #0033A0;*/
+  background: linear-gradient(to right, #0033a0 0%, #034ce0 100%);
+  color:white;
+  position: relative;
+
+  min-width: 200px;
+  width: 30%;
+
+  min-height: 250px;
+
+  margin-left: 30px;
+  margin-top: 5px;
+
+  border-radius: 60px;
+  z-index: 1;
+}
+#GeneralWrapper .demande-credit-component .mensualiteUnique .tauxInteretSimul{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+#GeneralWrapper .demande-credit-component .mensualiteUnique .infoSimulRes{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+
+#GeneralWrapper .demande-credit-component .mensualiteUnique:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+@keyframes ta {
+  0% {
+    transform: scale(1); }
+  50% {
+    /*transform: scale(1.1);*/
+    /*box-shadow: 0 0 0 0px #0446cb;*/
+  }
+  65% {
+    transform: scale(1.1);
+    /*box-shadow: 0 0 0 36px #034ce0;*/
+  }
+  75% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); }
+}
+
+
+
+#GeneralWrapper .demande-credit-component .mensualiteUnique:hover #tableauAmortissement{
+  animation: ta 1500ms infinite;
+}
+#GeneralWrapper .demande-credit-component .mensualiteUnique li{
+  font-size: 1em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#GeneralWrapper .demande-credit-component .mensualiteUnique #tableauAmortissement{
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  /*box-shadow: 60px -16px teal;*/
+  color: white;
+  width: 50%;
+
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+  font-size: 1.3vh;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+
+#GeneralWrapper .demande-credit-component .mensualiteUnique #tableauAmortissement input[type="submit"]{
+  background-color: transparent !important;
+  font-size: 1.3vh;
+  display: block;
+  text-align: center;
+  white-space: normal;
+  padding: 0;
+  margin: 0;
+
+}
+#GeneralWrapper .demande-credit-component .mensualiteUnique #tableauAmortissement input[type="submit"]:hover{
+  background-color: transparent;
+  padding: 0px;
+  border: initial;
+  font: inherit;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  #GeneralWrapper .demande-credit-component .mensualiteUnique {
+    width: 80%;
+  }
+}
+#GeneralWrapper .demande-credit-component .mensualiteUnique h4{
+  font-size: 0.8em;
+  color: white;
+}
+
+#GeneralWrapper .demande-credit-component .mensuelSimul{
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
+
+#GeneralWrapper .demande-credit-component .mensuelSimul h4{
+  font-size: 1.2em;
+  margin-left:10px;
+}
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers

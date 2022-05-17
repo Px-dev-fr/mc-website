@@ -269,16 +269,29 @@ jQuery(document).ready(function() {
 	var duree = '';
 
 	function recalc(){
-		 montant = $('#montant').val();
-		 duree = $('#duree').val();
 
-		var montant49 = getMens(montant, duree, '4.5');
+		montant = $('#montant').val();
+		duree = $('#duree').val();
+		console.log(montant);
+		console.log(duree)
+		var montant49 = getMens(montant, duree, '4.9');
 		$('#mensualite49').html(nombre(montant49));
+		$('#duree49').val(duree);
+		$('#montant49').val(montant);
+
+		var montant79 = getMens(montant, duree, '7.9');
+		$('#mensualite79').html(nombre(montant79));
+		$('#duree79').val(duree);
+		$('#montant79').val(montant);
+
+		var montant99 = getMens(montant, duree, '9.9');
+		//console.log("montant99: "+montant99);
+		$('#mensualite99').html(nombre(montant99));
+		$('#duree99').val(duree);
+		$('#montant99').val(montant);
+
 
 		/*
-		var montant99 = getMens(montant, duree, '9.9');
-		$('#mensualite99').html(nombre(montant99));
-
 		var montant6 = getMens(montant, duree, '6');
 		$('#mensualite6').html(nombre(montant6));
 
@@ -296,6 +309,9 @@ jQuery(document).ready(function() {
 
 		var total6 = (1 * montant) + (1* interet6);
 		$('#total6').html(nombre(total6));
+
+		var montant99 = getMens(montant, duree, '9.9');
+		$('#mensualite99').html(nombre(montant99));
 
 		var total99 = (1 * montant) + (1* interet99);
 		$('#total99').html(nombre(total99));
@@ -331,6 +347,7 @@ jQuery(document).ready(function() {
 	//recalcRachat();
 
 	jQuery(montant).change(function(){
+		console.log("fndsjhf");
 		recalc();
 	});
 
