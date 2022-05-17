@@ -58,9 +58,8 @@ use Dompdf\Dompdf;
         switch (get_locale()){
             case 'fr_FR':
                 $langPrev = '_fr';
-
                 $col1Text = 'Rang';
-                $col2Text = 'Annuité';
+                $col2Text = 'Mensualité';
                 $col3Text = 'Intérêts';
                 $col4Text = 'Amortissement';
                 $col5Text = 'Solde';
@@ -69,6 +68,22 @@ use Dompdf\Dompdf;
                 $dureeNom = 'Durée:';
                 $tauxNom = 'Taux:';
                 $moisNom = ' Mois';
+
+                $payeAnticipation ='Payez par anticipation! En cas de remboursement anticipé, vous aurez droit à la remise des intérêts et à une réduction adaptée des coûts liées à la durée du crédit non utilisé.';
+
+                $c1="Depuis 1999 à votre service";
+                $c2="Couverture assurance décès";
+                $c3="Intérêt déductible des impôts";
+                $c4="Rachat et regroupement";
+                $slogan="Le spécialiste du crédit en Suisse";
+                $bslogan="Une question? Un besoin? Nous restons votre interlocuteur de confiance!";
+
+                $h1 = "Crédit privé";
+                $h2 = "Rachat de Crédit";
+                $h3 = "Carte de crédit";
+                $adresse = "Rue de la banque 4 - case postale 77 - 1700 Fribourg";
+
+
                 break;
             case 'de_DE':
                 $langPrev = '_de';
@@ -82,6 +97,7 @@ use Dompdf\Dompdf;
                 $dureeNom = 'Dauer:';
                 $tauxNom = 'Zinssatz:';
                 $moisNom = ' Monaten';
+                $payeAnticipation ='Zahlen Sie im Voraus! Bei vorzeitiger Rückzahlung haben Sie Anspruch auf den Erlass der Zinsen und eine angemessene Reduzierung der Kosten für die Dauer des nicht genutzten Kredits.';
                 break;
             case 'it_IT':
                 $langPrev = '_it';
@@ -95,6 +111,7 @@ use Dompdf\Dompdf;
                 $dureeNom = 'Durata:';
                 $tauxNom = 'Tasso:';
                 $moisNom = ' Mesi';
+                $payeAnticipation = 'Paga in anticipo! In caso di rimborso anticipato, avrete diritto a un rimborso degli interessi e a una riduzione adeguata dei costi relativi alla durata del credito non utilizzato';
                 break;
             default:
                 //$langTmp == 'en_EN'
@@ -109,21 +126,32 @@ use Dompdf\Dompdf;
                 $dureeNom = 'Duration:';
                 $tauxNom = 'Rate:';
                 $moisNom = ' Months';
+                $payeAnticipation = 'Pay it forward! In case of early repayment, you will be entitled to interest rebate and an adapted reduction of the costs related to the duration of the unused credit.';
                 break;
         }
 
         $test = "https://www.multicredit.ch/wp/wp-content/uploads/multicredit-logo".$langPrev.".svg'";
-        $pdf_html = "";
-        $pdf_html .= "<table style='width: 100%; table-layout: fixed;' cellspacing='0'>";
+        $pdf_html = "<body>
+                        <header>
+                        <a href='https://www.multicredit.ch' target='_blank'><img src='https://www.multicredit.ch/wp/wp-content/uploads/multicredit-logo".$langPrev.".svg' width='150px' alt='' /></a><br>
+                        <img src=https://www.multicredit.ch/wp/wp-content/uploads/mc-banner-check.png' height='10px' alt='' /><span style='color: #004996 ; font-weight: bold;font-size: 0.5em '>$h1</span><br>
+                        <img src=https://www.multicredit.ch/wp/wp-content/uploads/mc-banner-check.png' height='10px' alt='' /><span style='color: #004996 ; font-weight: bold;font-size: 0.5em '>$h2</span><br>
+                        <img src=https://www.multicredit.ch/wp/wp-content/uploads/mc-banner-check.png' height='10px' alt='' /><span style='color: #004996 ; font-weight: bold;font-size: 0.5em '>$h3</span><br>
+                        </header>
+                        <footer>
+                            <span>$adresse</span>
+                            <div style='background-color: #df003c; color: white; border-radius: 20px;position: absolute; right: -50px;'><a href='http://www.multicredit.ch'>multicredit.ch</a></div>
+                        </footer>";
+        $pdf_html .= "<table style='width: 100%; table-layout: fixed;'  cellspacing='0'>";
         $pdf_html .= "<tr>";
         $pdf_html .= "<th colspan='5' style='text-align: left; border-bottom: 1px solid #000; padding: 0 0 20px;'>";
         //$pdf_html .= "<img style='max-width: 100%; display: inline-block;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_header" . $langPrev . ".jpg' alt='' /></th>";
-        $pdf_html .= "<img style='max-width: 100%; display: inline-block;' src='https://www.multicredit.ch/wp/wp-content/uploads/multicredit-logo".$langPrev.".svg' alt='' /></th>";
+        //$pdf_html .= "<a href='https://www.multicredit.ch' target='_blank'><img style='max-width: 100%; display: inline-block;' src='https://www.multicredit.ch/wp/wp-content/uploads/multicredit-logo".$langPrev.".svg' alt='' /></a></th>";
         $pdf_html .= "</tr>";
         $pdf_html .= "<tr>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #F26200; font-weight: 700;' colspan='2'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$montantNom."</h5> " . $montant . " CHF</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #F26200; font-weight: 700;' colspan='2'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$dureeNom."</h5> " . $duree . $moisNom."</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #F26200; font-weight: 700;'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$tauxNom."</h5> " . $taux . "%</td>";
+        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #df003c; font-weight: 700;' colspan='2'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$montantNom."</h5> " . $montant . " CHF</td>";
+        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #df003c; font-weight: 700;' colspan='2'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$dureeNom."</h5> " . $duree . $moisNom."</td>";
+        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #df003c; font-weight: 700;'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$tauxNom."</h5> " . $taux . "%</td>";
         $pdf_html .= "</tr>";
         $pdf_html .= "<tr>";
         $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col1Text. "</td>";
@@ -151,14 +179,49 @@ use Dompdf\Dompdf;
             $pdf_html .= '</tr>';
         }
         $pdf_html .= "<tr>";
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.$total.'</td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.$sommeAnnuite.'</td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.$sommeInterets.'</td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.$sommeAmortissement.'</td>';
+        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$total.'</strong></td>';
+        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$sommeAnnuite.'</strong></td>';
+        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$sommeInterets.'</strong></td>';
+        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$sommeAmortissement.'</strong></td>';
         $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000"></td>';
 
         $pdf_html .= "</tr>";
         $pdf_html .= "</table>";
+        $pdf_html .="<p>".$payeAnticipation."</p>";
+        /*$pdf_html .="
+            <div style='position: absolute; bottom: -25px; left: 0px; right: 0px; height: 90px;width: 100%;text-align: center'>
+                <span style='width: 100%; text-align:center;color: blue' >$bslogan</span>
+                <div style='width: 100%;white-space: nowrap;align-content: space-between;text-align: center;margin-top: 10px;'>
+                    <div style='width: 25%;display: inline-block;white-space: normal;font-size: 0.8em'>$c1</div>
+                    <div style='width: 25%;display: inline-block;white-space: normal;font-size: 0.8em'>$c2</div>
+                    <div style='width: 25%;display: inline-block;white-space: normal;font-size: 0.8em'>$c3</div>
+                    <div style='width: 25%;display: inline-block;white-space: normal;font-size: 0.8em'>$c4</div>
+                </div>
+            </div>
+        
+        
+        
+        ";*/
+        $pdf_html.="</body>";
+        $pdf_html.="<style>
+                    @page  {
+                        margin: 100px;
+                    }
+                    header{
+                        position: fixed;
+                        left: 0cm;
+                        top: -90px;
+                        right: 0cm;
+                    }
+                    footer {
+                        position: fixed;
+                        width: 100%; 
+                        bottom: -50px; 
+                        left: 0cm; 
+                        right: 0cm;
+                    }
+                   </style>
+                    ";
         //$pdf_html .= "<img style='max-width: 100%;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_footer" . $langPrev . ".jpg' alt='' />";
 
         $dompdf = new Dompdf();
