@@ -9063,6 +9063,7 @@ a.text-dark:hover, a.text-dark:focus {
   /*box-shadow: 60px -16px teal;*/
   color: white;
   width: 50%;
+  height: 15%;
 
   position: absolute;
   bottom: 10px;
@@ -9071,6 +9072,10 @@ a.text-dark:hover, a.text-dark:focus {
 
   text-align: center;
   cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center
 }
 
 
