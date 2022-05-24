@@ -120,7 +120,7 @@ class Cache
                 }
             } // Not remote, local image
             else {
-                $resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
+                /*$resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
 
                 if ($protocol == "" || $protocol === "file://") {
                     $realfile = realpath($resolved_url);
@@ -145,7 +145,7 @@ class Cache
                         throw new ImageException("File '$realfile' not found.", E_WARNING);
                     }
         
-                    $resolved_url = $realfile;
+                    $resolved_url = $realfile;*/
                 }
             }
 
