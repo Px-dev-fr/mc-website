@@ -133,11 +133,11 @@ use Dompdf\Dompdf;
         $path = "/wp-content/themes/multicredit/images";
         $pdf_html = "<body>
                         <header>
-                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img src='http://www.multicredit.ch/wp/wp-content/uploads/Logo-Multicredit-et-slogans_fr.png' width='118' height='109' alt='' /></a>
+                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img src='https://prestaflex.ch/wp-content/uploads/2022/05/Logo-Multicredit-et-slogans_fr.png' width='118' height='109' alt='' /></a>
                         </header>
                         <footer>
-                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  150px; left 20px'><img src='http://www.multicredit.ch/wp/wp-content/uploads/Multicredit-Pastille-DEPUIS-et-adresse_fr.png' width='200' height='120' alt='' /></a>
-                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  80px; right:  20px'><img src='http://www.multicredit.ch/wp/wp-content/uploads/Site-Web-Multicredit-et-fleche.png' width='100' height='30' alt='' /></a><br>
+                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  150px; left 20px'><img src='https://prestaflex.ch/wp-content/uploads/2022/05/Multicredit-Pastille-DEPUIS-et-adresse_fr.png' width='200' height='120' alt='' /></a>
+                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  80px; right:  20px'><img src='https://prestaflex.ch/wp-content/uploads/2022/05/Site-Web-Multicredit-et-fleche.png' width='100' height='30' alt='' /></a><br>
                         </footer>";
         $pdf_html .= "<div style='width:100%; text-align:center'>$ta</div>";
         $pdf_html .= "<table style='width: 100%; table-layout: fixed;'  cellspacing='0'>";
