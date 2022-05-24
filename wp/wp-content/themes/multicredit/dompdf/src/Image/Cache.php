@@ -173,6 +173,7 @@ class Cache
             $resolved_url = self::$broken_image;
             $type = "png";
             $message = self::$error_message;
+            $message .= $url;
             Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
             self::$_cache[$full_url] = $resolved_url;
         }
