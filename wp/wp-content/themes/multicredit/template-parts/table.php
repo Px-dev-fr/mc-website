@@ -220,7 +220,7 @@ use Dompdf\Dompdf;
                    </style>
                     ";
         //$pdf_html .= "<img style='max-width: 100%;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_footer" . $langPrev . ".jpg' alt='' />";
-        echo $pdf_html;
+        echo "<script>console.log(".$pdf_html.")</script>";
         $dompdf = new Dompdf();
         $dompdf->loadHtml($pdf_html);
         $dompdf->set_option('isRemoteEnabled', TRUE);
