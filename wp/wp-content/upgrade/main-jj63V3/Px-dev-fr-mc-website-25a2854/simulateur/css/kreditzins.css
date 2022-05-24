@@ -1,0 +1,109 @@
+div.simulateur {font-size:16px;}
+
+div.simulateur div.presentation{
+	line-height:1.5em;
+	text-align:center;
+	margin:10px;
+	}
+
+div.simulateur div.block-slider span, div.simulateur div.block_info span{
+	background:none;
+	color:black;
+	font-weight:normal;
+	font-size:18px!important;
+	}
+	
+	
+div.simulateur div.dragger{
+	background:#00A4CE;
+	background:-webkit-radial-gradient(center, #00A4CE, #005AC0)!important;
+	background:-moz-radial-gradient(center, #00A4CE, #005AC0)!important;
+	background:-o-radial-gradient(center, #00A4CE, #005AC0)!important;
+	background:-ms-radial-gradient(center, #00A4CE, #005AC0)!important;
+	background:radial-gradient(center, #00A4CE, #005AC0)!important;
+	}
+	
+div.simulateur #credit_simulator  input[type=submit]
+	{
+	border-radius:5px;
+	font-weight:normal;
+	width:90%;
+	margin-top:10px;
+	float: left;
+	margin-left: 5%;	
+	}
+	
+div.simulateur div.dragger{box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.8)!important;}
+	
+div.simulateur div.slider{
+	margin: 5px 10px!important;
+	}
+	
+div.simulateur div.textinfos{font-weight:bold;}
+	
+div.simulateur div.block_info span
+	{
+	float:left;
+	width:69%;
+	text-align:left;
+	padding:0px;
+	font-size:16px!important;
+	}
+	
+div.simulateur div.block_info{
+	margin-top:10px!important;
+	float:left;
+	width:100%;
+	}
+	
+div.simulateur div.block_info input[type=text]{
+	float:left;
+	width:30%!important;
+	font-size:16px!important;
+	font-weight:normal!important;
+	margin: 0px;
+	line-height: 30px;
+	}
+	
+/*HYPOTHEQUES*/
+div.hypo div.presentation{
+	display:none;
+	}
+	
+div.hypo  span{display:none;}
+
+div.hypo div.titre{
+	font-size:18px;
+	text-align:center;
+	margin-top:5px;
+	}
+	
+div.hypo div.value{
+	width: 80%;
+	margin-left: 10%;
+	}
+
+div.hypo hr{display:none;}
+	
+div.hypo div.resume{
+	overflow:auto;width:100%;
+	margin-top:20px;
+	}
+	
+div.hypo div.resume div.titre{
+	float:left;
+	width:65%;
+	text-align:left;
+	height:30px;
+	margin-top:5px;
+	}
+	
+div.hypo div.resume div.value{
+	float:left;
+	width:30%;
+	margin-left:0%;
+	height:30px;
+	font-size:18px;
+	text-align:center;
+	margin-top:5px;
+	}

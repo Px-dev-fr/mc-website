@@ -1,0 +1,20 @@
+#credit_simulator div.presentation{display:none;}
+
+.block #credit_simulator span{
+	background:none;
+	color:black;
+	font-size:1.1em;
+	padding-left:0px;
+	padding-right:0px;
+	text-align:center;
+	}
+	
+#credit_simulator div.block-slider{
+	width:85%;
+	margin:auto;
+	}
+	
+#credit_simulator input[type=submit]
+	{
+	font-size:1em;
+	}

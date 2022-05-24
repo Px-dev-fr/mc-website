@@ -1,0 +1,74 @@
+#credit_simulator{width:100%;position:relative;padding:20px;padding-bottom:60px;box-sizing:border-box;}
+#credit_simulator input[type=text]{text-align:right;}
+#credit_simulator, #credit_simulator input{color:#444;font-family:inherit;font-size:20px;font-family:Multicredit, Helvetica, sans-serif;}
+#credit_simulator div.presentation{height:50px;font-size:25px;text-align:center;}
+#credit_simulator div.block-slider{height:80px;position:relative;margin:0;}
+#credit_simulator input[type=submit], #credit_simulator div.block-slider, #credit_simulator div.block_info{width:45%;max-width:600px;}
+#credit_simulator div.block-slider > .slider{margin-top:10px;}
+#credit_simulator div.dragger{background:#49bb59;border-radius:1px;height: 20px;width:40px;margin-top: -12px!important;}
+#credit_simulator div.track{background:#aaa;}
+#credit_simulator div.textinfos{position:absolute;top:0;right:30px;text-align:right!important;}
+#credit_simulator div.block_info{position:absolute;right:0;top:70px;width:45%;}
+#credit_simulator div.block_info:last-of-type{top:150px;}
+#credit_simulator div.block_info input{position:absolute;top:0;right:20px;text-align:right!important;}
+#credit_simulator input[type=submit]{background:#49bb59;text-align:center;border:none;float:right;border-radius:0px;font-size:22px;height:40px;line-height:40px;margin:0;color:white;padding-bottom:5px;box-sizing:content-box;}
+#credit_simulator div.block-slider > .slider .dragger:hover, #credit_simulator input[type=submit]:hover{box-shadow:1px 1px 2px 1px #333;background:#49bb59;}
+
+#credit_simulator.hypotheque{padding-top:0;padding-bottom:30px;}
+#credit_simulator.hypotheque .presentation{display:none;}
+#credit_simulator.hypotheque .colonne{width:45%;hmax-width:600px;position:relative;height:80px;}
+#credit_simulator.hypotheque .colonne > div{}
+#credit_simulator.hypotheque .colonne .value  > span{position:absolute;right:20px;top:0;}
+#credit_simulator div.slider {margin-top:10px;}
+#credit_simulator.hypotheque .colonne.resume{position:absolute;top:0;right:0;width:45%;}
+
+#credit_simulator.hypotheque .colonne.resume > div{float:left;width:50%;margin-bottom:30px;}
+#credit_simulator.hypotheque .colonne.resume > div.value{text-align:right;}	
+#credit_simulator.hypotheque .colonne.resume > div > span{position:relative;}
+#credit_simulator.hypotheque hr{display:none;}
+#credit_simulator.hypotheque input[type=submit]{margin-top:-30px;}
+#credit_simulator.hypotheque.fullscreen div.titre{position:relative;}
+#credit_simulator.hypotheque.fullscreen div.infohelp{display:inline;border:none;position:absolute;width:400px;}
+#credit_simulator.hypotheque.fullscreen div.infohelp > span:first-of-type{position:relative;display:inline-block;width:20px;height:20px;border-radius:20px;text-align:center;line-height:20px;font-family:initial;cursor:pointer;font-size:18px;margin-left:20px;z-index:250;}
+#credit_simulator.hypotheque.fullscreen div.infohelp > span:last-of-type{position:absolute;width:350px;display:none;z-index:200;top:-10px;left:10px;padding-left:40px;padding-top:10px;background:rgba(240,240,240,0.8);}
+#credit_simulator.hypotheque.fullscreen div.infohelp:hover > span:first-of-type{z-index:280;}
+#credit_simulator.hypotheque.fullscreen div.infohelp:hover > span:last-of-type{z-index:260;display:block;}
+#credit_simulator.hypotheque.fullscreen .colonne{width:100%;}
+#credit_simulator.hypotheque.fullscreen .colonne.resume{position:relative;}
+
+@media screen and (max-width: 1200px) {
+	#credit_simulator, #credit_simulator input{font-size:18px;}	
+	#credit_simulator{padding-bottom:20px;}
+	#credit_simulator div.presentation{font-size:20px;}
+	#credit_simulator input[type=submit], #credit_simulator div.block-slider, #credit_simulator div.block_info{width:50%;}
+	#credit_simulator input[type=submit]{font-size:20px;height:30px;line-height:30px;width:300px;float:none;margin:auto;}
+	#credit_simulator div.block-slider{height:70px;}
+	#credit_simulator div.block_info:last-of-type{top:140px;}
+	
+	#credit_simulator.hypotheque{padding-bottom:20px;}
+	#credit_simulator.hypotheque .colonne{width:50%;height:70px;}
+	#credit_simulator.hypotheque .colonne.resume{width:45%;}	
+	}
+	
+@media screen and (max-width: 900px) {
+	#credit_simulator{padding:10px;}
+	#credit_simulator div.block-slider, #credit_simulator div.block_info{width:100%;}
+	#credit_simulator input[type=submit]{width:calc(100% - 20px);}
+	#credit_simulator div.presentation{display:none;}
+	#credit_simulator div.block_info:last-of-type, #credit_simulator div.block_info{position:relative;top:auto;}
+	#credit_simulator div.block_info:last-of-type{margin:20px 0;}
+	
+	#credit_simulator.hypotheque .colonne{width:100%;height:60px;float:none;}
+	#credit_simulator.hypotheque .colonne.resume{width:100%;float:none;position:relative;}
+	#credit_simulator.hypotheque .colonne.resume > div{margin-bottom:20px;width:60%;}
+	#credit_simulator.hypotheque .colonne.resume > div.value{width:40%;}
+	#credit_simulator.hypotheque input[type=submit]{margin:auto;}
+	#credit_simulator.hypotheque.fullscreen div.infohelp{display:none;}
+}
+
+@media screen and (max-width: 650px) {
+	#credit_simulator div.textinfos input[type=text], #credit_simulator div.block_info input[type=text]{width:35%;}
+}
+
+
+
