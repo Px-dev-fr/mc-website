@@ -63,23 +63,23 @@ if (in_array('page-template-template-form',$classes)) {
     <div class="row align-items-center" style="display: flex;flex-wrap: wrap;justify-content: center;">
         <div class="col-lg-6 white-bg-form">
             <!-- Montant -->
-            <p><?php _e( 'Quel véhicule souhaiteriez vous acheter ?', 'multicredit' );?></p>
+            <p><?php _e( 'Which vehicle would you like to buy?', 'multicredit' );?></p>
             <select>
-                <option value="" disabled selected><?php _e( 'Sélectionez parmis les choix si dessous', 'multicredit' );?></option>
-                <option><?php _e( 'Voiture neuve', 'multicredit' );?></option>
-                <option><?php _e( 'Voiture d\'occasion', 'multicredit' );?></option>
+                <option value="" disabled selected><?php _e( 'Select among the choices below', 'multicredit' );?></option>
+                <option><?php _e( 'New car', 'multicredit' );?></option>
+                <option><?php _e( 'Second hand car', 'multicredit' );?></option>
                 <option><?php _e( 'Caravane / Camping Car', 'multicredit' );?></option>
-                <option><?php _e( 'Moto / Scooter neuf', 'multicredit' );?></option>
-                <option><?php _e( 'Moto / Scooter d\'occasion', 'multicredit' );?></option>
-                <option><?php _e( 'Bateau', 'multicredit' );?></option>
-                <option><?php _e( 'Vélo', 'multicredit' );?></option>
-                <option><?php _e( 'Vélo élrctrique', 'multicredit' );?></option>
-                <option><?php _e( 'Camionnette', 'multicredit' );?></option>
+                <option><?php _e( 'New Motorcycle / Scooter', 'multicredit' );?></option>
+                <option><?php _e( 'Second hand motorcycle / scooter', 'multicredit' );?></option>
+                <option><?php _e( 'Ship', 'multicredit' );?></option>
+                <option><?php _e( 'Bike', 'multicredit' );?></option>
+                <option><?php _e( 'Electric bike', 'multicredit' );?></option>
+                <option><?php _e( 'Truck', 'multicredit' );?></option>
             </select>
         </div>
         <div class="col-lg-6" style="text-align: center">
             <!-- Durée -->
-            <p><?php _e( 'Avec ou sans la PPI', 'multicredit' );?></p>
+            <p><?php _e( 'Do you want PPI insurance ?', 'multicredit' );?></p>
             <input type="checkbox" id="ppiYes" name="ppi" checked> <label for="ppiYes"> <?php _e('Yes','multicredit')?></label>
             <input type="checkbox" id="ppiNo" name="ppi" > <label for="ppiNo"> <?php _e('No','multicredit')?></label>
         </div>
@@ -115,24 +115,24 @@ if (in_array('page-template-template-form',$classes)) {
 <div class="row align-items-center" style="display: flex;flex-wrap: wrap;justify-content: center;">
     <div class="mensualiteUnique" id="49">
             <span class="tauxInteretSimul">
-                <?php _e( 'Pour un taux d\'interêt de: ', 'multicredit' );?> 4.9%
+                <?php _e( 'For an interest rate of: ', 'multicredit' );?> 4.9%
             </span>
         <div class="infoSimulRes">
             <ul>
                 <li>
-                    <?php _e( 'Citoyenneté Suisse ou permis C', 'multicredit' );?>
+                    <?php _e( 'Swiss citizenship or permit C', 'multicredit' );?>
                 </li>
                 <li>
-                    <?php _e( 'A partir de  4500 CHF de salaire net', 'multicredit' );?>
+                    <?php _e( 'From 4500 CHF net salary', 'multicredit' );?>
                 </li>
                 <li>
-                    <?php _e('Propriétaire d\'un bien immobilier', 'multicredit'); ?>
+                    <?php _e('Owner of a real estate', 'multicredit'); ?>
                 </li>
             </ul>
         </div>
         <div id="tableauAmortissement">
             <form method="POST" action="">
-                <input type="submit" value="<?php _e('CRÉER UN TABLEAU D\'AMORTISSEMENT', 'multicredit')?>">
+                <input type="submit" value="<?php _e('CREATE AN AMORTIZATION TABLE', 'multicredit')?>">
                 <input type="hidden" name="amortization_table" value="submitted">
                 <input type="hidden" name="taux" value="4.9">
                 <input type="hidden"  id="montant49" name="montant" value="3000">
@@ -146,26 +146,26 @@ if (in_array('page-template-template-form',$classes)) {
     </div>
     <div class="mensualiteUnique" id="79">
             <span class="tauxInteretSimul">
-                <?php _e( 'Pour un taux d\'interêt de: ', 'multicredit' );?> 7.9%
+                <?php _e( 'For an interest rate of: ', 'multicredit' );?> 7.9%
             </span>
         <div class="infoSimulRes">
             <ul>
                 <ul>
                     <li>
-                        <?php _e( 'Citoyenneté Suisse ou permis C', 'multicredit' );?>
+                        <?php _e( 'Swiss citizenship or permit C', 'multicredit' );?>
                     </li>
                     <li>
-                        <?php _e( 'A partir de  4500 CHF de salaire net', 'multicredit' );?>
+                        <?php _e( 'From 4500 CHF net salary', 'multicredit' );?>
                     </li>
                     <li>
-                        <?php _e('Pas besoin d\' être propriétaire d\'un bien immobilier', 'multicredit'); ?>
+                        <?php _e('No need to be a real estate owner', 'multicredit'); ?>
                     </li>
                 </ul>
             </ul>
         </div>
         <div id="tableauAmortissement">
             <form method="POST" action="">
-                <input type="submit" value="<?php _e('CRÉER UN TABLEAU D\'AMORTISSEMENT', 'multicredit')?>">
+                <input type="submit" value="<?php _e('CREATE AN AMORTIZATION TABLE', 'multicredit')?>">
                 <input type="hidden" name="amortization_table" value="submitted">
                 <input type="hidden" name="taux" value="7.9">
                 <input type="hidden"  id="montant79" name="montant" value="3000">
@@ -180,24 +180,24 @@ if (in_array('page-template-template-form',$classes)) {
     </div>
     <div class="mensualiteUnique" id="99">
             <span class="tauxInteretSimul">
-                <?php _e( 'Pour un taux d\'interêt de: ', 'multicredit' );?> 9.9%
+                <?php _e( 'For an interest rate of: ', 'multicredit' );?> 9.9%
             </span>
         <div class="infoSimulRes">
             <ul>
                 <li>
-                    <?php _e( 'Citoyenneté Suisse ou permis de séjour valable', 'multicredit' );?>
+                    <?php _e( 'Swiss citizenship or valid residence permit', 'multicredit' );?>
                 </li>
                 <li>
-                    <?php _e( 'Revenu régulier', 'multicredit' );?>
+                    <?php _e( 'Regular income', 'multicredit' );?>
                 </li>
                 <li>
-                    <?php _e('Pas besoin d\' être propriétaire d\'un bien immobilier', 'multicredit'); ?>
+                    <?php _e('No need to be a real estate owner', 'multicredit'); ?>
                 </li>
             </ul>
         </div>
         <div id="tableauAmortissement">
             <form method="POST" action="">
-                <input type="submit" value="<?php _e('CRÉER UN TABLEAU D\'AMORTISSEMENT', 'multicredit')?>">
+                <input type="submit" value="<?php _e('CREATE AN AMORTIZATION TABLE', 'multicredit')?>">
                 <input type="hidden" name="amortization_table" value="submitted">
                 <input type="hidden" name="taux" value="9.9">
                 <input type="hidden"  id="montant99" name="montant" value="3000">
@@ -212,13 +212,13 @@ if (in_array('page-template-template-form',$classes)) {
 </div>
 <div class="row align-items-center legend-bloc mt-4 mb-2 ">
     <div class="col-lg-3">
-        <a href="https://www.multicredit.ch/wp/wp-content/uploads/Tableau-leasing-credit<?= $langPrev?>.pdf" download="<?= _e('comparaison_leasing_credit.pdf','multicredit');?>" target="_blank" > <?php _e('Découvrez la différence entre crédit et leasing','multicredit');?></a>
+        <a href="https://www.multicredit.ch/wp/wp-content/uploads/Tableau-leasing-credit<?= $langPrev?>.pdf" download="<?= _e('comparison_leasing_credit.pdf','multicredit');?>" target="_blank" > <?php _e('Discover the difference between credit and leasing','multicredit');?></a>
     </div>
     <div class="col-lg-3" style="display: flex;flex-wrap: initial;justify-content: center;align-items: inherit;">
         <img src="https://www.multicredit.ch/wp/wp-content/uploads/6936490_lock_protection_safety_security_shield_icon.png" height="32px" width="32px">
         <img src="https://www.multicredit.ch/wp/wp-content/uploads/2205203_key_lock_pad_security_icon.png" height="32px" width="32px">
         <p style="margin: 0px;font-size: 0.8em;margin-left: 10px">
-            <?php _e('Vos données nous sont transmises de manière sécurisée et sont hébergées en Suisse.','multicredit');?>
+            <?php _e('Your data is transmitted to us securely and is hosted in Switzerland.','multicredit');?>
         </p>
     </div>
     <!--<div class="col-lg-3 hide-on-mobile">&nbsp;</div>-->
@@ -237,8 +237,8 @@ if (in_array('page-template-template-form',$classes)) {
 <div class="row">
     <div class="col-lg-12">
         <p style="font-size:0.6em;">
-            <?php  _e('En tant que société de conseil pour les crédits à la consommation, nous sommes soumis à des directives strictes en matière de confidentialité et de protection des données <a href=" https://www.fedlex.admin.ch/eli/cc/51/117_121_129/fr">(hébergées en Suisse)</a>. Pour votre sécurité ainsi que la nôtre, nous vous proposons un premier entretien téléphonique du lundi au vendredi, de 08:30 heure à 18:30 heure.
-Nous vous précisons également que nos activités sont soumises au respect de la loi sur le crédit à la consommation <a href="https://www.fedlex.admin.ch/eli/cc/2002/593/fr" target="_blank"> (LCC)</a>','multicredit')?></a>
+            <?php  _e('As a consumer credit consulting company, we are subject to strict privacy and data protection guidelines <a href=" https://www.fedlex.admin.ch/eli/cc/51/117_121_129/en ">(hosted in Switzerland)</a>. For your security as well as ours, we offer you an initial telephone interview from Monday to Friday, from 08:30 am to 6:30 pm.
+We would also like to point out that our activities are subject to compliance with the Consumer Credit Act <a href="https://www.fedlex.admin.ch/eli/cc/2002/593/en" target="_blank"> (LCC)</a>','multicredit')?></a>
             <!--Exemple de calcul : Financement de 10 000 CHF. Un taux d'intérêt annuel effectif de 4,5% à 9,9% entraîne des coûts totaux pour 12 mois de 240 à 520 CHF. Le taux d'intérêt final varie, en fonction de la situation de chaque client, de 4,5% à 9,9%. Il n'y a pas de frais de dossier ni de frais supplémentaires : vous ne payez que les intérêts du prêt.-->
         </p>
     </div>
