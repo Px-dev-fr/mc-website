@@ -85,37 +85,69 @@ class Cache
                 try {
                 // Download remote files to a temporary directory
                 $full_url = Helpers::build_url($protocol, $host, $base_path, $url);
-                } catch (ImageException $e) {
-                    $resolved_url = self::$broken_image;
-                    $type = "png";
-                    $message = "erreur 2";
-                    Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
-                    self::$_cache[$full_url] = $resolved_url;
-                }
 
                 // From cache
                 if (isset(self::$_cache[$full_url])) {
-                    $resolved_url = self::$_cache[$full_url];
+                    try{
+                        $resolved_url = self::$_cache[$full_url];
+                    } catch (ImageException $e) {
+                        $resolved_url = self::$broken_image;
+                        $type = "png";
+                        $message = " erreur 5";
+                        Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                        self::$_cache[$full_url] = $resolved_url;
+                    }
                 } // From remote
                 else {
+                    try{
                     $tmp_dir = $dompdf->getOptions()->getTempDir();
                     if (($resolved_url = @tempnam($tmp_dir, "ca_dompdf_img_")) === false) {
                         throw new ImageException("Unable to create temporary image in " . $tmp_dir, E_WARNING);
                     }
-                    $image = "";
+                    $image = "";}
+                    catch (ImageException $e) {
+                        $resolved_url = self::$broken_image;
+                        $type = "png";
+                        $message = "erreur 6";
+                        Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                        self::$_cache[$full_url] = $resolved_url;
+                    }
 
                     if ($data_uri) {
+                        try{
                         if ($parsed_data_uri = Helpers::parse_data_uri($url)) {
                             $image = $parsed_data_uri['data'];
+                        }} catch (ImageException $e) {
+                            $resolved_url = self::$broken_image;
+                            $type = "png";
+                            $message = "erreur 7";
+                            Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                            self::$_cache[$full_url] = $resolved_url;
                         }
                     } else {
+                        try{
                         list($image, $http_response_header) = Helpers::getFileContent($full_url, $dompdf->getHttpContext());
+                        } catch (ImageException $e) {
+                            $resolved_url = self::$broken_image;
+                            $type = "png";
+                            $message = "erreur 8";
+                            Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                            self::$_cache[$full_url] = $resolved_url;
+                        }
                     }
 
                     // Image not found or invalid
                     if (empty($image)) {
+                        try{
                         $msg = ($data_uri ? "Data-URI could not be parsed" : "Image not found");
                         throw new ImageException($msg, E_WARNING);
+                        } catch (ImageException $e) {
+                            $resolved_url = self::$broken_image;
+                            $type = "png";
+                            $message = "erreur 9";
+                            Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                            self::$_cache[$full_url] = $resolved_url;
+                        }
                     } // Image found, put in cache and process
                     else {
                         //e.g. fetch.php?media=url.jpg&cache=1
@@ -128,10 +160,17 @@ class Cache
                         }
                     }
                 }
-
+                } catch (ImageException $e) {
+                    $resolved_url = self::$broken_image;
+                    $type = "png";
+                    $message = "erreur 2";
+                    Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                    self::$_cache[$full_url] = $resolved_url;
+                }
             } // Not remote, local image
             else {
-                try {                $resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
+                try {
+                    $resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
 
                 if ($protocol == "" || $protocol === "file://") {
                     $realfile = realpath($resolved_url);
