@@ -59,6 +59,7 @@ class Cache
      */
     static function resolve_url($url, $protocol, $host, $base_path, Dompdf $dompdf)
     {
+
         self::$_dompdf = $dompdf;
         
         $protocol = mb_strtolower($protocol);
@@ -77,9 +78,11 @@ class Cache
             if (!$enable_remote && $remote && !$data_uri) {
                 throw new ImageException("Remote file access is disabled.", E_WARNING);
             }
-            
+
+            try {
             // remote allowed or DataURI
             if (($enable_remote && $remote) || $data_uri) {
+                try {
                 // Download remote files to a temporary directory
                 $full_url = Helpers::build_url($protocol, $host, $base_path, $url);
 
@@ -118,13 +121,20 @@ class Cache
                         }
                     }
                 }
+                } catch (ImageException $e) {
+                    $resolved_url = self::$broken_image;
+                    $type = "png";
+                    $message = "erreur 2";
+                    Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                    self::$_cache[$full_url] = $resolved_url;
+                }
             } // Not remote, local image
             else {
-                $resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
+                try {                $resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
 
                 if ($protocol == "" || $protocol === "file://") {
                     $realfile = realpath($resolved_url);
-        
+
                     $rootDir = realpath($dompdf->getOptions()->getRootDir());
                     if (strpos($realfile, $rootDir) !== 0) {
                         $chroot = $dompdf->getOptions()->getChroot();
@@ -141,13 +151,27 @@ class Cache
                             throw new ImageException("Permission denied on $resolved_url. The file could not be found under the paths specified by Options::chroot.", E_WARNING);
                         }
                     }
-        
+
                     if (!$realfile) {
                         throw new ImageException("File '$realfile' not found.", E_WARNING);
                     }
-        
+
                     $resolved_url = $realfile;
                 }
+                } catch (ImageException $e) {
+                    $resolved_url = self::$broken_image;
+                    $type = "png";
+                    $message = "erreur 3";
+                    Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                    self::$_cache[$full_url] = $resolved_url;
+                }
+            }
+            } catch (ImageException $e) {
+                $resolved_url = self::$broken_image;
+                $type = "png";
+                $message = "erreur 1";
+                Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                self::$_cache[$full_url] = $resolved_url;
             }
 
             // Check if the local file is readable
