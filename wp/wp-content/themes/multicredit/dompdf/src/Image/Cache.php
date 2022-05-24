@@ -85,6 +85,13 @@ class Cache
                 try {
                 // Download remote files to a temporary directory
                 $full_url = Helpers::build_url($protocol, $host, $base_path, $url);
+                } catch (ImageException $e) {
+                    $resolved_url = self::$broken_image;
+                    $type = "png";
+                    $message = "erreur 2";
+                    Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
+                    self::$_cache[$full_url] = $resolved_url;
+                }
 
                 // From cache
                 if (isset(self::$_cache[$full_url])) {
@@ -121,13 +128,7 @@ class Cache
                         }
                     }
                 }
-                } catch (ImageException $e) {
-                    $resolved_url = self::$broken_image;
-                    $type = "png";
-                    $message = "erreur 2";
-                    Helpers::record_warnings($e->getCode(), $e->getMessage() . " \n $url", $e->getFile(), $e->getLine());
-                    self::$_cache[$full_url] = $resolved_url;
-                }
+
             } // Not remote, local image
             else {
                 try {                $resolved_url = Helpers::build_url($protocol, $host, $base_path, $url);
