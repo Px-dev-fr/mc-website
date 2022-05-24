@@ -133,7 +133,7 @@ use Dompdf\Dompdf;
         $path = "/wp-content/themes/multicredit/images";
         $pdf_html = "<body>
                         <header>
-                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img src='https://prestaflex.ch/wp-content/uploads/2022/05/Logo-Multicredit-et-slogans_fr.png' width='118' height='109' alt='' /></a>
+                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img src='https://images.unsplash.com/photo-1638913662180-afc4334cf422?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170' width='118' height='109' alt='' /></a>
                         </header>
                         <footer>
                             <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  150px; left 20px'><img src='https://prestaflex.ch/wp-content/uploads/2022/05/Multicredit-Pastille-DEPUIS-et-adresse_fr.png' width='200' height='120' alt='' /></a>
@@ -220,7 +220,7 @@ use Dompdf\Dompdf;
                    </style>
                     ";
         //$pdf_html .= "<img style='max-width: 100%;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_footer" . $langPrev . ".jpg' alt='' />";
-       /* $dompdf = new Dompdf();
+        $dompdf = new Dompdf();
         $dompdf->loadHtml($pdf_html);
         $dompdf->set_option('isRemoteEnabled', TRUE);
 
@@ -231,7 +231,7 @@ use Dompdf\Dompdf;
         $dompdf->render();
         ob_end_clean();
         // Output the generated PDF => Browser
-        $dompdf->stream();*/
+        $dompdf->stream();
     }
        // echo "<script>console.log(".$pdf_html.")</script>";
 
