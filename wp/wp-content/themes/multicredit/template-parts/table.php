@@ -222,7 +222,8 @@ use Dompdf\Dompdf;
         //$pdf_html .= "<img style='max-width: 100%;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_footer" . $langPrev . ".jpg' alt='' />";
         $dompdf = new Dompdf();
         $dompdf->loadHtml($pdf_html);
-        $dompdf->set_option('isRemoteEnabled', TRUE);
+        $dompdf->set_option('isHtml5ParserEnabled',true);
+        $dompdf->set_option('isRemoteEnabled',true);
 
         // (Optional) Setup the paper size and orientation
         $dompdf->setPaper('A4', 'portrait');
