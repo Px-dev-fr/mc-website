@@ -133,11 +133,11 @@ use Dompdf\Dompdf;
         $path = realpath(__DIR__."/../images");
         $pdf_html = "<body>
                         <header>
-                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img src='https://images.unsplash.com/photo-1638913662180-afc4334cf422?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170' width='118' height='109' alt='' /></a>
+                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img  src='" . esc_url( get_template_directory_uri() ) . "/images/Logo-Multicredit-et-slogans".$langPrev.".png' width='118' height='109' alt='' /></a>
                         </header>
                         <footer>
-                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  150px; left 20px'><img src='" . esc_url( get_template_directory_uri() ) . "/images/Multicredit Pastille DEPUIS et adresse_fr.png' width='200' height='120' alt='' /></a>
-                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  80px; right:  20px'><img src='https://prestaflex.ch/wp-content/uploads/2022/05/Site Web Multicredit-et-fleche.png' width='100' height='30' alt='' /></a><br>
+                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  150px; left 20px'><img src='" . esc_url( get_template_directory_uri() ) . "/images/Multicredit-Pastille-DEPUIS-et-adresse".$langPrev.".png' width='200' height='120' alt='' /></a>
+                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  80px; right:  20px'><img src='" . esc_url( get_template_directory_uri() ) . "/images/fleche-loupe-multicredit.png' width='100' height='30' alt='' /></a><br>
                         </footer>";
         $pdf_html .= "<div style='width:100%; text-align:center'>$ta</div>";
         $pdf_html .= "<table style='width: 100%; table-layout: fixed;'  cellspacing='0'>";
