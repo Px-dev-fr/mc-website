@@ -83,13 +83,13 @@ if (in_array('page-template-template-form',$classes)) {
             <div class="infoSimulRes">
                 <ul>
                     <li>
-                        <?php _e( 'Swiss citizenship or permit C', 'multicredit' );?>
+                        <?php _e( 'Tax-deductible interest', 'multicredit' );?>
                     </li>
                     <li>
-                        <?php _e( 'From 4500 CHF net salary', 'multicredit' );?>
+                        <?php _e( 'Possibility of early repayment', 'multicredit' );?>
                     </li>
                     <li>
-                        <?php _e('Owner of a real estate', 'multicredit'); ?>
+                        <?php _e('Death insurance covering the debt', 'multicredit'); ?>
                     </li>
                 </ul>
             </div>
@@ -115,13 +115,16 @@ if (in_array('page-template-template-form',$classes)) {
                 <ul>
                     <ul>
                         <li>
-                            <?php _e( 'Swiss citizenship or permit C', 'multicredit' );?>
+                            <?php _e('Tax-deductible interest', 'multicredit' );?>
                         </li>
                         <li>
-                            <?php _e( 'From 4500 CHF net salary', 'multicredit' );?>
+                            <?php _e('Possibility of early repayment', 'multicredit' );?>
                         </li>
                         <li>
-                            <?php _e('No need to be a real estate owner', 'multicredit'); ?>
+                            <?php _e('Death insurance covering the debt ', 'multicredit'); ?>
+                        </li>
+                        <li>
+                            <?php _e('CH, permit C, B, G and legitmation card','multicredit');?>
                         </li>
                     </ul>
                 </ul>
@@ -148,13 +151,16 @@ if (in_array('page-template-template-form',$classes)) {
             <div class="infoSimulRes">
                 <ul>
                     <li>
-                        <?php _e( 'Swiss citizenship or valid residence permit', 'multicredit' );?>
+                        <?php _e('Tax-deductible interest', 'multicredit' );?>
                     </li>
                     <li>
-                        <?php _e( 'Regular income', 'multicredit' );?>
+                        <?php _e('Possibility of early repayment', 'multicredit' );?>
                     </li>
                     <li>
-                        <?php _e('No need to be a real estate owner', 'multicredit'); ?>
+                        <?php _e('Death insurance covering the debt', 'multicredit'); ?>
+                    </li>
+                    <li>
+                        <?php _e('CH, permit C, B, G and legitmation card','multicredit');?>
                     </li>
                 </ul>
             </div>
@@ -181,7 +187,7 @@ if (in_array('page-template-template-form',$classes)) {
               <?php _e('Your data is transmitted to us securely and is hosted in Switzerland.','multicredit');?>
           </p>
       </div>
-    <div class="col-lg-6 text-right hide-on-mobile">
+    <div class="col-lg-6 text-right ">
       <p style="margin-bottom: 8px;font-size: 0.9em;"><strong><?php _e( 'Monthly payments/refunds including:', 'multicredit' );?></strong></p>
         <ul class="checklist inline-checklist">
           <li><?php _e( 'Amortization', 'multicredit' );?></li>

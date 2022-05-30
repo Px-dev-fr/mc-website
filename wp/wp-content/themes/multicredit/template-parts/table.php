@@ -1,13 +1,16 @@
 <?php
-$domPath = realpath(__DIR__.'/../dompdf/autoload.inc.php');
-require_once $domPath;
-use Dompdf\Dompdf;
+
+require_once( realpath(__DIR__.'/../pdfpdfi/fpdf/fpdf.php'));
+require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
+
+
 
     /*if(!isset($_POST) || empty($_POST)) {
         die('{"success": false, "error": "401", "message": "Not allowed!"}');
     }*/
 
     $post = $_POST;
+    $pdf  = new FPDI();
 
     /*session_start();
     $leasing = isset($_SESSION['leasing']) ? $_SESSION['leasing'] : [];
@@ -78,6 +81,7 @@ use Dompdf\Dompdf;
 
                 break;
             case 'de_DE':
+                $ta = "Abschreibungstabelle";
                 $langPrev = '_de';
                 $col1Text = 'Monat';
                 $col2Text = 'Monatliche Rate';
@@ -95,6 +99,7 @@ use Dompdf\Dompdf;
 
                 break;
             case 'it_IT':
+                $ta ="Tabella di ammortamento";
                 $langPrev = '_it';
                 $col1Text = 'Mese';
                 $col2Text = 'Rendita';
@@ -112,6 +117,7 @@ use Dompdf\Dompdf;
                 break;
             default:
                 //$langTmp == 'en_EN'
+                $ta = "Amortization table";
                 $langPrev = '_en';
                 $col1Text = 'Month';
                 $col2Text = 'Annuity';
@@ -129,110 +135,107 @@ use Dompdf\Dompdf;
                 break;
         }
 
+        $counter = 1;
+        $path = realpath(__DIR__."/../base-pdf");
+        $pageCount = $pdf->setSourceFile("$path/base$langPrev.pdf");
+        $tplIdx = $pdf->importPage($pageCount, '/MediaBox');
+        $pdf->addPage("P");
+        $sizes = $pdf->getTemplateSize($tplIdx);
+        $pdf->SetFont('Times');
+        $pdf->SetMargins(15,20,15);
+        $pdf->SetAutoPageBreak(false);
 
-        $path = realpath(__DIR__."/../images");
-        $pdf_html = "<body>
-                        <header>
-                        <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; top 40px; left 20px'><img  src='" . esc_url( get_template_directory_uri() ) . "/images/Logo-Multicredit-et-slogans".$langPrev.".png' width='118' height='109' alt='' /></a>
-                        </header>
-                        <footer>
-                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  150px; left 20px'><img src='" . esc_url( get_template_directory_uri() ) . "/images/Multicredit-Pastille-DEPUIS-et-adresse".$langPrev.".png' width='200' height='120' alt='' /></a>
-                            <a href='https://www.multicredit.ch' target='_blank' style='position: absolute; bottom:  80px; right:  20px'><img src='" . esc_url( get_template_directory_uri() ) . "/images/fleche-loupe-multicredit.png' width='100' height='30' alt='' /></a><br>
-                        </footer>";
-        $pdf_html .= "<div style='width:100%; text-align:center'>$ta</div>";
-        $pdf_html .= "<table style='width: 100%; table-layout: fixed;'  cellspacing='0'>";
-        $pdf_html .= "<tr>";
-        $pdf_html .= "<th colspan='5' style='text-align: left; border-bottom: 1px solid #000; padding: 0 0 20px;'>";
-        //$pdf_html .= "<img style='max-width: 100%; display: inline-block;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_header" . $langPrev . ".jpg' alt='' /></th>";
-        //$pdf_html .= "<a href='https://www.multicredit.ch' target='_blank'><img style='max-width: 100%; display: inline-block;' src='https://www.multicredit.ch/wp/wp-content/uploads/multicredit-logo".$langPrev.".svg' alt='' /></a></th>";
-        $pdf_html .= "</tr>";
-        $pdf_html .= "<tr>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #df003c; font-weight: 700;' colspan='2'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$montantNom."</h5> " . $montant . " CHF</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #df003c; font-weight: 700;' colspan='2'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$dureeNom."</h5> " . $duree . $moisNom."</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000; color: #df003c; font-weight: 700;'><h5 style='margin: 0; color: #181817; font-weight: 400;'>".$tauxNom."</h5> " . $taux . "%</td>";
-        $pdf_html .= "</tr>";
-        $pdf_html .= "<tr>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col1Text. "</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col2Text . "</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000;'>" . $col3Text . "</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col4Text . "</td>";
-        $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col5Text . "</td>";
-        $pdf_html .= "</tr>";
+        $pdf->useTemplate($tplIdx);
+        $pdf->setXY(0,60);
+        $pdf->Cell(0,0,utf8_decode($ta),0,1,"C");
+        $pdf->setY($pdf->getY()+10);
+        $thirdWidth = (($pdf->GetPageWidth()-30) /3);
+        $pdf->Cell($thirdWidth ,2, utf8_decode($montantNom." ".$montant),0,0,"C");
+        $pdf->Cell($thirdWidth,2, utf8_decode($dureeNom." " . $duree . $moisNom),0,0,"C");
+        $pdf->Cell($thirdWidth,2, utf8_decode($tauxNom." " . $taux." %"),0,0,"C");
+
+        $pdf->setY($pdf->getY()+10);
+        $fifthWidth = (($pdf->GetPageWidth()-30) / 5 );
+        $headerPostion =$pdf->getY() - 10;
+        $pdf->Cell($fifthWidth ,10, utf8_decode($col1Text),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode($col2Text),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode($col3Text),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode($col4Text),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode($col5Text),1,1,"C");
+
         for($i = 0; $i < count($table[0]); $i++) {
-            if($i == 17 || $i == 36 || $i == 55 || $i == 74){
-                $pdf_html .= "<tr>";
-                $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col1Text. "</td>";
-                $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col2Text . "</td>";
-                $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000;'>" . $col3Text . "</td>";
-                $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col4Text . "</td>";
-                $pdf_html .= "<td style='padding: 10px; border-bottom: 1px solid #000'>" . $col5Text . "</td>";
-                $pdf_html .= "</tr>";
+            if($i == 15 ||$i == 30 || $i == 45 || $i == 60 || $i ==  75){
+
+                $pageCount = $pdf->setSourceFile("$path/base$langPrev.pdf");
+                $tplIdx = $pdf->importPage($pageCount, '/MediaBox');
+                $sizes = $pdf->getTemplateSize($tplIdx);
+                $pdf->addPage();
+                $pdf->useTemplate($tplIdx);
+
+                $pdf->setY($headerPostion);
+                $pdf->Cell($fifthWidth ,10, utf8_decode($col1Text),1,0,"C");
+                $pdf->Cell($fifthWidth,10, utf8_decode($col2Text),1,0,"C");
+                $pdf->Cell($fifthWidth,10, utf8_decode($col3Text),1,0,"C");
+                $pdf->Cell($fifthWidth,10, utf8_decode($col4Text),1,0,"C");
+                $pdf->Cell($fifthWidth,10, utf8_decode($col5Text),1,1,"C");
+
             }
-            $pdf_html .= '<tr>';
-            $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.$table[0][$i].'</td>';
-            $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.number_format($table[1][$i], 2).'</td>';
-            $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.number_format($table[2][$i], 2).'</td>';
-            $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.number_format($table[3][$i], 2).'</td>';
-            $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000">'.number_format($table[4][$i], 2).'</td>';
-            $pdf_html .= '</tr>';
+            $pdf->Cell($fifthWidth ,10, utf8_decode($table[0][$i]),1,0,"C");
+            $pdf->Cell($fifthWidth,10, utf8_decode(number_format($table[1][$i],2)),1,0,"C");
+            $pdf->Cell($fifthWidth,10, utf8_decode(number_format($table[2][$i],2)),1,0,"C");
+            $pdf->Cell($fifthWidth,10, utf8_decode(number_format($table[3][$i],2)),1,0,"C");
+            $pdf->Cell($fifthWidth,10, utf8_decode(number_format($table[4][$i],2)),1,1,"C");
+
         }
-        $pdf_html .= "<tr>";
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$total.'</strong></td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$sommeAnnuite.'</strong></td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$sommeInterets.'</strong></td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000;text-decoration: underline;"><strong>'.$sommeAmortissement.'</strong></td>';
-        $pdf_html .= '<td style="padding: 10px; border-bottom: 1px solid #000"></td>';
+        $pdf->Cell($fifthWidth ,10, utf8_decode($total),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeAnnuite,2)),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeInterets,2)),1,0,"C");
+        $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeAmortissement,2)),1,1,"C");
 
-        $pdf_html .= "</tr>";
-        $pdf_html .= "</table>";
-        $pdf_html .="<p>".$payeAnticipation."</p>";
-        $pdf_html .="<p class='small'>$infos</p>";
-        $pdf_html .= "<p class='small'>$articleLoi</p>";
-
-        
-        
-        
-
-        $pdf_html.="</body>";
-        $pdf_html.="<style>
-                    @page  {
-                        margin-top: 150px;
-                        margin-bottom: 150px;
-                        margin-left: 100px;
-                        margin-right: 100px;
+        $url = '{
+            "format":"png",
+            "type": "outlabeledPie",
+            "data": {
+                 "labels": ["'.$col3Text.'", "'.$col4Text.'"],
+                 "datasets": [{
+                    "backgroundColor": ["#df003c", "#0033A0"],
+                     "data": ['.$sommeInterets.', '.$sommeAmortissement.']
+                 }]
+            },
+            "options": {
+                "plugins": {
+                    "legend": false,
+                    "outlabels": {
+                        "text": "%l %p",
+                        "color": "white",
+                        "stretch": 35,
+                        "font": {
+                            "resizable": true,
+                             "minSize": 14
+                        }
                     }
-                    header{
-                        position: fixed;
-                        left: 0cm;
-                        top: -130px;
-                        right: 0cm;
-                    }
-                    footer {
-                        position: fixed;
-                        width: 100%; 
-                        bottom: -150px; 
-                        left: 0cm; 
-                        right: 0cm;
-                    }
-                    .small{
-                        font-size: xx-small ; 
-                    }
-                   </style>
-                    ";
-        //$pdf_html .= "<img style='max-width: 100%;' src='" . esc_url( get_template_directory_uri() ) . "/images/amortization_footer" . $langPrev . ".jpg' alt='' />";
-        $dompdf = new Dompdf();
-        $dompdf->loadHtml($pdf_html);
-        $dompdf->set_option('isHtml5ParserEnabled',true);
-        $dompdf->set_option('isRemoteEnabled',true);
+                }
+            }
+        }';
+        newElement($pdf,$langPrev,80);
+        $pdf->Image( "https://quickchart.io/chart?c=".urlencode($url),($pdf->GetPageWidth() / 2) - 60,null,120,75,'PNG');
 
-        // (Optional) Setup the paper size and orientation
-        $dompdf->setPaper('A4', 'portrait');
+        newElement($pdf,$langPrev);
+        $pdf->MultiCell(0,5, utf8_decode( $payeAnticipation),0,"J");
 
-        // Render the HTML as PDF
-        $dompdf->render();
+        newElement($pdf,$langPrev);
+        $pdf->MultiCell(0,5, utf8_decode('N\' oubliez pas les que les interêts du crédit sont déducitble des impôts'),0,"J");
+
+        $pdf->setFontSize(7);
+        newElement($pdf,$langPrev);
+        $pdf->MultiCell(0,5, utf8_decode($infos),0,"J");
+
+        newElement($pdf,$langPrev);
+        $pdf->MultiCell(0,5, utf8_decode($articleLoi),0,"J");
+
         ob_end_clean();
-        // Output the generated PDF => Browser
-        $dompdf->stream();
+        $pdf->Output("D","document.pdf");
+
     }
        // echo "<script>console.log(".$pdf_html.")</script>";
 
@@ -262,5 +265,21 @@ function amortissement($montant, $duree, $taux){
         $solde[$i]=$solde[$i-1]-$capital[$i];
     }
     return Array($rang, $annuite, $interet, $capital, $solde);
+}
+function newElement($pdf,$langPrev,$margin=75,$setY=5){
+    $path=realpath(__DIR__."/../base-pdf");
+    if (($pdf->GetPageHeight() - $pdf->getY()) < $margin){
+        $pageCount = $pdf->setSourceFile("$path/base$langPrev.pdf");
+        $tplIdx = $pdf->importPage($pageCount, '/MediaBox');
+        $sizes = $pdf->getTemplateSize($tplIdx);
+        $pdf->addPage();
+        $pdf->useTemplate($tplIdx);
+        $pdf->setXY(15,60);
+
+        return true;
+    }else{
+        $pdf->setY($pdf->getY()+$setY);
+        return false;
+    }
 }
 ?>
