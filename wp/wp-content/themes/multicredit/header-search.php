@@ -15,15 +15,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
   <?php wp_head(); ?>
-  <!--
-  _____     __     ______     ______     ______     __         ______
-  /\  __-.  /\ \   /\  __ \   /\  == \   /\  __ \   /\ \       /\  __ \
-  \ \ \/\ \ \ \ \  \ \  __ \  \ \  __<   \ \ \/\ \  \ \ \____  \ \ \/\ \
-  \ \____-  \ \_\  \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \ \_____\
-  \/____/   \/_/   \/_/\/_/   \/_____/   \/_____/   \/_____/   \/_____/
 
-  Copyright (c) diabolo design | https://www.diabolo.com/
-  -->
 </head>
 <body <?php body_class(); ?>>
 	<?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
