@@ -138,13 +138,13 @@ if (in_array('page-template-template-form', $classes)) {
                                 </div>
                                 <div class="d-flex justify-content-start align-items-center">
                                     <div class="d-flex justify-content-start align-items-center mr-4">
-                                        <input type="checkbox" id="ppiYes" name="ppi" checked>
+                                        <input type="checkbox" class="ppiYes" id="ppiYes" name="ppi" checked>
                                         <label class="m-0 p-0" for="ppiYes">
                                             <?php _e('Yes', 'multicredit') ?>
                                         </label>
                                     </div>
                                     <div class="d-flex justify-content-start align-items-center mr-4">
-                                        <input type="checkbox" id="ppiNo" name="ppi">
+                                        <input type="checkbox" class="ppiNo" id="ppiNo" name="ppi">
                                         <label class="m-0 p-0" for="ppiNo">
                                             <?php _e('No', 'multicredit') ?>
                                         </label>

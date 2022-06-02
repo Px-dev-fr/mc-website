@@ -306,12 +306,20 @@ jQuery(document).ready(function () {
   function ppi(val) {
     if (val == 1) {
       ppiVar = true;
-      $("#ppiNo").prop("checked", false);
-      $("#ppiYes").prop("checked", true);
+      jQuery(".ppiNo").each(function () {
+        jQuery(this).prop("checked", false);
+      });
+      jQuery(".ppiYes").each(function () {
+        jQuery(this).prop("checked", true);
+      });
     } else {
       ppiVar = false;
-      $("#ppiNo").prop("checked", true);
-      $("#ppiYes").prop("checked", false);
+      jQuery(".ppiNo").each(function () {
+        jQuery(this).prop("checked", true);
+      });;
+      jQuery(".ppiYes").each(function () {
+        jQuery(this).prop("checked", false);
+      });;
     }
     recalc();
   }
@@ -427,10 +435,10 @@ jQuery(document).ready(function () {
   jQuery(duree).change(function () {
     recalc();
   });
-  jQuery("#ppiYes").on("change", function () {
+  jQuery(".ppiYes").on("click", function () {
     ppi(1);
   });
-  jQuery("#ppiNo").on("change", function () {
+  jQuery(".ppiNo").on("click", function () {
     ppi(0);
   });
 
