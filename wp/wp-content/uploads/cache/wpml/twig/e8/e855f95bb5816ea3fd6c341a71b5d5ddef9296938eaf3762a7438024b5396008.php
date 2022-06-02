@@ -54,10 +54,10 @@ class __TwigTemplate_5737e17902ca6e6f522cae5ad371827618448f7a68d3805bab8f6f48a3e
             echo "\t\t<li class=\"js-wpml-languages-order-item\" data-language-code=\"";
             echo \WPML\Core\twig_escape_filter($this->env, $this->getAttribute($context["language"], "code", []), "html", null, true);
             echo "\">
-\t\t\t<img width=\"18\" height=\"12\" src=\"";
+            ";
             // line 9
-            echo \WPML\Core\twig_escape_filter($this->env, $this->getAttribute($context["language"], "flag_url", []), "html", null, true);
-            echo "\"> ";
+            echo $this->getAttribute($context["language"], "flag_img", []);
+            echo " ";
             echo \WPML\Core\twig_escape_filter($this->env, $this->getAttribute($context["language"], "display_name", []), "html", null, true);
             echo "<input type=\"hidden\" name=\"languages_order[]\" value=\"";
             echo \WPML\Core\twig_escape_filter($this->env, $this->getAttribute($context["language"], "code", []), "html", null, true);
@@ -277,7 +277,8 @@ class __TwigTemplate_5737e17902ca6e6f522cae5ad371827618448f7a68d3805bab8f6f48a3e
 \t\t</p>
 
 \t</div>
-</div>";
+</div>
+";
     }
 
     public function getTemplateName()

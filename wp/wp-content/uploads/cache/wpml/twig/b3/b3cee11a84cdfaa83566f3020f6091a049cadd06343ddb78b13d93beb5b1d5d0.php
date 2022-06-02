@@ -97,7 +97,7 @@ class __TwigTemplate_645f9be23c156976e0c1d92615460be41106f9bb3733a8ee1e9ee033de5
                     echo "</span>";
                 }
                 // line 24
-                if ($this->getAttribute($context["language"], "display_name", [])) {
+                if (($this->getAttribute($context["language"], "display_name", []) && ($this->getAttribute($context["language"], "display_name", []) != $this->getAttribute($context["language"], "native_name", [])))) {
                     // line 25
                     echo "<span class=\"";
                     echo \WPML\Core\twig_escape_filter($this->env, ($context["css_classes_display"] ?? null), "html", null, true);

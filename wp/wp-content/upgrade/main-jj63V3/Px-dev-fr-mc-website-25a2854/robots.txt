@@ -1,9 +1,0 @@
-Sitemap: https://www.multicredit.ch/sitemap_index.xml
-User-agent: *
-Disallow: /curl_utilities/
-Disallow: /formulaires/
-Disallow: /iframe/
-Disallow: /includes/
-Disallow: /nform/
-Disallow: /simulateur/
-Disallow: /stats/

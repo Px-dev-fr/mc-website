@@ -53,7 +53,7 @@ class __TwigTemplate_128c4dd56627873c7bb61521db887ca4e8b90eb9b6366f084218df8c516
             echo "</span>";
         }
         // line 13
-        if (($context["display_name"] ?? null)) {
+        if ((($context["display_name"] ?? null) && (($context["display_name"] ?? null) != ($context["native_name"] ?? null)))) {
             // line 14
             echo "<span class=\"";
             echo \WPML\Core\twig_escape_filter($this->env, ($context["css_classes_display"] ?? null), "html", null, true);
