@@ -159,9 +159,15 @@ if (in_array('page-template-template-form', $classes)) {
                             <form method="POST" action="">
                                 <input type="submit" value="<?php _e('Create an amortization table', 'multicredit') ?>">
                                 <input type="hidden" name="amortization_table" value="submitted">
-                                <input type="hidden" name="taux" value="7.9">
-                                <input type="hidden" id="montant79" name="montant" value="3000">
-                                <input type="hidden" id="duree79" name="duree" value="12">
+                                <? if ($taux == "49") : ?>
+                                    <input type="hidden" name="taux" value="4.9">
+                                <? elseif ($taux == "79") : ?>
+                                    <input type="hidden" name="taux" value="7.9">
+                                <? elseif ($taux == "99") : ?>
+                                    <input type="hidden" name="taux" value="9.9">
+                                <? endif ?>
+                                <input type="hidden" id="montant<?= $taux ?>" name="montant" value="3000">
+                                <input type="hidden" id="duree<?= $taux ?>" name="duree" value="12">
                             </form>
                         </div>
                     </div>
