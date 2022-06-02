@@ -59,6 +59,7 @@ if (in_array('page-template-template-form',$classes)) {
       <h4 id="mensualite99">0</h4>
       <p class="small"><?php _e( 'monthly', 'multicredit' );?></p>
     </div>
+
     <div class="col-lg-3 nopadding no-resizing-cols">
       <!-- Intérêts à 4.9% -->
       <p class="f-height"><?php _e( 'Interests', 'multicredit' );?></p>
@@ -71,6 +72,7 @@ if (in_array('page-template-template-form',$classes)) {
       <h4 id="interet99">0</h4>
       <p class="small"><?php _e( 'in addition to the desired amount', 'multicredit' );?></p>
     </div>
+
     <div class="col-lg-3 noleftpadding no-resizing-cols">
       <!-- Total à 4.9% -->
       <p class="f-height"><?php _e( 'Paid in total', 'multicredit' );?></p>
@@ -83,6 +85,7 @@ if (in_array('page-template-template-form',$classes)) {
       <h4 id="total99">0</h4>
       <p class="small"><?php _e( 'at the rate of', 'multicredit' );?> <b>9,9%</b></p>
     </div>
+
   </div>
   <div class="row align-items-center legend-bloc">
     <div class="col-lg-3">&nbsp;</div>

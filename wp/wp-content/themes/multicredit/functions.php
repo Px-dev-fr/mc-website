@@ -420,7 +420,6 @@ endif;
 		<li class=""><i class="fa fa-wordpress"></i> Wordpress : Version 5.3.2</li>
 		<li class=""><i class="fa fa-laptop"></i> Theme : multicredit V1.0</li>
 		<li class=""><i class="fa fa-rocket"></i> Hosting : Infomaniak<br /><hr></li>
-		<li class=""><i class="fa fa-flask"></i> <strong>Powered by :<br />Diabolo Design SA</strong><br /><br />Tel : +41 21 946 17 30<br /><a href="mailto:webmaster@diabolo.com" target="_blank">webmaster@www.diabolo.com</a><br /><br /><a href="https://www.diabolo.com" target="_blank">www.www.diabolo.com</a></li>
 		</ul>';
     echo ($output);
     }

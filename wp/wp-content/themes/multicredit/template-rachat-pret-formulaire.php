@@ -1,15 +1,5 @@
 <?php
-/**
-* Template Name: Formulaire rachat de pret
-_____     __     ______     ______     ______     __         ______
-/\  __-.  /\ \   /\  __ \   /\  == \   /\  __ \   /\ \       /\  __ \
-\ \ \/\ \ \ \ \  \ \  __ \  \ \  __<   \ \ \/\ \  \ \ \____  \ \ \/\ \
-\ \____-  \ \_\  \ \_\ \_\  \ \_____\  \ \_____\  \ \_____\  \ \_____\
-\/____/   \/_/   \/_/\/_/   \/_____/   \/_____/   \/_____/   \/_____/
 
-Copyright (c) diabolo design | https://www.diabolo.com/
-
-*/
 
 session_start();
 $DureeRachatValue = $_GET['dureerachat'];
