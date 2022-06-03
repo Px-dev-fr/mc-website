@@ -15424,12 +15424,12 @@ a.text-dark:focus {
 
 .page-template-template-form-php #GeneralWrapper .demande-credit-component {
   padding: 4em;
-  background: #0033a0;
-  border-radius: 0;
+  /* background: #0033a0; */
+  /* border-radius: 0; */
 }
 
 .page-template-template-form-php #GeneralWrapper .demande-credit-component p {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .page-template-template-form-php #GeneralWrapper .demande-credit-component h4 {
