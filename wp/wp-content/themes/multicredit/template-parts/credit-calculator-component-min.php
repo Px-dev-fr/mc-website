@@ -4,9 +4,6 @@ if (isset($_POST['amortization_table']) and $_POST['amortization_table'] == "sub
     include(__DIR__ . "/table.php");
 }
 $classes = get_body_class();
-// if (in_array('page-template-template-form', $classes)) {
-//     echo "<div class='demande-credit-component fullsize visible'>";
-// }
 ?>
 <div class='demande-credit-component'>
     <form class="container" id="demandeCredit" method="get" action="<?php echo get_home_url() ?>/<?php _e('credit-application', 'multicredit') ?>/">
@@ -94,7 +91,7 @@ $classes = get_body_class();
             <? foreach ($tauxListe as $taux) : ?>
                 <div role="tabpanel" class="tab-pane col-12 <?= $taux == '79' ? 'active' : '' ?>" id="taux<?= $taux ?>">
                     <div class="mensualiteUnique" id="<?= $taux ?>">
-                        <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row mb-lg-0 mb-2">
+                        <div class="d-flex justify-content-center align-items-start flex-column flex-lg-row mb-lg-0 mb-2">
                             <!-- Infos -->
                             <div class="col-12 col-lg-6 d-flex justify-content-center">
                                 <div class="d-flex flex-column justify-content-start align-items-start">
