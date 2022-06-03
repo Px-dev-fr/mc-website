@@ -15406,9 +15406,9 @@ a.text-dark:focus {
   }
 }
 
-.page-template-template-form-php #GeneralWrapper .hero.background-hero {
+/* .page-template-template-form-php #GeneralWrapper .hero.background-hero {
   display: none;
-}
+} */
 
 @media only screen and (max-width: 1024px) {
   .page-template-template-form-php #GeneralWrapper .container {
