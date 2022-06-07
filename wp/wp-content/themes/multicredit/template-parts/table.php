@@ -61,6 +61,9 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $langTmp = get_locale();
         switch ($langTmp){
             case 'fr_FR':
+                $top = "RAPIDE, SIMPLE ET DISCRET";
+                $mobile = "+41799363175";
+                $bureau ="+41263222310";
                 $ta = "Tableau d'amortissement";
                 $langPrev = '_fr';
                 $col1Text = 'Mois';
@@ -69,57 +72,73 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
                 $col4Text = 'Amortissement';
                 $col5Text = 'Solde';
                 $total = 'Total';
+                $xAxe = 'Durée, mois';
+                $yAxe = 'Montant, CHF';
                 $montantNom = 'Montant:';
                 $dureeNom = 'Durée:';
                 $tauxNom = 'Taux:';
                 $moisNom = ' Mois';
-                $payeAnticipation ='Payez par anticipation ! En cas de remboursement anticipé, vous aurez droit à la remise des intérêts et à une réduction adaptée des coûts liées à la durée du crédit non utilisé.';
-                $deduction = 'N\'oubliez pas que les interêts du crédit sont déducitbles des impôts';
+                $payeAnticipation ='Payez par anticipation ! En cas de remboursement anticipé, vous aurez droit à la remise des intérêts et à une réduction adaptée des coûts liés à la durée du crédit non utilisé.';
+                $deduction = 'N\'oubliez pas que les intérêts du crédit sont déductibles des impôts';
                 $infos="Le tableau d'amortissement ci-dessus reste purement indicatif et peut ne pas correspondre à un contrat final. Ce tableau est calculé avec un taux d'intérêt de ".$taux."% , sans couverture d'assurance.";
                 $articleLoi = "Selon la loi, l'octroi d'un crédit à la consommation est interdit s'il entraîne un surendettement (art. 3 LAU). Exemple de calcul : Financement de 10 000 CHF. Un taux d'intérêt annuel effectif de 4,5% à 9,9% entraîne des coûts totaux pour 12 mois de 240 à 520 CHF. Le taux d'intérêt final varie, en fonction de la situation de chaque client, de 4,5% à 9,9%. Il n'y a pas de frais de dossier ni de frais supplémentaires : vous ne payez que les intérêts du prêt. Cashflex MultiCredit Sàrl est enregistrée comme service commercial du canton de Fribourg depuis avril 2007.IDE : CHE-113.592.711. Cashflex MultiCredit Sàrl est membre de la Fédération des Entreprises Romandes.";
-
-
+                $supp = "Un supplément/rallonge de crédit est envisageable après 6 à 9 mois de remboursement ponctuel";
                 break;
+
             case 'de_DE':
-                $ta = "Abschreibungstabelle";
+                $top ="";
+                $mobile = "+41799363175";
+                $bureau ="+41263222310";
+                $ta = "Amortisations Plan";
                 $langPrev = '_de';
                 $col1Text = 'Monat';
-                $col2Text = 'Monatliche Rate';
-                $col3Text = 'Zinsanteil';
+                $col2Text = 'Rate';
+                $col3Text = 'Zinsen';
                 $col4Text = 'Amortisation';
-                $col5Text = 'Restwert';
-                $total ='Gesamt';
+                $col5Text = 'Restschuld';
+                $total ='Total';
                 $montantNom = 'Betrag:';
                 $dureeNom = 'Dauer:';
-                $tauxNom = 'Zinssatz:';
-                $moisNom = ' Monaten';
-                $payeAnticipation ='Zahlen Sie im Voraus! Bei vorzeitiger Rückzahlung haben Sie Anspruch auf den Erlass der Zinsen und eine angemessene Reduzierung der Kosten für die Dauer des nicht genutzten Kredits.';
+                $tauxNom = 'Zins:';
+                $moisNom = ' Monat';
+                $payeAnticipation ='Zahlen Sie im Voraus! Wenn Sie im Voraus zahlen, bekommen Sie einie Ermässigung der Zinsen und eine angepasste Reduzierung der Kosten von der nicht benützten Kredit Dauer.';
                 $infos="Der obige Tilgungsplan dient lediglich der Veranschaulichung und entspricht möglicherweise nicht dem endgültigen Vertrag. Die Tabelle wurde mit einem Zinssatz von $taux% , ohne Versicherungsschutz, berechnet.";
                 $articleLoi = "Gemäss Gesetz ist die Gewährung eines Konsumkredits verboten, wenn sie zu einer Überschuldung führt (Art. 3 UWG). Rechenbeispiel: Finanzierung von 10 000 CHF. Ein effektiver Jahreszins von 4,5% bis 9,9% führt zu Gesamtkosten für 12 Monate von 240 bis 520 CHF. Der Endzinssatz variiert je nach der Situation des einzelnen Kunden zwischen 4,5% und 9,9%. Es gibt keine Bearbeitungsgebühren oder zusätzliche Kosten: Sie zahlen nur die Zinsen für das Darlehen. Cashflex MultiCredit Sàrl ist seit April 2007 als kommerzielle Dienstleistung des Kantons Freiburg registriert.IDE : CHE-113.592.711. Cashflex MultiCredit Sàrl ist Mitglied der Fédération des Entreprises Romandes.";
-                $deduction = 'Denken Sie daran, dass die Zinsen von der Steuer absetzbar sind';
+                $deduction = 'Vergessen Sie nicht, dass die Zinsen bei den Steuern abziehbar sind';
+                $xAxe = 'Dauer, Monat';
+                $yAxe = 'Bertrag, CHF';
+                $supp = "Einen Kredit Zusatz/Verlängerung ist nach 6-9 Monaten nach pünktlicher Ratenzahlung möglich";
 
 
                 break;
             case 'it_IT':
+                $mobile = "+41799035739";
+                $bureau ="+41263222310";
                 $ta ="Tabella di ammortamento";
                 $langPrev = '_it';
                 $col1Text = 'Mese';
-                $col2Text = 'Rendita';
-                $col3Text = 'Tasso di interesse';
-                $col4Text = 'Amortamenti';
-                $col5Text = 'Importo totale';
+                $col2Text = 'Rata mensile';
+                $col3Text = 'Interesse';
+                $col4Text = 'Ammortamento';
+                $col5Text = 'Saldo';
                 $total = 'Totale';
                 $montantNom = 'Importo:';
                 $dureeNom = 'Durata:';
                 $tauxNom = 'Tasso:';
-                $moisNom = ' Mesi';
-                $payeAnticipation = 'Paga in anticipo! In caso di rimborso anticipato, avrete diritto a un rimborso degli interessi e a una riduzione adeguata dei costi relativi alla durata del credito non utilizzato';
+                $moisNom = ' Mese';
+                $payeAnticipation = 'Paghi in anticipo! In caso di rimborso anticipato, le saranno rimborsati gli interessi e avrete una riduzione dei costi sulla durata del prestito non usufruito';
                 $infos="La tabella di ammortamento sopra riportata è puramente indicativa e potrebbe non corrispondere a un contratto definitivo. Questa tabella è calcolata con un tasso di interesse del $taux%, senza copertura assicurativa";
                 $articleLoi ="Secondo la legge, la concessione di un credito al consumo è vietata se porta al sovraindebitamento (art. 3 LAU). Esempio di calcolo: finanziamento di 10.000 franchi. Un tasso di interesse annuo effettivo compreso tra il 4,5% e il 9,9% comporta costi totali per 12 mesi compresi tra 240 e 520 franchi svizzeri. Il tasso di interesse finale varia tra il 4,5% e il 9,9%, a seconda della situazione del cliente. Non ci sono spese di richiesta o costi aggiuntivi: si pagano solo gli interessi sul prestito. Cashflex MultiCredit Sàrl è registrata come servizio commerciale nel Cantone di Friburgo dall'aprile 2007.IDE : CHE-113.592.711. Cashflex MultiCredit Sàrl è membro della Fédération des Entreprises Romandes";
-                $deduction ="Non dimenticate che gli interessi sono deducibili dalle tasse.";
+                $deduction ="Non dimentichi che gli interessi sono deducibili dalle tasse.";
+                $xAxe = 'Durée, mois';
+                $yAxe = 'Montant, CHF';
+                $supp = "Un supplemento o aumento del prestito è possibile dopo 6-9 mesi di rimborso puntoale";
+
                 break;
             default:
                 //$langTmp == 'en_EN'
+                $mobile = "+4179471661";
+                $bureau ="+41263222310";
                 $ta = "Amortization table";
                 $langPrev = '_en';
                 $col1Text = 'Month';
@@ -132,10 +151,14 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
                 $dureeNom = 'Duration:';
                 $tauxNom = 'Rate:';
                 $moisNom = ' Months';
-                $payeAnticipation = 'Pay it forward! In case of early repayment, you will be entitled to interest rebate and an adapted reduction of the costs related to the duration of the unused credit.';
+                $payeAnticipation = 'Pay in advance! In case of early repayment, you will be entitled to interest relief and an equivalent reduction of the costs related to the remaining credit period';
                 $infos="The above amortization table is purely indicative and may not correspond to a final contract. This table is calculated with an interest rate of $taux%, without insurance coverage";
                 $articleLoi ="According to the law, the granting of a consumer credit is prohibited if it leads to overindebtedness (art. 3 LAU). Calculation example: Financing of 10 000 CHF. An effective annual interest rate of 4.5% to 9.9% results in total costs for 12 months of CHF 240 to 520. The final interest rate varies from 4.5% to 9.9% depending on the client's situation. There are no application fees or additional charges: you only pay the interest on the loan. Cashflex MultiCredit Sàrl is registered as a commercial service in the canton of Fribourg since April 2007.IDE : CHE-113.592.711. Cashflex MultiCredit Sàrl is a member of the Fédération des Entreprises Romandes";
-                $deduction = "Don't forget that interest is tax deductible";
+                $deduction = "Don't forget that the interest amount is tax-deductible ";
+                $xAxe = 'Duration, month';
+                $yAxe = 'Amount, CHF';
+                $supp = "A credit supplement/extension is possible after 6 to 9 months of regular payment.";
+
                 break;
         }
         $months = Array();
@@ -146,6 +169,9 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $path = realpath(__DIR__."/../base-pdf");
         $template = "$path/base$langPrev.pdf";
 
+
+
+
         $pdf->SetFont('Open Sans');
         $pdf->SetMargins(15,20,15);
         $pdf->SetAutoPageBreak(false);
@@ -153,6 +179,27 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $thirdWidth = (($pdf->GetPageWidth()-30) /3);
         $fifthWidth = (($pdf->GetPageWidth()-30) / 5 );
 
+        $posTelBureauLinkX = 10;
+        $posTelBureauLinkY =$pdf->GetPageHeight() -13;
+
+        $posTelLinkX = 29;
+        $posTelLinkY =$pdf->GetPageHeight() -13;
+
+        $posMailToX = 48;
+        $posMailToY =$pdf->GetPageHeight() -13;
+
+        $pdf->setXY($posTelBureauLinkX,$posTelBureauLinkY);
+        $pdf->Link($posTelBureauLinkX,$posTelBureauLinkY,17,4,"tel:$bureau");
+
+        $pdf->setXY($posTelLinkX,$posTelLinkY);
+        $pdf->Link($posTelLinkX,$posTelLinkY,17,4,"tel:$mobile");
+
+        $pdf->SetXY($posMailToX,$posMailToY);
+        $pdf->Link($posMailToX,$posMailToY,22,4,"mailto:info@multicredit.ch");
+
+       /* $pdf->SetFont('Helvetica',"BI",18);
+        $pdf->setXY(80,20);
+        $pdf->Cell(0,0,utf8_decode($top),0,0,"R");*/
 
         $pdf->setXY(0,40);
         $pdf->SetFont('Open Sans',"",18);
@@ -198,7 +245,7 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
                 $pdf->useTemplate($tplIdx);
                  //Ajouts hyper liens:
                 $pdf->Link(10,10,50,50,"https://www.multicredit.ch");
-                $pdf->Link($pdf->GetPageWidth()-50,$pdf->GetPageHeight()-10,40,15,"https://www.multicredit.ch");
+                $pdf->Link($pdf->GetPageWidth()-50,$pdf->GetPageHeight()-23,50,30,"https://www.multicredit.ch");
 
 
                 if($i == 15){
@@ -236,9 +283,6 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeAmortissement,2)),1,1,"C");
         $pdf->SetFont('Helvetica');
 
-        $pageCount = $pdf->setSourceFile("$path/base_light$langPrev.pdf");
-        $tplIdx = $pdf->importPage($pageCount, '/MediaBox');
-        $pdf->useTemplate($tplIdx);
 
         $url = "{
           type: 'bar',
@@ -265,7 +309,7 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
                   stacked: true,
                    scaleLabel: {
                     display: true,
-                    labelString: '$col1Text',
+                    labelString: '$xAxe',
                   },
                 },
                 
@@ -275,7 +319,7 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
                   stacked: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'CHF',
+                    labelString: '$yAxe',
                   },
                 },
               ],
@@ -296,6 +340,11 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $pdf->setXY($pdf->getX()+6,$pdf->getY()-5);
         $pdf->MultiCell(0,5, utf8_decode($deduction),0,"J");
 
+        newElement($pdf,$langPrev);
+        $pdf->Image("https://www.multicredit.ch/wp/wp-content/uploads/2020/03/favicon.png",null,null,5,5,"PNG");
+        $pdf->setXY($pdf->getX()+6,$pdf->getY()-5);
+        $pdf->MultiCell(0,5, utf8_decode($supp),0,"J");
+
         $pdf->setFontSize(5);
         newElement($pdf,$langPrev);
         $pdf->MultiCell(0,3, utf8_decode($infos),0,"J");
@@ -308,7 +357,7 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
 
         //Ajouts hyper liens:
         $pdf->Link(10,10,50,50,"https://www.multicredit.ch");
-        $pdf->Link($pdf->GetPageWidth()-50,$pdf->GetPageHeight()-10,40,15,"https://www.multicredit.ch");
+        $pdf->Link($pdf->GetPageWidth()-50,$pdf->GetPageHeight()-23,50,30,"https://www.multicredit.ch");
 
         ob_end_clean();
         $pdf->Output("D","document.pdf");
@@ -345,12 +394,18 @@ function amortissement($montant, $duree, $taux){
 function newElement($pdf,$langPrev,$margin=75,$setY=5){
     $path=realpath(__DIR__."/../base-pdf");
     if (($pdf->GetPageHeight() - $pdf->getY()) < $margin){
-        $pageCount = $pdf->setSourceFile("$path/base_light$langPrev.pdf");
+        $test = count($pdf->PageNo());
+        if($pdf->PageNo()> 1){
+            $pageCount = $pdf->setSourceFile("$path/base_light$langPrev.pdf");
+        }else{
+            $pageCount = $pdf->setSourceFile("$path/base$langPrev.pdf");
+        }
         $tplIdx = $pdf->importPage($pageCount, '/MediaBox');
         $pdf->useTemplate($tplIdx);
         //Ajouts hyper liens:
         $pdf->Link(10,10,50,50,"https://www.multicredit.ch");
-        $pdf->Link($pdf->GetPageWidth()-50,$pdf->GetPageHeight()-10,40,15,"https://www.multicredit.ch");
+        $pdf->Link($pdf->GetPageWidth()-50,$pdf->GetPageHeight()-23,50,30,"https://www.multicredit.ch");
+
 
 
         $pdf->addPage();
