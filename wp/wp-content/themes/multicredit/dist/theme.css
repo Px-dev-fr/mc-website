@@ -11737,8 +11737,8 @@ a.text-dark:focus {
 
 #GeneralWrapper .ssl-block {
   position: absolute;
-  right: 0;
-  top: 85px;
+  right: 20px;
+  top: 400px;
   color: #929090;
   text-align: center;
   max-width: 400px;
@@ -11756,8 +11756,8 @@ a.text-dark:focus {
 
 @media only screen and (max-width: 1500px) {
   #GeneralWrapper .ssl-block {
-    right: -25px;
-    top: 75px;
+    right: 20px;
+    top: 400px;
     max-width: 270px;
   }
 }
@@ -11955,6 +11955,11 @@ a.text-dark:focus {
 #GeneralWrapper .formnav {
   clear: both;
   padding: 48px 0 96px 0;
+}
+
+#GeneralWrapper #cr_f .formnav {
+  clear: both;
+  padding: 48px 0 48px 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -15696,4 +15701,3 @@ a.text-dark:focus {
     display: none !important;
   }
 }
-

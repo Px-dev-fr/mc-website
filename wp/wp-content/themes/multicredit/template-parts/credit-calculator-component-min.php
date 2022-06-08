@@ -51,7 +51,7 @@ $classes = get_body_class();
                 <!-- Durée -->
                 <p><?php _e('Duration from 12 to 84 months', 'multicredit'); ?></p>
                 <div class="slidecontainer">
-                    <input id="duree" name="duree" type="number" min="12" max="84" value="<?php echo $DureeValue; ?>" step="12" oninput="dureeSlider.value=duree.value" />
+                    <input id="duree" name="duree" type="number" min="12" max="84" value="<?php echo $DureeValue; ?>" step="1" oninput="dureeSlider.value=duree.value" />
                     <input id="dureeSlider" type="range" min="12" max="84" value="<?php echo $DureeValue; ?>" step="12" class="slider" oninput="duree.value=dureeSlider.value" />
                 </div>
             </div>
@@ -93,10 +93,10 @@ $classes = get_body_class();
                     <div class="mensualiteUnique" id="<?= $taux ?>">
                         <div class="d-flex justify-content-center align-items-start flex-column flex-lg-row mb-lg-0 mb-2">
                             <!-- Infos -->
-                            <div class="col-12 col-lg-6 d-flex justify-content-center">
+                            <div class="col-12 col-lg-4 d-flex justify-content-center">
                                 <div class="d-flex flex-column justify-content-start align-items-start">
                                     <h5>
-                                        <?php _e('Benefits :', 'multicredit'); ?>
+                                        <?php _e('Benefits:', 'multicredit'); ?>
                                     </h5>
                                     <div class=" px-0 mb-4">
                                         <ul>
@@ -109,19 +109,40 @@ $classes = get_body_class();
                                             <li>
                                                 <?php _e('Death insurance covering the debt', 'multicredit'); ?>
                                             </li>
-                                            <? if ($taux != "49") : ?>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                                <div class="d-flex flex-column justify-content-start align-items-start">
+                                    <h5>
+                                        <?php _e('Eligibility:', 'multicredit'); ?>
+                                    </h5>
+                                    <div class=" px-0 mb-4">
+                                        <ul>
+                                            <li>
+                                                <?php _e('From 20 to 69 years old', 'multicredit'); ?>
+                                            </li>
+                                            <? if ($taux == "49") : ?>
                                                 <li>
-                                                    <?php _e('CH, permit C, B, G and legitmation card', 'multicredit'); ?>
+                                                    <?php _e('All Swiss citizens or holders of permit C are eligible', 'multicredit'); ?>
+                                                </li>
+                                                <li>
+                                                    <?php _e('Being a property owner', 'multicredit'); ?>
+                                                </li>
+                                            <? else : ?>
+                                                <li>
+                                                    <?php _e('All Swiss citizens, holders of permit B, C, G or legitimation card are eligible', 'multicredit'); ?>
                                                 </li>
                                             <? endif ?>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 px-lg-0 d-lg-flex justify-content-lg-center" id="ppi">
+                            <div class="col-12 col-lg-4 px-lg-0 d-lg-flex justify-content-lg-center" id="ppi">
                                 <!-- PPI -->
                                 <div class="d-flex justify-content-start align-items-start mb-4 flex-column">
-                                    <h5 class="mr-4"><?php _e('Monthly payment insurance :', 'multicredit'); ?></h5>
+                                    <h5 class="mr-4"><?php _e('Payment protection insurance:', 'multicredit'); ?></h5>
                                     <div class="px-0">
                                         <ul>
                                             <li>
@@ -174,12 +195,12 @@ $classes = get_body_class();
                         <!-- SMALL SCREEN -->
                         <div class="d-lg-none d-flex flex-column justify-content-center align-items-center">
                             <!-- <? if (!in_array('page-template-template-form', $classes)) : ?> -->
-                                <!-- Bouton Demande -->
-                                <div class="col d-flex justify-content-center px-0 mb-2">
-                                    <div class="col px-0">
-                                        <input type="submit" form="demandeCredit" class="btn mb-0" value="<?php _e('Credit application', 'multicredit'); ?>" />
-                                    </div>
+                            <!-- Bouton Demande -->
+                            <div class="col d-flex justify-content-center px-0 mb-2">
+                                <div class="col px-0">
+                                    <input type="submit" form="demandeCredit" class="btn mb-0" value="<?php _e('Credit application', 'multicredit'); ?>" />
                                 </div>
+                            </div>
                             <!-- <? endif ?> -->
                             <!-- Y compris -->
                             <div class="col d-flex justify-content-center px-0 mb-2">
