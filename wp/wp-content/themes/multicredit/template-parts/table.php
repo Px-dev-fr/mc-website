@@ -12,6 +12,10 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
     $post = $_POST;
     $pdf  = new FPDI();
     $pdf->AddFont("Open Sans","","OpenSans-Regular.php");
+    $pdf->AddFont("Avenir","","Avenir-Medium.php");
+    $pdf->AddFont("Avenir","BI","Avenir-BlackOblique.php");
+    $pdf->AddFont("Avenir","B","Avenir-Black.php");
+
 
     /*session_start();
     $leasing = isset($_SESSION['leasing']) ? $_SESSION['leasing'] : [];
@@ -172,7 +176,7 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
 
 
 
-        $pdf->SetFont('Open Sans');
+        $pdf->SetFont('Avenir');
         $pdf->SetMargins(15,20,15);
         $pdf->SetAutoPageBreak(false);
         $pdf->addPage("P");
@@ -202,13 +206,13 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $pdf->Cell(0,0,utf8_decode($top),0,0,"R");*/
 
         $pdf->setXY(0,40);
-        $pdf->SetFont('Open Sans',"",18);
+        $pdf->SetFont('Avenir',"B",18);
         $pdf->SetMargins(0,0,0);
         $pdf->setX(0);
-        $pdf->Cell(0,0,utf8_decode(strtoupper($ta)),0,1,"C");
+        $pdf->Cell(0,0,utf8_decode(($ta)),0,1,"C");
         $pdf->SetMargins(15,20,15);
         $pdf->setY($pdf->getY()+20);
-        $pdf->SetFont('Open Sans',"",12);
+        $pdf->SetFont('Avenir',"",12);
 
         $pdf->Image("https://www.multicredit.ch/wp/wp-content/uploads/montant.png",$pdf->getX(),$pdf->getY(),5,5,"PNG");
         $pdf->setx($pdf->getX()+6);
@@ -229,7 +233,7 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
         $pdf->Cell($fifthWidth,10, utf8_decode($col4Text),1,0,"C");
         $pdf->Cell($fifthWidth,10, utf8_decode($col5Text),1,1,"C");
 
-        $pdf->SetFont('Helvetica',"",12);
+        $pdf->SetFont('Avenir',"",12);
         $headerPostion =$pdf->getY() - 10;
 
         $pdf->setFillColor(235,235,235);
@@ -276,12 +280,12 @@ require_once( realpath(__DIR__.'/../pdfpdfi/fpdi/fpdi.php'));
             $dateTxt = date("d.m.Y",$time);
 
         }
-        $pdf->SetFont('Helvetica',"BIU");
+        $pdf->SetFont('Avenir',"BIU",12);
         $pdf->Cell($fifthWidth ,10, utf8_decode($total),1,0,"C");
         $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeAnnuite,2)),1,0,"C");
         $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeInterets,2)),1,0,"C");
         $pdf->Cell($fifthWidth,10, utf8_decode(number_format($sommeAmortissement,2)),1,1,"C");
-        $pdf->SetFont('Helvetica');
+        $pdf->SetFont('Avenir',"",12);
 
 
         $url = "{
