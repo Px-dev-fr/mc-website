@@ -1,7 +1,3 @@
-<?php
-
-
-
 <?php get_header(); ?>
 
 <?php // Add Calculator component
