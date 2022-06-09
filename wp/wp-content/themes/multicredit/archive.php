@@ -1,3 +1,7 @@
+<?php
+/* Template Name: Archive Page */
+
+?>
 <?php get_header('archive'); ?>
 
 <div class="container">

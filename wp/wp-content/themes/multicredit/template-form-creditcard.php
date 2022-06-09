@@ -1,5 +1,8 @@
-
-
+<?php
+/**
+* Template Name: Form Credit Card
+*/
+?>
 
 <?php get_header(); ?>
 

@@ -1,4 +1,9 @@
+<?php
+/**
+* Template Name: Budget Calculator Footer
 
+*/
+?>
 
 
 <?php get_header(); ?>

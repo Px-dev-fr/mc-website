@@ -1,4 +1,8 @@
-
+<?php
+/**
+* Template Name: Stat & Number Footer
+*/
+?>
 
 
 <?php get_header(); ?>

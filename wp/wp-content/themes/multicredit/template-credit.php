@@ -1,4 +1,8 @@
-
+<?php
+/**
+* Template Name: Page with Calculator
+*/
+?>
 <?php get_header(); ?>
 
 <?php // Add Calculator component

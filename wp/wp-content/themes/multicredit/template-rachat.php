@@ -1,3 +1,9 @@
+<?php
+/**
+* Template Name: Page rachat with Calculator
+
+*/
+?>
 <?php get_header(); ?>
 
 <?php // Add Calculator component

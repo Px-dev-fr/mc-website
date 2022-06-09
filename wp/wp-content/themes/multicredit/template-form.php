@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: form
+Template Name: Form
 */
 ?>
 <?php get_header(); ?>

@@ -1,5 +1,7 @@
 <?php
-
+/**
+* Template Name: Formulaire rachat de pret
+*/
 
 session_start();
 $DureeRachatValue = $_GET['dureerachat'];

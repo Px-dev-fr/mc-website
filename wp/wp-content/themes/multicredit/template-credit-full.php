@@ -1,5 +1,9 @@
 
-
+<?php
+/**
+* Template Name: Credit Page
+*/
+?>
 
 <?php get_header(); ?>
 

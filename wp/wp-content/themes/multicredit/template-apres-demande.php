@@ -1,4 +1,6 @@
-
+<?php
+/*Template Name: Page apres demande */
+?>
 
 
 <?php get_header("apres-demande"); ?>
