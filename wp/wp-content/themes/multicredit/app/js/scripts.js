@@ -1,6 +1,5 @@
 /* Custom theme scripts */
 
-
 /* Translations */
 var $cg = "en";
 var $cgtitle = "General terms and conditions";
@@ -316,10 +315,10 @@ jQuery(document).ready(function () {
       ppiVar = false;
       jQuery(".ppiNo").each(function () {
         jQuery(this).prop("checked", true);
-      });;
+      });
       jQuery(".ppiYes").each(function () {
         jQuery(this).prop("checked", false);
-      });;
+      });
     }
     recalc();
   }
@@ -538,3 +537,55 @@ if (gclid) {
   var gclsrc = getParam("gclsrc");
   (!gclsrc || -1 !== gclsrc.indexOf("aw")) && setCookie("gclid", gclid, 90);
 }
+
+var langue = document.getElementsByTagName("html")[0].getAttribute("lang");
+var savoirPlus = "";
+var reduire = "";
+switch (langue) {
+  case "fr-FR":
+    savoirPlus = "En savoir plus";
+    reduire = "Reduire";
+    break;
+  case "en-US":
+    savoirPlus = "Read more";
+    reduire = "Hide";
+    break;
+  case "it-IT":
+    savoirPlus = "Leggi di più";
+    reduire = "Ridure";
+    break;
+  case "pt-pt":
+    savoirPlus = "Leia mais";
+    reduire = "Reduza";
+    break;
+  case "es-ES":
+    savoirPlus = "Leer mas";
+    reduire = "Reducir";
+    break;
+  case "de-DE":
+    savoirPlus = "Mehr lesen";
+    reduire = "Reduzieren Sie";
+    break;
+  case "sq-AL":
+    savoirPlus = "Zbulo me shume";
+    reduire = "Reduktuar";
+    break;
+  case "tr-TR":
+    savoirPlus = "Daha fazlasni bul";
+    reduire = "Azaltmak";
+    break;
+  default:
+    savoirPlus = "En savoir plus";
+    reduire = "Reduire";
+}
+document
+  .querySelector("#bouton-savoir-plus")
+  .addEventListener("click", function () {
+    if (document.querySelector("#paragraphe-cache").style.display == "none") {
+      document.querySelector("#paragraphe-cache").style.display = "";
+      document.querySelector("#bouton-savoir-plus").value = reduire;
+    } else {
+      document.querySelector("#paragraphe-cache").style.display = "none";
+      document.querySelector("#bouton-savoir-plus").value = savoirPlus;
+    }
+  });

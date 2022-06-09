@@ -28,6 +28,7 @@ if ($MontantValue == '' || $DureeValue == '') {
 			echo get_template_part('template-parts/credit-form-block');
 			?>
 
+
 			<?php
 			if (have_posts()) {
 				while (have_posts()) {
@@ -56,8 +57,6 @@ if ($MontantValue == '' || $DureeValue == '') {
 
 <?
 if (!$montantDuree) {
-	echo get_template_part('template-parts/credit-calculator-component-min');
-
 ?>
 	<script>
 		document.getElementById("demandeCredit").scrollIntoView();

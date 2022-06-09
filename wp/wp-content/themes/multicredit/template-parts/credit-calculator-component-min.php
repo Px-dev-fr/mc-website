@@ -38,7 +38,7 @@ $classes = get_body_class();
         $tauxListe = ["49", "79", "99"];
         ?>
 
-        <div class="row align-items-center" style="display: flex;flex-wrap: wrap;justify-content: center;">
+        <div class="row align-items-start" style="display: flex;flex-wrap: wrap;justify-content: center;">
             <div class="col-lg-6">
                 <!-- Montant -->
                 <p><?php _e('Amount from 3\'000 to 400\'000 CHF', 'multicredit'); ?></p>
@@ -52,7 +52,16 @@ $classes = get_body_class();
                 <p><?php _e('Duration from 12 to 84 months', 'multicredit'); ?></p>
                 <div class="slidecontainer">
                     <input id="duree" name="duree" type="number" min="12" max="84" value="<?php echo $DureeValue; ?>" step="1" oninput="dureeSlider.value=duree.value" />
-                    <input id="dureeSlider" type="range" min="12" max="84" value="<?php echo $DureeValue; ?>" step="12" class="slider" oninput="duree.value=dureeSlider.value" />
+                    <input id="dureeSlider" type="range" min="12" max="84" value="<?php echo $DureeValue; ?>" step="1" class="slider" oninput="duree.value=dureeSlider.value" />
+                    <ul class="range-labels" id="slider-label">
+                        <li><span>12</span></li>
+                        <li><span>24</span></li>
+                        <li><span>36</span></li>
+                        <li><span>48</span></li>
+                        <li><span>60</span></li>
+                        <li><span>72</span></li>
+                        <li><span>84</span></li>
+                    </ul>
                 </div>
             </div>
         </div>

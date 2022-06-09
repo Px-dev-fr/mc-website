@@ -724,6 +724,11 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                 </main> <!-- /content -->
 
+
+                <?php // Add Read More block
+                echo get_template_part('template-parts/read-more-block');
+                ?>
+
                 <div class="container pb-5">
                     <div class="row">
                         <div class="col-lg-12">

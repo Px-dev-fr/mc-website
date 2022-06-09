@@ -11266,8 +11266,8 @@ a.text-dark:focus {
 }
 
 #GeneralWrapper .securite * {
- color: black;
- fill: black;
+  color: black;
+  fill: black;
 }
 
 #GeneralWrapper .checklist ul li:before {
@@ -11885,6 +11885,8 @@ a.text-dark:focus {
   );
   outline: none;
   transition: all 0.3s ease;
+  z-index: 2 !important;
+  position: relative;
 }
 
 #GeneralWrapper .slider::-webkit-slider-thumb {
@@ -11918,6 +11920,61 @@ a.text-dark:focus {
 
 #GeneralWrapper .slider::-moz-range-progress {
   background-color: #df003c;
+
+}
+
+#GeneralWrapper .range-labels {
+  padding-left: 11px;
+  padding-right: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1 !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  #GeneralWrapper .range-labels {
+    padding-left: 10.5px;
+    padding-right: 39.5px;
+  }
+}
+
+#GeneralWrapper .range-labels li {
+  position: relative;
+  color: #b2b2b2;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+#GeneralWrapper .range-labels li span {
+  position: absolute;
+  top: -5px;
+  right: -35px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #GeneralWrapper .range-labels li span {
+    right: -40px;
+  }
+}
+
+#GeneralWrapper .range-labels li:hover:before {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#GeneralWrapper .range-labels li::before {
+  margin-right: unset;
+  transition: unset;
+  position: absolute;
+  color: unset;
+  top: -28px;
+  left: 14px;
+  content: "";
+  width: 1px;
+  height: 20px;
+  background: #b2b2b2;
 }
 
 #GeneralWrapper ::-webkit-input-placeholder {
@@ -13830,7 +13887,7 @@ a.text-dark:focus {
   text-indent: unset;
 }
 #GeneralWrapper .demande-credit-component .mensualiteUnique {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   color: black;
   border-radius: 0px 0px 10px 10px;
   padding: 30px 30px 10px 30px;
@@ -13867,7 +13924,7 @@ a.text-dark:focus {
   margin-bottom: unset;
   padding-left: unset;
   text-indent: unset;
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 
 #tabs-taux .nav-link {
@@ -13921,11 +13978,8 @@ a.text-dark:focus {
   }
 }
 
-#GeneralWrapper
-.demande-credit-component
-  .mentions
-  a {
-  color: #DF003C;
+#GeneralWrapper .demande-credit-component .mentions a {
+  color: #df003c;
   font-weight: bold;
 }
 
@@ -13933,14 +13987,14 @@ a.text-dark:focus {
   font-size: 1em;
 }
 
- #GeneralWrapper
+#GeneralWrapper
   .demande-credit-component
   .mensualiteUnique
-  #tableauAmortissement input {
-    padding: 5px 10px;
-    margin: 0px;
-    width: unset !important;
-
+  #tableauAmortissement
+  input {
+  padding: 5px 10px;
+  margin: 0px;
+  width: unset !important;
 }
 
 #GeneralWrapper #tableauAmortissement input[type="submit"] {
