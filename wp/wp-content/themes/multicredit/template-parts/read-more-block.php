@@ -2,7 +2,7 @@
 $my_current_lang = apply_filters('wpml_current_language', NULL);
 ?>
 <? if ($my_current_lang != "it") : ?>
-  <input style="margin: auto;display: block;width: 40%;margin-bottom: 20px;" type="button" class="btn" id="bouton-savoir-plus" value="<?= _e("Read more", "multicredit") ?>">
+  <input style="margin: auto;display: block;width: 40%;margin-bottom: 40px;" type="button" class="btn" id="bouton-savoir-plus" value="<?= _e("Read more", "multicredit") ?>">
   <div class="container">
     <div id="paragraphe-cache" style="display:none;text-align:justify;">
       <h2 class="title-left"><?= _e("Tips for getting the right loan for you", "multicredit") ?></h2>
