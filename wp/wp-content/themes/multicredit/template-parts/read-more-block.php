@@ -4,7 +4,7 @@ $my_current_lang = apply_filters('wpml_current_language', NULL);
 <? if ($my_current_lang != "it") : ?>
   <input style="margin: auto;display: block;width: 40%;margin-bottom: 60px;" type="button" class="btn" id="bouton-savoir-plus" value="<?= _e("Read more", "multicredit") ?>">
   <div class="container">
-    <div id="paragraphe-cache" style="display:none;text-align:justify;">
+    <div id="paragraphe-cache" style="display:none;text-align:justify;margin-bottom: 60px;">
       <h2 class="title-left"><?= _e("Tips for getting the right loan for you", "multicredit") ?></h2>
       <p><?= _e("Loans help us in achieving some of our most important life objectives. They can give us access to opportunities we couldn't afford upfront, such as going to school, buying a house, or establishing a small business (to name just a few).A loan is also one of the most significant financial commitments we will ever make. Rushing into a loan in Switzerland without fully understanding how it will influence your budget might easily spin out of hand. If you need a personal loan, you can have a lot of possibilities. You can borrow money often quickly from several online lenders designed to cater to a range of borrowers, from the highly creditworthy to the credit challenged, in addition to looking at loans from your bank or other financing company.Personal loans require some research to find the perfect fit. Personal loan rates, fees, and conditions differ significantly from one lender to the next, from one loan to another, and from one borrower to the next. You'll need to conduct some research to find the most acceptable loan for personal needs or award that to a financing consultant like MultiCredit.", "multicredit") ?></p>
 
@@ -47,9 +47,9 @@ $my_current_lang = apply_filters('wpml_current_language', NULL);
     </div>
   </div>
 <? else : ?>
-  <input style="margin: auto;display: block;width: 40%;" type="button" class="btn" id="bouton-savoir-plus" value="Leggi di più">
+  <input style="margin: auto;display: block;width: 40%;margin-bottom: 60px;" type="button" class="btn" id="bouton-savoir-plus" value="Leggi di più">
   <div class="container">
-    <div id="paragraphe-cache" style="display:none;text-align:justify;">
+    <div id="paragraphe-cache" style="display:none;text-align:justify;margin-bottom: 60px;">
       <h2 class="title-left">Finanziamento veicoli : tutto quello che c'è da sapere sul prestito auto</h2>
       <p>Avere una conoscenza approfondita del sistema di finanziamento delle auto, vi permetterà di ottenerlo in modo più facile e soprattutto dalla migliore compagnia di prestiti auto a un prezzo accessibile. A volte si preferisce l'acquisto con un pagamento unico al prestito, ma in questo caso è importante prevedere altre spese per la manutenzione dell’auto. È infatti essenziale pensare alla manutenzione della vostra nuova auto e ad altre cose di cui si potrebbe aver bisogno. Per evitare questo tipo di problematiche, la soluzione è quella di finanziare la vostra auto con una società di prestiti.</p>
 
