@@ -134,7 +134,7 @@ $classes = get_body_class();
                                             </li>
                                             <? if ($taux == "49") : ?>
                                                 <li>
-                                                    <?php _e('All Swiss citizens or holders of permit C are eligible', 'multicredit'); ?>
+                                                    <?php _e('Working in Switzerland', 'multicredit'); ?>
                                                 </li>
                                                 <li>
                                                     <?php _e('Being a property owner', 'multicredit'); ?>
