@@ -13666,6 +13666,13 @@ a.text-dark:focus {
   background: #fff;
 }
 
+.cookie-btn {
+  color: #0033a0;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
