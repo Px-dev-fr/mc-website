@@ -147,7 +147,7 @@ if ($current_language_code == 'fr') {
 </div>
 <!-- Formulaire rapide Mobile -->
 <div id="brouillard"></div>
-<div id="form-rapid" class="hidden justify-content-center align-items-center flex-column">
+<div id="form-rapid" class="hidden-mobile justify-content-center align-items-center flex-column">
     <div id="footer-btn-info-close" class="container-croix">
         <img src="https://www.multicredit.ch/wp/wp-content/uploads/xmark-solid.svg" alt="info" width="25px" onclick="hideRapidForm()">
     </div>

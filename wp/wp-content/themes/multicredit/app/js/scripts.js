@@ -630,16 +630,16 @@ function hideRapidFormDesktop() {
 
 function showRapidForm() {
   jQuery("#brouillard").show();
-  jQuery("#form-rapid").removeClass("hidden").addClass("visible");
+  jQuery("#form-rapid").removeClass("hidden-mobile").addClass("visible-mobile");
   jQuery("#form-rapid").addClass("d-flex");
 }
 
 function hideRapidForm() {
   jQuery("#brouillard").hide();
   jQuery("#form-rapid").removeClass("d-flex");
-  jQuery("#form-rapid").addClass("hidden");
+  jQuery("#form-rapid").addClass("hidden-mobile");
   setTimeout(() => {
-    jQuery("#form-rapid").removeClass("visible");
+    jQuery("#form-rapid").removeClass("visible-mobile");
   }, 500);
 }
 
