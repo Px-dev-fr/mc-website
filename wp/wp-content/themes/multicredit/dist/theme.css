@@ -15821,6 +15821,11 @@ a.text-dark:focus {
   padding: 10px;
 }
 
+#form-rapid br,
+#form-rapid-desktop br {
+  display: none;
+}
+
 #form-rapid input[type="submit"],
   #form-rapid-desktop input[type="submit"] {
   margin-bottom: 0;
