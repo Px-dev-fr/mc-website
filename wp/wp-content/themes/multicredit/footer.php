@@ -138,11 +138,11 @@ if ($current_language_code == 'fr') {
     <div class="text-center pb-2 justify-content-center align-items-center flex-column">
         <img id="photo_phone" src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve.jpg" alt="photo_phone" width="100%">
         <div class="px-2 pt-2">
-            <?= _e("A consultant is available to answer you as soon as possible. Please fill in your details below:") ?>
+            <? _e("A consultant is available to answer you as soon as possible. Please fill in your details below:") ?>
         </div>
     </div>
     <div class="form">
-        <? do_shortcode('[contact-form-7 id="20092" title="Formulaire rapide"]', true) ?>
+        <?= do_shortcode('[contact-form-7 id="20092" title="Formulaire rapide"]', true) ?>
     </div>
 </div>
 <!-- Formulaire rapide Mobile -->
