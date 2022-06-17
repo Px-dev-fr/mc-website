@@ -14,7 +14,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+  <script src="https://kit.fontawesome.com/c822792191.js" crossorigin="anonymous"></script>
   <?php wp_head(); ?>
 
 </head>

@@ -54,7 +54,7 @@ if ($current_language_code == 'fr') {
                 <?php endif; ?>
                 <!-- ProvenExpert Badge-->
                 <!-- ProvenExpert ProSeal Widget -->
-                <noscript>
+                <!-- <noscript>
                     <a href="https://www.provenexpert.com/de-de/cashflex-multicredit-sarl?utm_source=seals&utm_campaign=proseal&utm_medium=profile&utm_content=2704bccf-92dc-45a5-9350-5c4492aa36ce" target="_blank" title="Customer reviews & experiences for Cashflex MultiCredit Sàrl. " class="" pe-pro-seal-more-infos"-412eJzz9HPyjwAABGYBgQ">More info</a>
                 </noscript>
                 <script src="https://s.provenexpert.net/seals/proseal.js"></script>
@@ -82,7 +82,7 @@ if ($current_language_code == 'fr') {
                             bottom: 100px !important;
                         }
                     }
-                </style>
+                </style> -->
                 <!-- ProvenExpert ProSeal Widget -->
             </div>
             <div class="col-lg-3 col-md-6 bloc-4">
@@ -127,13 +127,48 @@ if ($current_language_code == 'fr') {
     </div>
 </footer>
 
+<div id="btn-info" class="d-none d-lg-flex justify-content-center align-items-center">
+    <img src="https://www.multicredit.ch/wp/wp-content/uploads/user-tie-solid.svg" alt="info" width="60px" height="50px">
+</div>
+<!-- Formulaire rapide Desktop -->
+<div id="form-rapid-desktop" class="hidden-desktop justify-content-center align-items-center flex-column">
+    <div id="btn-info-close" class="container-croix">
+        <img src="https://www.multicredit.ch/wp/wp-content/uploads/xmark-solid.svg" alt="info" width="25px" onclick="hideRapidFormDesktop()">
+    </div>
+    <div class="text-center pb-2 justify-content-center align-items-center flex-column">
+        <img id="photo_phone" src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve.jpg" alt="photo_phone" width="100%">
+        <div class="px-2 pt-2">
+            <?= _e("Un conseiller se tient à votre disposition pour vous répondre dans les plus brefs délais. Veuillez remplir vos coordonnées ci-dessous :") ?>
+        </div>
+    </div>
+    <div class="form">
+        <?= do_shortcode('[contact-form-7 id="20092" title="Formulaire rapide"]', true) ?>
+    </div>
+</div>
+<!-- Formulaire rapide Mobile -->
+<div id="brouillard"></div>
+<div id="form-rapid" class="hidden justify-content-center align-items-center flex-column">
+    <div id="footer-btn-info-close" class="container-croix">
+        <img src="https://www.multicredit.ch/wp/wp-content/uploads/xmark-solid.svg" alt="info" width="25px" onclick="hideRapidForm()">
+    </div>
+    <div class="text-center pb-2 justify-content-center align-items-center flex-column">
+        <img id="photo_phone" src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve.jpg" alt="photo_phone" width="100%">
+        <div class="px-2 pt-2">
+            <?= _e("Un conseiller se tient à votre disposition pour vous répondre dans les plus brefs délais. Veuillez remplir vos coordonnées ci-dessous :") ?>
+        </div>
+    </div>
+    <div class="form">
+        <?= do_shortcode('[contact-form-7 id="20092" title="Formulaire rapide"]', true) ?>
+    </div>
+</div>
 
 <div id="sticky-footer" class="hide-on-desktop">
-    <div class="row">
-        <div class="col-sm-4 footer-tel"><a href="tel:+41263222310"><img src="https://multicredit.ch/wp/wp-content/uploads/icons-tel.svg" alt="tel" width="50px" height="50px"></a></div>
-        <div class="col-sm-4 footer-whatsapp"><a href="https://api.whatsapp.com/send?phone=<?php echo $mobnumb; ?>" target="new" rel="nofollow"><img src="https://multicredit.ch/wp/wp-content/uploads/icons-whatsapp.svg" alt="whatsapp" width="50px" height="50px"></a></div>
+    <div class="row px-2">
+        <div id="footer-btn-info" class="col-sm-3 footer-info" style="fill:white"><img src="https://www.multicredit.ch/wp/wp-content/uploads/user-tie-solid.svg" alt="info" width="50px" height="50px"></div>
+        <div id="footer-btn-tel" class="col-sm-3 footer-tel"><a href="tel:+41263222310"><img src="https://multicredit.ch/wp/wp-content/uploads/icons-tel.svg" alt="tel" width="50px" height="50px"></a></div>
+        <div id="footer-btn-whatsapp" class="col-sm-3 footer-whatsapp"><a href="https://api.whatsapp.com/send?phone=<?php echo $mobnumb; ?>" target="new" rel="nofollow"><img src="https://multicredit.ch/wp/wp-content/uploads/icons-whatsapp.svg" alt="whatsapp" width="50px" height="50px"></a></div>
         <!-- <div class="col-sm-3 "><a href="https://threema.id/<?php echo ($threemaId); ?>" target="new" rel="nofollow" ><img src="https://multicredit.ch/wp/wp-content/uploads/icons-threema.png" alt="threema" width="45px" height="50px"></a></div> -->
-        <div class="col-sm-4 footer-mail"><a href="mailto:info@multicredit.ch"><img src="https://multicredit.ch/wp/wp-content/uploads/icons-mail.svg" alt="mail" width="50px" height="50px"></a></div>
+        <div id="footer-btn-mail" class="col-sm-3 footer-mail"><a href="mailto:info@multicredit.ch"><img src="https://multicredit.ch/wp/wp-content/uploads/icons-mail.svg" alt="mail" width="50px" height="50px"></a></div>
     </div>
 </div>
 
@@ -151,9 +186,6 @@ if ($current_language_code == 'fr') {
             };
         });
     })(jQuery);
-    $('#foo').on('show', function() {
-        console.log('youpiyaya youpiyeye');
-    });
 </script>
 
 

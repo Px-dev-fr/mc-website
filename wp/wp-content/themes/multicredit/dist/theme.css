@@ -11920,7 +11920,6 @@ a.text-dark:focus {
 
 #GeneralWrapper .slider::-moz-range-progress {
   background-color: #df003c;
-
 }
 
 #GeneralWrapper .range-labels {
@@ -15754,4 +15753,139 @@ a.text-dark:focus {
   .page-template-template-form #GeneralWrapper #sticky-footer {
     display: none !important;
   }
+}
+
+#btn-info {
+  position: fixed;
+  top: calc(50% - 40px);
+  right: 20px;
+  background-color: #df003c;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 0 50px black;
+  cursor: pointer;
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+
+#btn-info :hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+#btn-info img {
+  padding-bottom: 5px;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+#form-rapid {
+  display: none;
+  width: 80%;
+  position: fixed;
+  right: 10%;
+  bottom: -390px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  z-index: 1000;
+}
+
+#form-rapid-desktop {
+  display: none;
+  width: 300px;
+  position: fixed;
+  right: 20px;
+  top: calc(50% - 290px);
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  z-index: 1000;
+}
+
+#form-rapid .form,
+#form-rapid-desktop .form {
+  padding: 10px;
+}
+
+#form-rapid input[type="submit"],
+  #form-rapid-desktop input[type="submit"] {
+  margin-bottom: 0;
+}
+
+#form-rapid #photo_phone,
+#form-rapid-desktop #photo_phone {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#footer-btn-info-close,
+#btn-info-close {
+  cursor: pointer;
+}
+
+.visible-desktop {
+  visibility: visible;
+}
+.hidden-desktop {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(-500px);
+}
+.hidden {
+  visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(500px);
+}
+
+#form-rapid .wpcf7-spinner,
+#form-rapid-desktop .wpcf7-spinner {
+  display: none;
+  margin-top: 10px;
+}
+
+#form-rapid .wpcf7-spinner::before,
+#form-rapid-desktop .wpcf7-spinner::before {
+  left: calc(50% - 3px);
+}
+
+#form-rapid p,
+#form-rapid-desktop p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-croix {
+  width: 100%;
+  position: relative;
+}
+
+.container-croix img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#brouillard {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
 }

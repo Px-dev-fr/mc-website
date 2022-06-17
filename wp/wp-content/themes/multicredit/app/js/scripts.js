@@ -578,9 +578,9 @@ switch (langue) {
     savoirPlus = "En savoir plus";
     reduire = "Reduire";
 }
-document
-  .querySelector("#bouton-savoir-plus")
-  .addEventListener("click", function () {
+const boutonEnSavoirPlus = document.querySelector("#bouton-savoir-plus");
+if (!!boutonEnSavoirPlus) {
+  boutonEnSavoirPlus.addEventListener("click", function () {
     if (document.querySelector("#paragraphe-cache").style.display == "none") {
       document.querySelector("#paragraphe-cache").style.display = "";
       document.querySelector("#bouton-savoir-plus").value = reduire;
@@ -589,3 +589,75 @@ document
       document.querySelector("#bouton-savoir-plus").value = savoirPlus;
     }
   });
+}
+
+const boutonFooterInfo = document.querySelector("#footer-btn-info");
+if (!!boutonFooterInfo) {
+  jQuery("#footer-btn-info").on("click", () => {
+    console.log(jQuery("#form-rapid").css("visibility"));
+    if (jQuery("#form-rapid").css("visibility") == "visible") {
+      hideRapidForm();
+    } else {
+      showRapidForm();
+    }
+  });
+}
+
+const boutonInfo = document.querySelector("#btn-info");
+if(!!boutonInfo) {
+  jQuery("#btn-info").on("click", () => {
+    console.log(jQuery("#form-rapid").css("visibility"));
+    if (jQuery("#form-rapid-desktop").css("visibility") == "visible") {
+      hideRapidFormDesktop();
+    } else {
+      showRapidFormDesktop();
+    }
+  })
+}
+
+function showRapidFormDesktop() {
+  jQuery("#form-rapid-desktop").removeClass("hidden-desktop").addClass("visible-desktop");
+  jQuery("#form-rapid-desktop").addClass("d-flex");
+}
+
+function hideRapidFormDesktop() {
+  jQuery("#form-rapid-desktop").removeClass("d-flex");
+  jQuery("#form-rapid-desktop").addClass("hidden-desktop");
+  setTimeout(() => {
+    jQuery("#form-rapid-desktop").removeClass("visible-desktop");
+  }, 500);
+}
+
+function showRapidForm() {
+  jQuery("#brouillard").show();
+  jQuery("#form-rapid").removeClass("hidden").addClass("visible");
+  jQuery("#form-rapid").addClass("d-flex");
+}
+
+function hideRapidForm() {
+  jQuery("#brouillard").hide();
+  jQuery("#form-rapid").removeClass("d-flex");
+  jQuery("#form-rapid").addClass("hidden");
+  setTimeout(() => {
+    jQuery("#form-rapid").removeClass("visible");
+  }, 500);
+}
+
+jQuery("#form-rapid input[type='submit'], #form-rapid-desktop input[type='submit']").on("click", () => {
+  jQuery("#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner").show();
+})
+
+jQuery("#brouillard").on("click", () => {
+  hideRapidForm();
+})
+
+// const wpcf7Elm = document.querySelector(".wpcf7");
+// if (!!wpcf7Elm) {
+//   wpcf7Elm.addEventListener(
+//     "wpcf7submit",
+//     function (event) {
+//       jQuery("#form-rapid").hide();
+//     },
+//     false
+//   );
+// }
