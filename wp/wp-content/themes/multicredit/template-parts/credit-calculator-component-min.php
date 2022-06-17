@@ -186,7 +186,7 @@ $classes = get_body_class();
                         <div class="mb-2 mb-lg-4 col px-lg-0 d-flex justify-content-center">
                             <div class="" id="tableauAmortissement">
                                 <form method="POST" action="">
-                                    <input type="submit" value="<?php _e('Create an amortization table', 'multicredit') ?>">
+                                    <input id="amortizationTableButton" type="submit" value="<?php _e('Create an amortization table', 'multicredit') ?>">
                                     <input type="hidden" name="amortization_table" value="submitted">
                                     <? if ($taux == "49") : ?>
                                         <input type="hidden" name="taux" value="4.9">
