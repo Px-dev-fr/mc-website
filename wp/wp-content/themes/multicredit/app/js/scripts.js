@@ -663,7 +663,7 @@ if (!!wpcf7Elm) {
   console.log(wpcf7Elm);
   wpcf7Elm.forEach(function () {
     this.addEventListener(
-      "wpcf7submit",
+      "wpcf7mailsent",
       function (event) {
         console.log(event);
         setTimeout(() => {
