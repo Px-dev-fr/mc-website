@@ -15826,15 +15826,36 @@ a.text-dark:focus {
   display: none;
 }
 
+#form-rapid input[type="submit"] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 #form-rapid input[type="submit"],
   #form-rapid-desktop input[type="submit"] {
   margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#form-rapid input[type="text"],
+#form-rapid input[type="email"],
+#form-rapid input[type="tel"]{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #form-rapid #photo_phone,
 #form-rapid-desktop #photo_phone {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#form-rapid #photo_phone img,
+#form-rapid-desktop #photo_phone img{
+  width: 100%;
 }
 
 #footer-btn-info-close,

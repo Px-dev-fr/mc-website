@@ -604,7 +604,7 @@ if (!!boutonFooterInfo) {
 }
 
 const boutonInfo = document.querySelector("#btn-info");
-if(!!boutonInfo) {
+if (!!boutonInfo) {
   jQuery("#btn-info").on("click", () => {
     console.log(jQuery("#form-rapid").css("visibility"));
     if (jQuery("#form-rapid-desktop").css("visibility") == "visible") {
@@ -612,11 +612,13 @@ if(!!boutonInfo) {
     } else {
       showRapidFormDesktop();
     }
-  })
+  });
 }
 
 function showRapidFormDesktop() {
-  jQuery("#form-rapid-desktop").removeClass("hidden-desktop").addClass("visible-desktop");
+  jQuery("#form-rapid-desktop")
+    .removeClass("hidden-desktop")
+    .addClass("visible-desktop");
   jQuery("#form-rapid-desktop").addClass("d-flex");
 }
 
@@ -643,21 +645,28 @@ function hideRapidForm() {
   }, 500);
 }
 
-jQuery("#form-rapid input[type='submit'], #form-rapid-desktop input[type='submit']").on("click", () => {
-  jQuery("#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner").show();
-})
+jQuery(
+  "#form-rapid input[type='submit'], #form-rapid-desktop input[type='submit']"
+).on("click", () => {
+  jQuery(
+    "#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner"
+  ).show();
+});
 
 jQuery("#brouillard").on("click", () => {
   hideRapidForm();
-})
+});
 
-// const wpcf7Elm = document.querySelector(".wpcf7");
-// if (!!wpcf7Elm) {
-//   wpcf7Elm.addEventListener(
-//     "wpcf7submit",
-//     function (event) {
-//       jQuery("#form-rapid").hide();
-//     },
-//     false
-//   );
-// }
+const wpcf7Elm = document.querySelector(".wpcf7");
+if (!!wpcf7Elm) {
+  wpcf7Elm.addEventListener(
+    "wpcf7submit",
+    function (event) {
+      setTimeout(() => {
+        hideRapidForm();
+        hideRapidFormDesktop();
+      }, 3000);
+    },
+    false
+  );
+}

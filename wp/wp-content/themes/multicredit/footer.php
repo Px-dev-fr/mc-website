@@ -136,7 +136,9 @@ if ($current_language_code == 'fr') {
         <img src="https://www.multicredit.ch/wp/wp-content/uploads/xmark-solid.svg" alt="info" width="25px" onclick="hideRapidFormDesktop()">
     </div>
     <div class="text-center pb-2 justify-content-center align-items-center flex-column">
-        <img id="photo_phone" src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve.jpg" alt="photo_phone" width="100%">
+        <div id="photo_phone">
+            <img src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve.jpg" alt="photo_phone">
+        </div>
         <div class="px-2 pt-2">
             <? _e("Please fill in the form and our consultant will reach out to you as soon as possible!", 'multicredit') ?>
         </div>
@@ -152,7 +154,9 @@ if ($current_language_code == 'fr') {
         <img src="https://www.multicredit.ch/wp/wp-content/uploads/xmark-solid.svg" alt="info" width="25px" onclick="hideRapidForm()">
     </div>
     <div class="text-center pb-2 justify-content-center align-items-center flex-column">
-        <img id="photo_phone" src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve.jpg" alt="photo_phone" width="100%">
+        <div id="photo_phone">
+            <img src="https://www.multicredit.ch/wp/wp-content/uploads/courtier-geneve-500x200-1.jpg" alt="photo_phone">
+        </div>
         <div class="px-2 pt-2">
             <? _e("Please fill in the form and our consultant will reach out to you as soon as possible!", 'multicredit') ?>
         </div>
