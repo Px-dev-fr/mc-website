@@ -15853,6 +15853,12 @@ a.text-dark:focus {
   overflow: hidden;
 }
 
+#form-rapid .wpcf7-response-output,
+#form-rapid-desktop .wpcf7-response-output{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
 #form-rapid #photo_phone img,
 #form-rapid-desktop #photo_phone img{
   width: 100%;

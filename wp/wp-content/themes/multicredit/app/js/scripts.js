@@ -648,9 +648,7 @@ function hideRapidForm() {
 jQuery(
   "#form-rapid input[type='submit'], #form-rapid-desktop input[type='submit']"
 ).on("click", () => {
-  jQuery(
-    "#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner"
-  ).show();
+
 });
 
 jQuery("#brouillard").on("click", () => {
@@ -662,9 +660,14 @@ if (!!wpcf7Elm) {
   wpcf7Elm.addEventListener(
     "wpcf7submit",
     function (event) {
+      console.log("Submit")
       setTimeout(() => {
+        console.log("Submit + 3sec")
         hideRapidForm();
         hideRapidFormDesktop();
+        jQuery(
+          "#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner"
+        ).hide();
       }, 3000);
     },
     false
