@@ -15840,7 +15840,10 @@ a.text-dark:focus {
 
 #form-rapid input[type="text"],
 #form-rapid input[type="email"],
-#form-rapid input[type="tel"]{
+#form-rapid input[type="tel"],
+#form-rapid-desktop input[type="text"],
+#form-rapid-desktop input[type="email"],
+#form-rapid-desktop input[type="tel"]{
   padding-top: 5px;
   padding-bottom: 5px;
 }
