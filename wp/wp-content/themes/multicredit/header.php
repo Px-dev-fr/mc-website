@@ -43,7 +43,7 @@
 
           <div class="col-lg-9 text-right">
             <div class="alt-nav-element hide-on-min">
-              <a class="btn" href="<?php echo get_home_url(); ?>/<?php _e('credit-application', 'multicredit') ?>"><?php _e('Credit application', 'multicredit') ?></a>
+              <a id="demande-credit-header" class="btn" href="<?php echo get_home_url(); ?>/<?php _e('credit-application', 'multicredit') ?>"><?php _e('Credit application', 'multicredit') ?></a>
             </div>
 
             <div class="alt-nav-element">
