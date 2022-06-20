@@ -606,7 +606,6 @@ if (!!boutonFooterInfo) {
 const boutonInfo = document.querySelector("#btn-info");
 if (!!boutonInfo) {
   jQuery("#btn-info").on("click", () => {
-    console.log(jQuery("#form-rapid").css("visibility"));
     if (jQuery("#form-rapid-desktop").css("visibility") == "visible") {
       hideRapidFormDesktop();
     } else {
@@ -660,14 +659,11 @@ jQuery("#brouillard").on("click", () => {
 const wpcf7Elm = document.querySelectorAll(".wpcf7");
 
 if (!!wpcf7Elm) {
-  console.log(wpcf7Elm);
   wpcf7Elm.forEach(function () {
     this.addEventListener(
       "wpcf7mailsent",
       function (event) {
-        console.log(event);
         setTimeout(() => {
-          console.log("Submit + 3sec");
           hideRapidForm();
           hideRapidFormDesktop();
           jQuery(
