@@ -648,28 +648,34 @@ function hideRapidForm() {
 jQuery(
   "#form-rapid input[type='submit'], #form-rapid-desktop input[type='submit']"
 ).on("click", () => {
-
+  jQuery(
+    "#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner"
+  ).show();
 });
 
 jQuery("#brouillard").on("click", () => {
   hideRapidForm();
 });
 
-const wpcf7Elm = document.querySelector(".wpcf7");
+const wpcf7Elm = document.querySelectorAll(".wpcf7");
+
 if (!!wpcf7Elm) {
-  wpcf7Elm.addEventListener(
-    "wpcf7submit",
-    function (event) {
-      console.log("Submit")
-      setTimeout(() => {
-        console.log("Submit + 3sec")
-        hideRapidForm();
-        hideRapidFormDesktop();
-        jQuery(
-          "#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner"
-        ).hide();
-      }, 3000);
-    },
-    false
-  );
+  console.log(wpcf7Elm);
+  wpcf7Elm.forEach(function () {
+    this.addEventListener(
+      "wpcf7submit",
+      function (event) {
+        console.log(event);
+        setTimeout(() => {
+          console.log("Submit + 3sec");
+          hideRapidForm();
+          hideRapidFormDesktop();
+          jQuery(
+            "#form-rapid .wpcf7-spinner, #form-rapid-desktop .wpcf7-spinner"
+          ).hide();
+        }, 3000);
+      },
+      false
+    );
+  });
 }
