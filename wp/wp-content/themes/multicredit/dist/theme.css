@@ -15774,6 +15774,7 @@ a.text-dark:focus {
   cursor: pointer;
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
+  z-index: 1000;
 }
 
 #btn-info :hover {
