@@ -78,18 +78,18 @@ $classes = get_body_class();
                     <div class="text-monthly font-italic lg-h6 mb-0 gtm-trigger-taux-49"><?php _e('monthly', 'multicredit'); ?></div>
                 </a>
             </li>
-            <li id="tab-taux-79" class="nav-item col-4 active" role="presentation">
-                <a class="nav-link" href="#taux79" aria-controls="taux49" role="tab" data-toggle="tab">
-                    <div class="percent lg-h6 mb-1">7.9%</div>
-                    <div class="montant-monthly lg-h3 h5 font-weight-bold mb-1" id="mensualite79">281 CHF</div>
-                    <div class="text-monthly font-italic lg-h6 mb-0"><?php _e('monthly', 'multicredit'); ?></div>
+            <li class="nav-item col-4 active gtm-trigger-taux-79" role="presentation">
+                <a class="nav-link gtm-trigger-taux-79" href="#taux79" aria-controls="taux49" role="tab" data-toggle="tab">
+                    <div class="percent lg-h6 mb-1 gtm-trigger-taux-79">7.9%</div>
+                    <div class="montant-monthly lg-h3 h5 font-weight-bold mb-1 gtm-trigger-taux-79" id="mensualite79">281 CHF</div>
+                    <div class="text-monthly font-italic lg-h6 mb-0 gtm-trigger-taux-79"><?php _e('monthly', 'multicredit'); ?></div>
                 </a>
             </li>
-            <li id="tab-taux-99" class="nav-item col-4" role="presentation">
-                <a class="nav-link" href="#taux99" aria-controls="taux49" role="tab" data-toggle="tab">
-                    <div class="percent lg-h6 mb-1">9.9%</div>
-                    <div class="montant-monthly lg-h3 h5 font-weight-bold mb-1" id="mensualite99">284 CHF</div>
-                    <div class="text-monthly font-italic lg-h6 mb-0"><?php _e('monthly', 'multicredit'); ?></div>
+            <li class="nav-item col-4 gtm-trigger-taux-99" role="presentation">
+                <a class="nav-link gtm-trigger-taux-99" href="#taux99" aria-controls="taux49" role="tab" data-toggle="tab">
+                    <div class="percent lg-h6 mb-1 gtm-trigger-taux-99">9.9%</div>
+                    <div class="montant-monthly lg-h3 h5 font-weight-bold mb-1 gtm-trigger-taux-99" id="mensualite99">284 CHF</div>
+                    <div class="text-monthly font-italic lg-h6 mb-0 gtm-trigger-taux-99"><?php _e('monthly', 'multicredit'); ?></div>
                 </a>
             </li>
         </ul>
