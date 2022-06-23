@@ -71,11 +71,11 @@ $classes = get_body_class();
 
         <!-- Nav tabs -->
         <ul id="tabs-taux" class="nav nav-tabs row align-items-center d-flex flex-row justify-content-center col-12 mr-0 pr-0" role="tablist">
-            <li id="tab-taux-49" class="nav-item col-4" role="presentation">
-                <a class="nav-link" href="#taux49" aria-controls="taux49" role="tab" data-toggle="tab">
-                    <div class="percent lg-h6 mb-1">4.9%</div>
-                    <div class="montant-monthly lg-h3 h5 font-weight-bold mb-1" id="mensualite49">277 CHF</div>
-                    <div class="text-monthly font-italic lg-h6 mb-0"><?php _e('monthly', 'multicredit'); ?></div>
+            <li class="nav-item col-4 gtm-trigger-taux-49" role="presentation">
+                <a class="nav-link gtm-trigger-taux-49" href="#taux49" aria-controls="taux49" role="tab" data-toggle="tab">
+                    <div class="percent lg-h6 mb-1 gtm-trigger-taux-49">4.9%</div>
+                    <div class="montant-monthly lg-h3 h5 font-weight-bold mb-1 gtm-trigger-taux-49" id="mensualite49">277 CHF</div>
+                    <div class="text-monthly font-italic lg-h6 mb-0 gtm-trigger-taux-49"><?php _e('monthly', 'multicredit'); ?></div>
                 </a>
             </li>
             <li id="tab-taux-79" class="nav-item col-4 active" role="presentation">
