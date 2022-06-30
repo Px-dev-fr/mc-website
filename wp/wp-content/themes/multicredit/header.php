@@ -48,7 +48,7 @@
                   <?php _e('Credit application') ?>
                 </div>
                 <div class="free-application-fees-text">
-                  <?php _e('Free application fees') ?>
+                  <?php _e('No application fees') ?>
                 </div>
               </a>
             </div>
