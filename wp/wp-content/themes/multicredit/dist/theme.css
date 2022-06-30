@@ -13566,6 +13566,7 @@ a.text-dark:focus {
 }
 
 #GeneralWrapper #prevBtn.btn:after,
+#GeneralWrapper #demande-credit-header.btn:after,
 #GeneralWrapper
   #prevBtn.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-grey.vc_general:after {
   display: none;
@@ -15931,4 +15932,13 @@ a.text-dark:focus {
   z-index: 999;
   top: 0;
   left: 0;
+}
+
+.free-application-fees-text{
+  font-size: smaller;
+  font-style: italic;
+}
+
+.credit-application-text{
+  font-size: large;
 }

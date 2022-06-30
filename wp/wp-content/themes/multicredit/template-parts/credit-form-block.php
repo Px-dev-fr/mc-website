@@ -140,7 +140,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                     <div class="row radioboxs">
                                         <div class="col-md-3 label"><?php _e('Gender', 'multicredit'); ?></div>
 
-                                        <div class="col-md-2">
+                                        <div class="col-md-2 col-6">
                                             <input class="checkbox-mc" type="radio" name="titre" value="Madame" textval="<?php _e('Madam', 'multicredit'); ?>" id="madame" class="" data-bind="titre">
                                             <label class="for-checkbox-mc" for="madame">
                                                 <svg class="svg-icon" viewBox="0 0 100 100">
@@ -158,7 +158,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                                 <?php _e('Madam', 'multicredit'); ?></label>
                                         </div>
 
-                                        <div class="col-md-2">
+                                        <div class="col-md-2 col-6">
                                             <input class="checkbox-mc" type="radio" name="titre" value="Monsieur" textval="<?php _e('Sir', 'multicredit'); ?>" id="monsieur" data-bind="titre">
                                             <label class="for-checkbox-mc" for="monsieur">
                                                 <svg class="svg-icon" viewBox="0 0 100 100">
@@ -197,9 +197,9 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                                     <div class="row dob-f">
                                         <div class="col-md-3 label"><?php _e('Date of birth', 'multicredit'); ?></div>
-                                        <div class="col-md-1"><input placeholder="<?php _e('Day', 'multicredit'); ?>" name="naissance-dd" id="naissance-dd" aria-required="true" maxlength="2" pattern="\d{2}" onKeyPress="return check(event,value)" onInput="checkLength(2,this)" type="number" required="required" class="groupfields birth" data-bind="naissance-dd"></div>
-                                        <div class="col-md-1"><input placeholder="<?php _e('Month', 'multicredit'); ?>" name="naissance-mm" id="naissance-mm" aria-required="true" maxlength="2" pattern="\d{2}" onKeyPress="return check(event,value)" onInput="checkLength(2,this)" type="number" required="required" class="groupfields birth" data-bind="naissance-mm"></div>
-                                        <div class="col-md-2"><input placeholder="<?php _e('Year', 'multicredit'); ?>" name="naissance-yyyy" id="naissance-yyyy" aria-required="true" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" type="number" required="required" class="groupfields birth" data-bind="naissance-yyyy"></div>
+                                        <div class="col-md-1 col-4"><input placeholder="<?php _e('Day', 'multicredit'); ?>" name="naissance-dd" id="naissance-dd" aria-required="true" maxlength="2" pattern="\d{2}" onKeyPress="return check(event,value)" onInput="checkLength(2,this)" type="number" required="required" class="groupfields birth" data-bind="naissance-dd"></div>
+                                        <div class="col-md-1 col-4"><input placeholder="<?php _e('Month', 'multicredit'); ?>" name="naissance-mm" id="naissance-mm" aria-required="true" maxlength="2" pattern="\d{2}" onKeyPress="return check(event,value)" onInput="checkLength(2,this)" type="number" required="required" class="groupfields birth" data-bind="naissance-mm"></div>
+                                        <div class="col-md-2 col-4"><input placeholder="<?php _e('Year', 'multicredit'); ?>" name="naissance-yyyy" id="naissance-yyyy" aria-required="true" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" type="number" required="required" class="groupfields birth" data-bind="naissance-yyyy"></div>
                                         <div class="col-md-2"><small><?php _e('Ex: 15.04.1980', 'multicredit'); ?></small></div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('All fields are required.', 'multicredit'); ?></div>
@@ -207,15 +207,15 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                                     <div class="row">
                                         <div class="col-md-3 label"><?php _e('Zip code / City', 'multicredit'); ?></div>
-                                        <div class="col-md-2"><input aria-required="true" placeholder="<?php _e('Zip code', 'multicredit'); ?>" name="cpa" id="cpa" type="number" required="required" data-bind="cpa"></div>
-                                        <div class="col-md-4"><input aria-required="true" placeholder="<?php _e('City', 'multicredit'); ?>" name="localite" id="localite" type="text" required="required" data-bind="localite"></div>
+                                        <div class="col-md-2 col-4"><input aria-required="true" placeholder="<?php _e('Zip code', 'multicredit'); ?>" name="cpa" id="cpa" type="number" required="required" data-bind="cpa"></div>
+                                        <div class="col-md-4 col-8"><input aria-required="true" placeholder="<?php _e('City', 'multicredit'); ?>" name="localite" id="localite" type="text" required="required" data-bind="localite"></div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('This field is required.', 'multicredit'); ?></div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-3 label"><?php _e('Mobile phone', 'multicredit'); ?></div>
-                                        <div class="col-md-6"><input aria-required="true" placeholder="<?php _e('Phone number (without spaces)', 'multicredit'); ?>" name="telephone" id="telephone" type="tel" required="required" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" data-bind="telephone"></div>
+                                        <div class="col-md-6"><input aria-required="true" placeholder="<?php _e('Ex: 0790123456 or 0033450123456 (without spaces)', 'multicredit'); ?>" name="telephone" id="telephone" type="tel" required="required" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" data-bind="telephone"></div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
                                     </div>
@@ -229,7 +229,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                                     <div class="row">
                                         <div class="col-md-3 label"></div>
-                                        <div class="col-md-3"><input class="switch" type="checkbox" value="accord" id="form_accord_1"><?php _e('I accept the', 'multicredit'); ?>
+                                        <div class="col-md-6"><input class="switch" type="checkbox" value="accord" id="form_accord_1"><?php _e('I accept the', 'multicredit'); ?>
                                             <!--<a href="<?php echo $cgurl ?>" id="termsofusemodal">--><a href="javascript:void(0);" id="termsofusemodal"><?php _e('terms of use', 'multicredit'); ?></a>.
                                         </div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('You must accept our terms of use.', 'multicredit'); ?></div>
@@ -276,8 +276,8 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                                     <div class="row" id="salary">
                                         <div class="col-md-3 label"><?php _e('Monthly net income/salary (CHF)', 'multicredit'); ?></div>
-                                        <div class="col-md-3"><input aria-required="true" placeholder="<?php _e('Amount in CHF', 'multicredit'); ?>" id="revenus" name="revenus" required="required" type="number" min="1" step="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" data-bind="revenus"></div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 col-4"><input aria-required="true" placeholder="<?php _e('Amount in CHF', 'multicredit'); ?>" id="revenus" name="revenus" required="required" type="number" min="1" step="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" data-bind="revenus"></div>
+                                        <div class="col-md-3 col-8">
                                             <select aria-required="true" id="salaireX" name="salaireX" required="required" data-bind="salaireX">
                                                 <option value="" selected disabled hidden><?php _e('Number of annual salary (frequency)', 'multicredit'); ?></option>
                                                 <option value="12">x 12</option>
@@ -311,11 +311,13 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 											<h3><?php _e('Rent and charges','multicredit'); ?></h3>
 										</div>
 											*/ ?>
-
                                     <div class="row">
-                                        <div class="col-md-3 label"><?php _e('Housing', 'multicredit'); ?></div>
-                                        <div class="col-md-6">
-                                            <select aria-required="true" id="loyer_type" name="loyer_type" required="required" data-bind="loyer_type">
+                                        <div class="col-md-3 label"><?php _e('Monthly rent or mortgage with charges', 'multicredit'); ?></div>
+                                        <div class="col-md-3 col-4">
+                                            <input class="groupfields loyer" aria-required="true" placeholder="<?php _e('Amount in CHF', 'multicredit'); ?>" id="loyer" name="loyer" required="required" type="number" min="1" step="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" data-bind="loyer">
+                                        </div>
+                                        <div class="col-md-3 col-8">
+                                            <select class="groupfields loyer" aria-required="true" id="loyer_type" name="loyer_type" required="required" data-bind="loyer_type">
                                                 <option value="" selected disabled hidden><?php _e('Tenant / Owner', 'multicredit'); ?></option>
                                                 <option value="locataire"><?php _e('Tenant', 'multicredit'); ?></option>
                                                 <option value="hypotheque"><?php _e('Owner', 'multicredit'); ?></option>
@@ -326,15 +328,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                             </select>
                                         </div>
                                         <div class="col-md-3 form-field-valid"></div>
-                                        <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
-                                    </div>
-
-
-                                    <div class="row">
-                                        <div class="col-md-3 label"><?php _e('Monthly housing payment (CHF)', 'multicredit'); ?></div>
-                                        <div class="col-md-6"><input aria-required="true" placeholder="<?php _e('Amount in CHF', 'multicredit'); ?>" id="loyer" name="loyer" required="required" type="number" min="1" step="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" data-bind="loyer"></div>
-                                        <div class="col-md-3 form-field-valid"></div>
-                                        <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
+                                        <div class="col-md-3 form-field-invalid"><?php _e('All fields are required.', 'multicredit'); ?></div>
                                     </div>
 
                                     <?php /*
@@ -379,7 +373,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                                     <!--Moyen de transport et nombre de kilomètres jusqu au travail-->
                                     <div class="row">
-                                        <div class="col-md-3 label"><?php _e('Means of transport', 'multicredit'); ?></div>
+                                        <div class="col-md-3 label"><?php _e('How do you go to work ?', 'multicredit'); ?></div>
                                         <div class="col-md-3">
                                             <select name="moyen_transport" id="moyen_transport" required="required">
                                                 <option value="" selected disabled hidden><?php _e('How do you get to work?', 'multicredit'); ?></option>
@@ -400,9 +394,9 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-md-3 label"><?php _e('Other business expenses (chf)', 'multicredit'); ?></div>
+                                        <div class="col-md-3 label"><?php _e('Other business expenses (monthly)', 'multicredit'); ?></div>
                                         <div class="col-md-6">
-                                            <input placeholder="<?php _e("Meals, equipment, etc. Amount in CHF", 'multicredit'); ?>" type="number" min="0" step="1" name="frais_professionnels" required="required">
+                                            <input placeholder="<?php _e("Meals, equipment, etc.", 'multicredit'); ?>" type="number" min="0" step="1" name="frais_professionnels" required="required">
                                         </div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
@@ -449,9 +443,14 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                         <div class="col-md-3 label"><?php _e('Dependent children', 'multicredit'); ?></div>
                                         <div class="col-md-6">
                                             <select aria-required="true" id="choix_enfants" name="choix_enfants" required="required" data-bind="choix_enfants">
-                                                <option value="" selected disabled hidden><?php _e('Yes/No', 'multicredit'); ?></option>
-                                                <option value="oui"><?php _e('Yes', 'multicredit'); ?></option>
-                                                <option value="non"><?php _e('No', 'multicredit'); ?></option>
+                                                <option value="" selected disabled hidden><?php _e('Number', 'multicredit'); ?></option>
+                                                <option value="0"><?php _e('None', 'multicredit'); ?></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
                                             </select>
                                         </div>
                                         <div class="col-md-3 form-field-valid"></div>
@@ -463,6 +462,9 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                         <div class="col-md-2"><input placeholder="<?php _e('Child 1', 'multicredit'); ?>" id="age_enfant_1" name="age_enfant_1" type="number" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" data-bind="age_enfant_1"></div>
                                         <div class="col-md-2"><input placeholder="<?php _e('Child 2', 'multicredit'); ?>" id="age_enfant_2" name="age_enfant_2" type="number" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" data-bind="age_enfant_2"></div>
                                         <div class="col-md-2"><input placeholder="<?php _e('Child 3', 'multicredit'); ?>" id="age_enfant_3" name="age_enfant_3" type="number" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" data-bind="age_enfant_3"></div>
+                                        <div class="col-md-2"><input placeholder="<?php _e('Child 4', 'multicredit'); ?>" id="age_enfant_4" name="age_enfant_4" type="number" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" data-bind="age_enfant_4"></div>
+                                        <div class="col-md-2"><input placeholder="<?php _e('Child 5', 'multicredit'); ?>" id="age_enfant_5" name="age_enfant_5" type="number" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" data-bind="age_enfant_5"></div>
+                                        <div class="col-md-2"><input placeholder="<?php _e('Child 6', 'multicredit'); ?>" id="age_enfant_6" name="age_enfant_6" type="number" maxlength="4" pattern="\d{4}" onKeyPress="return check(event,value)" onInput="checkLength(4,this)" data-bind="age_enfant_6"></div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
                                     </div>
@@ -531,9 +533,9 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                     </div>
 
                                     <div class="row" id="frais_professionnels_conjoint_ligne">
-                                        <div class="col-md-3 label"><?php _e("Spouse's other business expenses (chf)", 'multicredit'); ?></div>
+                                        <div class="col-md-3 label"><?php _e("Spouse's other business expenses (monthly)", 'multicredit'); ?></div>
                                         <div class="col-md-6">
-                                            <input placeholder="<?php _e("Meals, equipment, etc. Amount in CHF", 'multicredit'); ?>" type="number" min="0" step="1" id="frais_professionnels_conjoint" name="frais_professionnels_conjoint">
+                                            <input placeholder="<?php _e("Meals, equipment, etc.", 'multicredit'); ?>" type="number" min="0" step="1" id="frais_professionnels_conjoint" name="frais_professionnels_conjoint">
                                         </div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
@@ -558,7 +560,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
 
                                     <div class="row">
                                         <div class="col-md-3 label"><?php _e('Note / Tell us about your project', 'multicredit'); ?></div>
-                                        <div class="col-md-6"><textarea id="remarques" name="remarques" placeholder="<?php _e('Your project is important to us, describe it here in a few words if you wish.', 'multicredit'); ?>" data-bind="remarques"></textarea></div>
+                                        <div class="col-md-6"><textarea id="remarques" name="remarques" placeholder="<?php _e('We support you in your project. Do not hesitate to share your needs with us so we can advise you in the best possible way. Do you have any current credits? Credit card balance? If yes, how much?', 'multicredit') ?>" data-bind="remarques"></textarea></div>
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
                                     </div>
