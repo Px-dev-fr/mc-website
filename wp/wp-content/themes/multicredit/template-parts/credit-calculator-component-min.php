@@ -275,7 +275,7 @@ $classes = get_body_class();
                                 <!-- Bouton Demande -->
                                 <div class="d-flex col-4 justify-content-center px-2">
                                     <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <input id="demande-credit-header" type="submit" form="demandeCredit" class="btn mb-0" value="<?php _e('Credit application', 'multicredit'); ?>" />
+                                        <input id="demande-credit-simulator" type="submit" form="demandeCredit" class="btn mb-0" value="<?php _e('Credit application', 'multicredit'); ?>" />
                                         <div class="free-application-fees-text">
                                             <?php _e('No application fees', 'multicredit'); ?>
                                         </div>
