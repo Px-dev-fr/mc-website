@@ -540,7 +540,7 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                                         <div class="col-md-3 form-field-valid"></div>
                                         <div class="col-md-3 form-field-invalid"><?php _e('Invalid field.', 'multicredit'); ?></div>
                                     </div>
-                                    
+
                                     <div class="row" id="salary_spouse">
                                         <div class="col-md-3 label"><?php _e("Your spouse's net salary/income (monthly CHF) if applicable", 'multicredit'); ?></div>
                                         <div class="col-md-3 col-4"><input placeholder="<?php _e('Amount in CHF', 'multicredit'); ?>" id="revenus_conjoint" name="revenus_conjoint" type="number" min="1" step="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" data-bind="revenus_conjoint"></div>
@@ -723,11 +723,6 @@ $FormatedMontantValue = number_format($MontantValue, 0, ',', '\'');
                     </section>
 
                 </main> <!-- /content -->
-
-
-                <?php // Add Read More block
-                echo get_template_part('template-parts/read-more-block');
-                ?>
 
                 <div class="container pb-5">
                     <div class="row">

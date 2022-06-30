@@ -45,6 +45,11 @@ if ($MontantValue == '' || $DureeValue == '') {
 			echo get_template_part('template-parts/credit-calculator-link-block');
 			?>
 
+			<?php // Add Read More block
+			echo get_template_part('template-parts/read-more-block');
+			?>
+
+
 			<?php // Add Contact block
 			echo get_template_part('template-parts/credit-contact-block');
 			?>
@@ -70,7 +75,3 @@ if (!$montantDuree) {
 <?
 }
 ?>
-
-
-
-
