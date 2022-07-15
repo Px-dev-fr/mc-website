@@ -45,10 +45,10 @@
             <div class="alt-nav-element hide-on-min">
               <a id="demande-credit-header" class="btn" href="<?php echo get_home_url(); ?>/<?php _e('credit-application', 'multicredit') ?>">
                 <div class="credit-application-text">
-                  <?php _e('Credit application') ?>
+                  <?php _e('Credit application', 'multicredit') ?>
                 </div>
                 <div class="free-application-fees-text">
-                  <?php _e('No application fees') ?>
+                  <?php _e('No application fees', 'multicredit') ?>
                 </div>
               </a>
             </div>
