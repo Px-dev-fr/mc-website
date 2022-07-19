@@ -38,17 +38,17 @@ if ($current_language_code == 'fr') {
 <section class="subfooter sidebar smallpadding" id="sidebar-footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 bloc-1">
+            <div class="col-lg-4 col-md-6 bloc-1">
                 <?php if (is_active_sidebar('footer-sidebar-1')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-1'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col-lg-3 col-md-6 bloc-2">
+            <div class="col-lg-4 col-md-6 bloc-2">
                 <?php if (is_active_sidebar('footer-sidebar-2')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-2'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col-lg-3 col-md-6 bloc-3">
+            <div class="col-lg-4 col-md-6 bloc-3">
                 <?php if (is_active_sidebar('footer-sidebar-3')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-3'); ?>
                 <?php endif; ?>
@@ -85,12 +85,12 @@ if ($current_language_code == 'fr') {
                 </style> -->
                 <!-- ProvenExpert ProSeal Widget -->
             </div>
-            <div class="col-lg-3 col-md-6 bloc-4">
+            <div class="col-lg-6 col-md-6 bloc-4">
                 <?php if (is_active_sidebar('footer-sidebar-4')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-4'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col-lg-3 col-md-6 bloc-5">
+            <div class="col-lg-6 col-md-6 bloc-5">
                 <?php if (is_active_sidebar('footer-sidebar-5')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-5'); ?>
                 <?php endif; ?>

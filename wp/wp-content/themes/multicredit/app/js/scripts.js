@@ -591,6 +591,8 @@ if (!!boutonEnSavoirPlus) {
   });
 }
 
+
+// Formulaire rapide
 const boutonFooterInfo = document.querySelector("#footer-btn-info");
 if (!!boutonFooterInfo) {
   jQuery("#footer-btn-info").on("click", () => {
@@ -675,3 +677,47 @@ if (!!wpcf7Elm) {
     );
   });
 }
+
+// Footer menus dépliants
+const iconePlus1 = jQuery("#plus-1");
+iconePlus1.addClass("icone-plus");
+jQuery("#nav_menu-2 > .widget-title").on("click", function () {
+  if(iconePlus1.hasClass("icone-plus")) {
+    iconePlus1.removeClass("icone-plus");
+    iconePlus1.addClass("icone-moins");
+    jQuery("[id^=menu-practical-links]").css("max-height", 2000);
+  } else {
+    iconePlus1.removeClass("icone-moins");
+    iconePlus1.addClass("icone-plus");
+    jQuery("[id^=menu-practical-links]").css("max-height", 0);
+  }
+})
+const iconePlus2 = jQuery("#plus-2");
+iconePlus2.addClass("icone-plus");
+jQuery("#nav_menu-3 > .widget-title").on("click", function () {
+  if(iconePlus2.hasClass("icone-plus")) {
+    iconePlus2.removeClass("icone-plus");
+    iconePlus2.addClass("icone-moins");
+    jQuery("[id^=menu-your-projects]").css("max-height", 2000);
+  } else {
+    iconePlus2.removeClass("icone-moins");
+    iconePlus2.addClass("icone-plus");
+    jQuery("[id^=menu-your-projects]").css("max-height", 0);
+  }
+})
+const iconePlus3 = jQuery("#plus-3");
+iconePlus3.addClass("icone-plus");
+jQuery("#nav_menu-6 > .widget-title").on("click", function () {
+  if(iconePlus3.hasClass("icone-plus")) {
+    iconePlus3.removeClass("icone-plus");
+    iconePlus3.addClass("icone-moins");
+    jQuery("#menu-refinancement-de-pret").css("max-height", 2000);
+  } else {
+    iconePlus3.removeClass("icone-moins");
+    iconePlus3.addClass("icone-plus");
+    jQuery("#menu-refinancement-de-pret").css("max-height", 0);
+  }
+})
+
+
+

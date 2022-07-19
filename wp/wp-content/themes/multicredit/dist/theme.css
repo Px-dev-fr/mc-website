@@ -15773,8 +15773,8 @@ a.text-dark:focus {
   height: 80px;
   box-shadow: 0 0 50px black;
   cursor: pointer;
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
   z-index: 1000;
 }
 
@@ -15788,12 +15788,20 @@ a.text-dark:focus {
 }
 
 @-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 @keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 #form-rapid {
@@ -15834,7 +15842,7 @@ a.text-dark:focus {
 }
 
 #form-rapid input[type="submit"],
-  #form-rapid-desktop input[type="submit"] {
+#form-rapid-desktop input[type="submit"] {
   margin-bottom: 0;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -15845,7 +15853,7 @@ a.text-dark:focus {
 #form-rapid input[type="tel"],
 #form-rapid-desktop input[type="text"],
 #form-rapid-desktop input[type="email"],
-#form-rapid-desktop input[type="tel"]{
+#form-rapid-desktop input[type="tel"] {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -15859,13 +15867,13 @@ a.text-dark:focus {
 }
 
 #form-rapid .wpcf7-response-output,
-#form-rapid-desktop .wpcf7-response-output{
+#form-rapid-desktop .wpcf7-response-output {
   margin-top: 5px !important;
   margin-bottom: 5px !important;
 }
 
 #form-rapid #photo_phone img,
-#form-rapid-desktop #photo_phone img{
+#form-rapid-desktop #photo_phone img {
   width: 100%;
 }
 
@@ -15934,11 +15942,51 @@ a.text-dark:focus {
   left: 0;
 }
 
-.free-application-fees-text{
+.free-application-fees-text {
   font-size: smaller;
   font-style: italic;
 }
 
-.credit-application-text{
+.credit-application-text {
   font-size: large;
+}
+
+#menu-practical-links-fr,
+#menu-practical-links-de,
+#menu-practical-links-en,
+#menu-practical-links-it,
+#menu-practical-links-pt,
+#menu-practical-links-es,
+#menu-practical-links-tr,
+#menu-practical-links-sq,
+#menu-your-projects-fr,
+#menu-your-projects-de,
+#menu-your-projects-en,
+#menu-your-projects-it,
+#menu-your-projects-pt,
+#menu-your-projects-es,
+#menu-your-projects-tr,
+#menu-your-projects-sq,
+#menu-refinancement-de-pret {
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.icone-plus {
+  content: url("https://www.multicredit.ch/wp/wp-content/uploads/plus-solid-1.svg");
+  width: 14px;
+  margin-right: 10px;
+}
+
+.icone-moins {
+  content: url("https://www.multicredit.ch/wp/wp-content/uploads/minus-solid-1.svg");
+  width: 14px;
+  margin-right: 10px;
+}
+
+#nav_menu-2 > .widget-title:hover,
+#nav_menu-3 > .widget-title:hover,
+#nav_menu-6 > .widget-title:hover{
+  color: #0033a0;
+  cursor: pointer;
 }
