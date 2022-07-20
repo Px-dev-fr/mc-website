@@ -15984,7 +15984,8 @@ a.text-dark:focus {
 
 #nav_menu-2 > .widget-title:hover,
 #nav_menu-3 > .widget-title:hover,
-#nav_menu-6 > .widget-title:hover{
+#nav_menu-6 > .widget-title:hover,
+#nav_menu-7 > .widget-title:hover{
   color: #0033a0;
   cursor: pointer;
 }

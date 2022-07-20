@@ -722,7 +722,7 @@ jQuery("#nav_menu-6 > .widget-title").on("click", function () {
 })
 const iconePlus4 = jQuery("#plus-4");
 iconePlus3.addClass("icone-plus");
-jQuery("#nav_menu-6 > .widget-title").on("click", function () {
+jQuery("#nav_menu-7 > .widget-title").on("click", function () {
   if(iconePlus3.hasClass("icone-plus")) {
     iconePlus3.removeClass("icone-plus");
     iconePlus3.addClass("icone-moins");
