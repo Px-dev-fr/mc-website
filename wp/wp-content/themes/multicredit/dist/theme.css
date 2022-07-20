@@ -15680,10 +15680,6 @@ a.text-dark:focus {
     margin-bottom: 80px !important;
   }
 
-  #GeneralWrapper .bloc-2 {
-    display: none;
-  }
-
   #GeneralWrapper .line-on-mobile {
     display: block;
     text-align: center;
