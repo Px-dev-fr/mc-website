@@ -224,12 +224,20 @@ function multicredit_widgets_init() {
         'id'            => 'footer-sidebar-4',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
-        'before_title'  => '<h4 class="widget-title">',
+        'before_title'  => '<h4 class="widget-title"><span id="plus-4"></span>',
         'after_title'   => '</h4>',
     ) );
 		register_sidebar( array(
         'name'          => __( 'Footer Sidebar 5', 'multicredit' ),
         'id'            => 'footer-sidebar-5',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h4 class="widget-title">',
+        'after_title'   => '</h4>',
+    ) );
+		register_sidebar( array(
+        'name'          => __( 'Footer Sidebar 6', 'multicredit' ),
+        'id'            => 'footer-sidebar-6',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
         'before_title'  => '<h4 class="widget-title">',

@@ -85,14 +85,19 @@ if ($current_language_code == 'fr') {
                 </style> -->
                 <!-- ProvenExpert ProSeal Widget -->
             </div>
-            <div class="col-lg-6 col-md-6 col-12 bloc-4">
+            <div class="col-lg-4 col-md-6 col-12 bloc-4">
                 <?php if (is_active_sidebar('footer-sidebar-4')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-4'); ?>
                 <?php endif; ?>
             </div>
-            <div class="col-lg-6 col-md-6 col-12 bloc-5">
+            <div class="col-lg-4 col-md-6 col-12 bloc-5">
                 <?php if (is_active_sidebar('footer-sidebar-5')) : ?>
                     <?php dynamic_sidebar('footer-sidebar-5'); ?>
+                <?php endif; ?>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 bloc-5">
+                <?php if (is_active_sidebar('footer-sidebar-6')) : ?>
+                    <?php dynamic_sidebar('footer-sidebar-6'); ?>
                 <?php endif; ?>
             </div>
         </div>

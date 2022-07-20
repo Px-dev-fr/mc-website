@@ -15963,7 +15963,9 @@ a.text-dark:focus {
 #menu-your-projects-es,
 #menu-your-projects-tr,
 #menu-your-projects-sq,
-#menu-refinancement-de-pret {
+#menu-refinancement-de-pret,
+#menu-loan-refinancing,
+#menu-apporteurs {
   max-height: 0px;
   overflow: hidden;
 }

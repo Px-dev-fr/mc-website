@@ -712,10 +712,25 @@ jQuery("#nav_menu-6 > .widget-title").on("click", function () {
     iconePlus3.removeClass("icone-plus");
     iconePlus3.addClass("icone-moins");
     jQuery("#menu-refinancement-de-pret").css("max-height", 2000);
+    jQuery("#menu-loan-refinancing").css("max-height", 2000);
   } else {
     iconePlus3.removeClass("icone-moins");
     iconePlus3.addClass("icone-plus");
     jQuery("#menu-refinancement-de-pret").css("max-height", 0);
+    jQuery("#menu-loan-refinancing").css("max-height", 0);
+  }
+})
+const iconePlus4 = jQuery("#plus-4");
+iconePlus3.addClass("icone-plus");
+jQuery("#nav_menu-6 > .widget-title").on("click", function () {
+  if(iconePlus3.hasClass("icone-plus")) {
+    iconePlus3.removeClass("icone-plus");
+    iconePlus3.addClass("icone-moins");
+    jQuery("#menu-apporteurs").css("max-height", 2000);
+  } else {
+    iconePlus3.removeClass("icone-moins");
+    iconePlus3.addClass("icone-plus");
+    jQuery("#menu-apporteurs").css("max-height", 0);
   }
 })
 
